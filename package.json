@@ -12,7 +12,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@nuxtjs/pwa": "^v3.0.0-beta.16",
+    "@nuxtjs/pwa": "^3.0.0-beta.16",
     "nuxt": "^2.8.1"
   },
   "devDependencies": {
