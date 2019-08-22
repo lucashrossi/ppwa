@@ -10,7 +10,7 @@
       md6
     >
       <div>
-        <p>contenido</p>
+        <p>empresa</p>
       </div>
     </v-flex>
   </v-layout>

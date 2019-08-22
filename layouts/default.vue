@@ -1,90 +1,85 @@
 <template>
-  <v-app dark>
-    <v-navigation-drawer
-      v-model="drawer"
-      :mini-variant="miniVariant"
-      :clipped="clipped"
-      fixed
-      app
-    >
-      <v-list>
+  <v-app>
+    <v-navigation-drawer v-model="drawer" fixed width="170">
+      <!-- <v-list-item>
+        <v-list-item-content>
+          <v-list-item-title class="title">
+            Buck Semillas
+          </v-list-item-title>
+        </v-list-item-content>
+      </v-list-item>
+
+      <v-divider /> -->
+
+      <v-list dense>
         <v-list-item
-          v-for="(item, i) in items"
-          :key="i"
-          :to="item.to"
-          router
-          exact
+          v-for="item in items"
+          :key="item.title"
+          :to="item.link"
+          :href="item.ref"
+          :target="item.tar"
+          link
         >
-          <v-list-item-action>
-            <v-icon>{{ item.icon }}</v-icon>
-          </v-list-item-action>
           <v-list-item-content>
-            <v-list-item-title v-text="item.title" />
+            <v-list-item-title>{{ item.title }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-    <v-app-bar
-      :clipped-left="clipped"
-      fixed
-      app
-    >
-      <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
-      <v-btn
-        icon
-        @click.stop="miniVariant = !miniVariant"
-      >
-        <v-icon>mdi-{{ `chevron-${miniVariant ? 'right' : 'left'}` }}</v-icon>
-      </v-btn>
-      <v-btn
-        icon
-        @click.stop="clipped = !clipped"
-      >
-        <v-icon>mdi-application</v-icon>
-      </v-btn>
-      <v-btn
-        icon
-        @click.stop="fixed = !fixed"
-      >
-        <v-icon>mdi-minus</v-icon>
-      </v-btn>
-      <v-toolbar-title v-text="title" />
-      <v-spacer />
-      <v-btn
-        icon
-        @click.stop="rightDrawer = !rightDrawer"
-      >
-        <v-icon>mdi-menu</v-icon>
-      </v-btn>
-    </v-app-bar>
-    <v-content>
+
+    <!-- <v-layout row>
+      <v-flex class="hidden-sm-and-up">
+        <div>
+          <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
+          <div>
+            <p>Buck Semillas</p>
+          </div>
+        </div>
+      </v-flex>
+    </v-layout> -->
+
+    <v-toolbar max-height="45" flat>
+      <v-app-bar-nav-icon class="hidden-sm-and-up" @click.stop="drawer = !drawer" />
+      <v-spacer class="hidden-sm-and-up" />
+      <v-toolbar-title style="margin-right: -12%;">
+        <!-- <v-btn href="/" text>
+          Buck Semillas
+        </v-btn> -->
+        <a href="/">
+          <v-img
+            src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/Logo.png?alt=media&token=842454f6-4ee3-4214-913c-899bb15d3f75"
+            contain
+            max-width="70%"
+            style="margin-left: 20px; margin-top: 5%;"
+          />
+          <!-- <v-img
+            src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/Logos-1.png?alt=media&token=4634e3e1-1086-4122-b726-d20fbf22721e"
+          /> -->
+        </a>
+      </v-toolbar-title>
+      <v-spacer class="hidden-sm-and-up" />
+      <v-spacer class="hidden-sm-and-down" />
+      <v-toolbar-items class="hidden-sm-and-down">
+        <v-btn
+          v-for="item in items"
+          :key="item.title"
+          :to="item.link"
+          :href="item.ref"
+          :target="item.tar"
+          text
+        >
+          {{ item.title }}
+        </v-btn>
+      </v-toolbar-items>
+      <v-spacer class="hidden-sm-and-down" />
+    </v-toolbar>
+    <v-content style="background: #fff">
       <v-container>
         <nuxt />
       </v-container>
     </v-content>
-    <v-navigation-drawer
-      v-model="rightDrawer"
-      :right="right"
-      temporary
-      fixed
-    >
-      <v-list>
-        <v-list-item @click.native="right = !right">
-          <v-list-item-action>
-            <v-icon light>
-              mdi-repeat
-            </v-icon>
-          </v-list-item-action>
-          <v-list-item-title>Switch drawer (click me)</v-list-item-title>
-        </v-list-item>
-      </v-list>
-    </v-navigation-drawer>
-    <v-footer
-      :fixed="fixed"
-      app
-    >
-      <span>&copy; 2019</span>
-    </v-footer>
+    <!-- <v-footer
+    </v-footer> -->
   </v-app>
 </template>
 
@@ -92,25 +87,19 @@
 export default {
   data () {
     return {
-      clipped: false,
       drawer: false,
-      fixed: false,
       items: [
-        {
-          icon: 'mdi-apps',
-          title: 'Welcome',
-          to: '/'
-        },
-        {
-          icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire'
-        }
-      ],
-      miniVariant: false,
-      right: true,
-      rightDrawer: false,
-      title: 'Vuetify.js'
+        // { title: 'Home', icon: '', link: '/', tool: '', ref: '' },
+        { title: 'Empresa', icon: '', link: '/Empresa' },
+        { title: 'Productos', icon: '', link: '/Productos' },
+        { title: 'Semilleros', icon: '', link: '/Semilleros' },
+        { title: 'Condiciones Comerciales', icon: '', link: '/Condiciones Comerciales' },
+        { title: 'Noticias y Ensayos', icon: '', link: '/Noticias y Ensayos' },
+        { title: 'Enlaces de Interes', icon: '', link: '/Enlaces de Interes' },
+        { title: 'Contacto', icon: '', link: '/Contacto' },
+        { title: 'WebMail', icon: '', link: '/WebMail' },
+        { title: 'Twitter', icon: '', link: '/Twitter' }
+      ]
     }
   }
 }
