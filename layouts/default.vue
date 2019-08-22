@@ -38,10 +38,10 @@
       </v-flex>
     </v-layout> -->
 
-    <v-toolbar max-height="45" flat>
+    <v-toolbar max-height="64" flat>
       <v-app-bar-nav-icon class="hidden-sm-and-up" @click.stop="drawer = !drawer" />
       <v-spacer class="hidden-sm-and-up" />
-      <v-toolbar-title style="margin-right: -12%;">
+      <v-toolbar-title style="margin-right: -10%;">
         <!-- <v-btn href="/" text>
           Buck Semillas
         </v-btn> -->
@@ -49,8 +49,8 @@
           <v-img
             src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/Logo.png?alt=media&token=842454f6-4ee3-4214-913c-899bb15d3f75"
             contain
-            max-width="70%"
-            style="margin-left: 20px; margin-top: 5%;"
+            max-width="50%"
+            style="margin-left: 15%; margin-top: 2%;"
           />
           <!-- <v-img
             src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/Logos-1.png?alt=media&token=4634e3e1-1086-4122-b726-d20fbf22721e"
