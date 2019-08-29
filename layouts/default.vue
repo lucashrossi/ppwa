@@ -13,7 +13,33 @@
 
       <v-list dense>
         <v-list-item
+          v-for="item in itemsss"
+          :key="item.title"
+          :to="item.link"
+          :href="item.ref"
+          :target="item.tar"
+          link
+        >
+          <v-list-item-content>
+            <v-list-item-title>{{ item.title }}</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+        <v-divider />
+        <v-list-item
           v-for="item in items"
+          :key="item.title"
+          :to="item.link"
+          :href="item.ref"
+          :target="item.tar"
+          link
+        >
+          <v-list-item-content>
+            <v-list-item-title>{{ item.title }}</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+        <v-divider />
+        <v-list-item
+          v-for="item in itemss"
           :key="item.title"
           :to="item.link"
           :href="item.ref"
@@ -38,7 +64,7 @@
       </v-flex>
     </v-layout> -->
 
-    <v-toolbar max-height="64" flat>
+    <v-toolbar max-height="64" flat style="font-family: 'Times New Roman';">
       <v-app-bar-nav-icon class="hidden-sm-and-up" @click.stop="drawer = !drawer" />
       <v-spacer class="hidden-sm-and-up" />
       <v-toolbar-title style="margin-right: -10%;">
@@ -61,6 +87,18 @@
       <v-spacer class="hidden-sm-and-down" />
       <v-toolbar-items class="hidden-sm-and-down">
         <v-btn
+          v-for="item in itemsss"
+          :key="item.title"
+          :to="item.link"
+          :href="item.ref"
+          :target="item.tar"
+          text
+        >
+          {{ item.title }}
+        </v-btn>
+      </v-toolbar-items>
+      <v-toolbar-items class="hidden-sm-and-down">
+        <v-btn
           v-for="item in items"
           :key="item.title"
           :to="item.link"
@@ -72,6 +110,19 @@
         </v-btn>
       </v-toolbar-items>
       <v-spacer class="hidden-sm-and-down" />
+      <v-toolbar-items class="hidden-sm-and-down">
+        <v-btn
+          v-for="item in itemss"
+          :key="item.title"
+          :to="item.link"
+          :href="item.ref"
+          :target="item.tar"
+          text
+        >
+          {{ item.title }}
+        </v-btn>
+      </v-toolbar-items>
+      <!-- <v-spacer class="hidden-sm-and-down" /> -->
     </v-toolbar>
     <v-content style="background: #fff">
       <v-container>
@@ -88,17 +139,21 @@ export default {
   data () {
     return {
       drawer: false,
-      items: [
+      itemsss: [
         // { title: 'Home', icon: '', link: '/', tool: '', ref: '' },
-        { title: 'Empresa', icon: '', link: '/Empresa' },
+        { title: 'Empresa', icon: '', link: '/Empresa' }
+      ],
+      items: [
         { title: 'Productos', icon: '', link: '/Productos' },
         { title: 'Semilleros', icon: '', link: '/Semilleros' },
-        { title: 'Condiciones Comerciales', icon: '', link: '/Condiciones Comerciales' },
         { title: 'Noticias y Ensayos', icon: '', link: '/Noticias y Ensayos' },
-        { title: 'Enlaces de Interes', icon: '', link: '/Enlaces de Interes' },
-        { title: 'Contacto', icon: '', link: '/Contacto' },
+        { title: 'Condiciones Comerciales', icon: '', link: '/Condiciones Comerciales' },
+        { title: 'Enlaces de Interes', icon: '', link: '/Enlaces de Interes' }
+      ],
+      itemss: [
+        { title: 'Twitter', icon: '', link: '/Twitter' },
         { title: 'WebMail', icon: '', link: '/WebMail' },
-        { title: 'Twitter', icon: '', link: '/Twitter' }
+        { title: 'Contacto', icon: '', link: '/Contacto' }
       ]
     }
   }
