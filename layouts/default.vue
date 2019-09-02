@@ -65,8 +65,8 @@
     </v-layout> -->
 
     <v-toolbar max-height="64" flat style="font-family: 'Times New Roman';">
-      <v-app-bar-nav-icon class="hidden-sm-and-up" @click.stop="drawer = !drawer" />
-      <v-spacer class="hidden-sm-and-up" />
+      <v-app-bar-nav-icon class="hidden-lg-and-up" @click.stop="drawer = !drawer" />
+      <v-spacer class="hidden-lg-and-up" />
       <v-toolbar-title style="margin-right: -10%;">
         <!-- <v-btn href="/" text>
           Buck Semillas
@@ -83,9 +83,8 @@
           /> -->
         </a>
       </v-toolbar-title>
-      <v-spacer class="hidden-sm-and-up" />
-      <v-spacer class="hidden-sm-and-down" />
-      <v-toolbar-items class="hidden-sm-and-down">
+      <v-spacer />
+      <v-toolbar-items class="hidden-md-and-down">
         <v-btn
           v-for="item in itemsss"
           :key="item.title"
@@ -97,7 +96,7 @@
           {{ item.title }}
         </v-btn>
       </v-toolbar-items>
-      <v-toolbar-items class="hidden-sm-and-down">
+      <v-toolbar-items class="hidden-md-and-down">
         <v-btn
           v-for="item in items"
           :key="item.title"
@@ -110,7 +109,7 @@
         </v-btn>
       </v-toolbar-items>
       <v-spacer class="hidden-sm-and-down" />
-      <v-toolbar-items class="hidden-sm-and-down">
+      <v-toolbar-items class="hidden-md-and-down">
         <v-btn
           v-for="item in itemss"
           :key="item.title"
