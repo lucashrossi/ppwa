@@ -63,7 +63,7 @@
                     src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/GirasolC.png?alt=media&token=94d8832b-5b1a-4a39-9652-34a727f6cb00"
                     contain
                     max-width="90%"
-                    style="margin-left: 11%"
+                    style="margin-left: 18%"
                   />
                 </div>
               </v-flex>
@@ -87,7 +87,7 @@
           </v-flex>
           <v-flex row justify-left>
             <div
-              style="width: 95%; height: 40px; border-bottom: 2px solid green;  border-left: 2px solid green;"
+              style="width: 95%; height: 40px; border-bottom: 2px solid green;  border-left: 2px solid green; margin-left: 1%;"
             />
           </v-flex>
         </v-flex>
