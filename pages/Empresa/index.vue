@@ -11,7 +11,7 @@
       <v-flex row class="hidden-md-and-down" lg2 xl2>
         <div>
           <v-img
-            src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/WheatC.png?alt=media&token=5e90872f-1a80-4fb9-8258-70b5fdfaa10e"
+            src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/WheatCC.png?alt=media&token=a1d032b0-53eb-4008-b688-3022269b4497"
             contain
             max-width="50%"
             style="margin-left: 10%"
@@ -21,28 +21,28 @@
       <v-flex row xs10 justify-center>
         <div>
           <v-img
-            src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/WheatC.png?alt=media&token=5e90872f-1a80-4fb9-8258-70b5fdfaa10e"
+            src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/WheatCC.png?alt=media&token=a1d032b0-53eb-4008-b688-3022269b4497"
             contain
             max-width="50%"
           />
         </div>
         <div>
           <v-img
-            src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/WheatC.png?alt=media&token=5e90872f-1a80-4fb9-8258-70b5fdfaa10e"
+            src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/WheatCC.png?alt=media&token=a1d032b0-53eb-4008-b688-3022269b4497"
             contain
             max-width="50%"
           />
         </div>
         <div>
           <v-img
-            src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/WheatC.png?alt=media&token=5e90872f-1a80-4fb9-8258-70b5fdfaa10e"
+            src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/WheatCC.png?alt=media&token=a1d032b0-53eb-4008-b688-3022269b4497"
             contain
             max-width="50%"
           />
         </div>
         <div>
           <v-img
-            src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/WheatC.png?alt=media&token=5e90872f-1a80-4fb9-8258-70b5fdfaa10e"
+            src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/WheatCC.png?alt=media&token=a1d032b0-53eb-4008-b688-3022269b4497"
             contain
             max-width="50%"
           />
