@@ -130,6 +130,7 @@
         </v-flex>
       </v-flex>
     </v-layout>
+    <v-img src="https://semillasbuck.com.ar/wp-content/uploads/2018/11/video_2.mp4" loop="infinite" />
   </v-container>
 </template>
 
