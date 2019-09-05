@@ -130,7 +130,17 @@
         </v-flex>
       </v-flex>
     </v-layout>
-    <v-img src="https://semillasbuck.com.ar/wp-content/uploads/2018/11/video_2.mp4" loop="infinite" />
+    <v-flex class="container">
+      <video style="width: 115%; height: auto; margin-left: -8%; margin-top: 8%;" loop autoplay>
+        <source src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/DemoC.mp4?alt=media&token=7c39ff6c-081d-451c-99b9-fd4b57b9abbc">
+      </video>
+      <v-flex class="overlay">
+        <v-img
+          src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/el-apelliro-de-la-semillaGT.png?alt=media&token=1274d9f2-39a0-4d26-9eb6-645e95d890f3"
+          max-width="100%"
+        />
+      </v-flex>
+    </v-flex>
   </v-container>
 </template>
 
@@ -139,3 +149,17 @@
 export default {
 }
 </script>
+
+<style>
+.container { position:relative;}
+.container video {
+    position:relative;
+    z-index:0;
+}
+.overlay {
+    position:absolute;
+    top:40%;
+    left:0%;
+    z-index:1;
+}
+</style>
