@@ -141,6 +141,32 @@
         />
       </v-flex>
     </v-flex>
+    <v-flex row justify-center style="margin-top: 4%;">
+      <h1 style="font-family: 'Times New Roman'; font-size: 3vw;">
+        Campaña &nbsp;
+        <span style="color:red; font-size: 4vw;">
+          2019-2020
+        </span>
+        &nbsp;Semillas
+      </h1>
+    </v-flex>
+    <v-flex row justify-center style="margin-top: 4%;">
+      <h1 style="font-family: 'Times New Roman'; font-size: 1.5vw;">
+        &nbsp;&nbsp;Este año ofrecemos once variedades de Trigo Pan, entre las que destacamos el lanzamiento de dos nuevas variedades de ciclo largo y alto potencial de rendimiento: BUCK RESPLANDOR de Grupo 1 de Calidad y BUCK CUMELÉN de Grupo 2 de Calidad.
+        <br>
+        &nbsp;&nbsp;La Calidad del Trigo ha sido desde siempre uno de nuestros principales objetivos, muestra de ello es que de las once variedades ofrecidas cinco pertenecen al Grupo 1 de Calidad con muy buenas cualidades agronómicas. Tal es el caso del ya mencionado BUCK RESPLANDOR y los ya conocidos BUCK DESTELLO (ciclo largo), BUCK METEORO y BUCK CAMBÁ (ciclo intermedio) y BUCK SAETA (ciclo corto).
+      </h1>
+    </v-flex>
+    <v-flex row justify-center style="margin-top: 4%;">
+      <h1 style="font-family: 'Times New Roman'; font-size: 2.5vw;">
+        Consulte Beneficios Pre-Campaña!
+      </h1>
+    </v-flex>
+    <v-flex row justify-center style="margin-top: 4%;">
+      <h1 style="font-family: 'Times New Roman'; font-size: 2vw;">
+        Comience a trabajar con nuestros productos, sea parte de Buck Semillas.
+      </h1>
+    </v-flex>
   </v-container>
 </template>
 
@@ -151,6 +177,7 @@ export default {
 </script>
 
 <style>
+
 .container { position:relative;}
 .container video {
     position:relative;
@@ -162,4 +189,5 @@ export default {
     left:0%;
     z-index:1;
 }
+
 </style>

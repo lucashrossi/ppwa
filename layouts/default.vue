@@ -128,8 +128,20 @@
         <nuxt />
       </v-container>
     </v-content>
-    <!-- <v-footer
-    </v-footer> -->
+    <v-footer>
+      <p style="padding: 5px 0px 0px 5px; font-size: 1.2vw; margin-bottom: 0px;">
+        &copy; &nbsp;
+      </p>
+      <span style="padding: 0px 0px 0px 5px; font-size: 0.9vw; margin-top: 4px;">2019</span>
+      <v-spacer />
+      <v-flex>
+        <p style="padding: 2px 0px 0px 0px; font-size: 0.8vw; margin-bottom: 0px;">
+          Tel.: 02262 43-4061 | Ruta 86 KM 36, 7637 | Necochea, Buenos Aires |
+          <a href="mailto:bucksem@bucksemillas.com.ar">bucksem@bucksemillas.com.ar</a>
+        </p>
+      </v-flex>
+      <!-- <v-spacer /> -->
+    </v-footer>
   </v-app>
 </template>
 
