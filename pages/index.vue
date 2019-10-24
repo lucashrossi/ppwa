@@ -10,8 +10,14 @@
     <v-layout style="margin-top: 5%; margin-bottom: -1.5%;">
       <v-flex row class="hidden-md-and-down" lg2 xl2>
         <div>
-          <v-img
+          <!-- <v-img
             src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/WheatCC.png?alt=media&token=a1d032b0-53eb-4008-b688-3022269b4497"
+            contain
+            max-width="50%"
+            style="margin-left: 10%"
+          /> -->
+          <v-img
+            src="/WheatCC.png"
             contain
             max-width="50%"
             style="margin-left: 10%"

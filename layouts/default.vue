@@ -73,13 +73,13 @@
         </v-btn> -->
         <a href="/">
           <v-img
-            src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/Logo.png?alt=media&token=842454f6-4ee3-4214-913c-899bb15d3f75"
+            src="/Logo.png"
             contain
             max-width="50%"
             style="margin-left: 15%; margin-top: 2%;"
           />
           <!-- <v-img
-            src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/Logos-1.png?alt=media&token=4634e3e1-1086-4122-b726-d20fbf22721e"
+            src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/Logo.png?alt=media&token=842454f6-4ee3-4214-913c-899bb15d3f75"
           /> -->
         </a>
       </v-toolbar-title>

@@ -46,6 +46,22 @@ export default {
   modules: [
     '@nuxtjs/pwa'
   ],
+
+  // pwa: {
+  //   manifest: {
+  //     name: 'My Awesome App',
+  //     lang: 'fa'
+  //   }
+  // },
+
+  // pwa: {
+  //   workbox: {
+  //     offlineAssets: [
+  //       '/static/Logo.png'
+  //     ]
+  //   }
+  // },
+
   /*
   ** vuetify module configuration
   ** https://github.com/nuxt-community/vuetify-module
