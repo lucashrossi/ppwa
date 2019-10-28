@@ -117,6 +117,7 @@
           :href="item.ref"
           :target="item.tar"
           text
+          style="font-size: .750rem;"
         >
           {{ item.title }}
         </v-btn>
@@ -158,8 +159,8 @@ export default {
         { title: 'Productos', icon: '', link: '/Productos' },
         { title: 'Semilleros', icon: '', link: '/Semilleros' },
         { title: 'Noticias y Ensayos', icon: '', link: '/Noticias y Ensayos' },
-        { title: 'Condiciones Comerciales', icon: '', link: '/Condiciones Comerciales' },
-        { title: 'Enlaces de Interes', icon: '', link: '/Enlaces de Interes' }
+        { title: 'Condiciones Comerciales', icon: '', link: '/Condiciones Comerciales' }
+        // { title: 'Enlaces de Interes', icon: '', link: '/Enlaces de Interes' }
       ],
       itemss: [
         { title: 'Twitter', icon: '', link: '/Twitter' },
