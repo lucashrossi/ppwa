@@ -13,12 +13,13 @@
   },
   "dependencies": {
     "@nuxtjs/pwa": "^3.0.0-beta.19",
-    "nuxt": "^2.8.1"
+    "nuxt": "^2.8.1",
+    "vue-mouse-parallax": "^1.1.1"
   },
   "devDependencies": {
-    "@nuxtjs/vuetify": "^1.1.1",
     "@nuxtjs/eslint-config": "^1.0.1",
     "@nuxtjs/eslint-module": "^0.2.1",
+    "@nuxtjs/vuetify": "^1.9.0",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.15.1",
     "eslint-plugin-nuxt": ">=0.4.2",

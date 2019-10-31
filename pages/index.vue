@@ -65,8 +65,14 @@
             <v-layout style="margin-top: 1%; margin-bottom: -3%;">
               <v-flex row class="hidden-md-and-down" lg2 xl2>
                 <div>
-                  <v-img
+                  <!-- <v-img
                     src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/GirasolC.png?alt=media&token=94d8832b-5b1a-4a39-9652-34a727f6cb00"
+                    contain
+                    max-width="90%"
+                    style="margin-left: 18%"
+                  /> -->
+                  <v-img
+                    src="/GirasolC.png"
                     contain
                     max-width="90%"
                     style="margin-left: 18%"
@@ -102,8 +108,14 @@
             <v-layout style="margin-top: 1%; margin-bottom: -3%;">
               <v-flex row class="hidden-md-and-down" lg2 xl2>
                 <div>
-                  <v-img
+                  <!-- <v-img
                     src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/AvenaCCC.png?alt=media&token=8425f225-c036-43b0-855a-f4135d8d8716"
+                    contain
+                    max-width="90%"
+                    style="margin-left: 15%"
+                  /> -->
+                  <v-img
+                    src="/AvenaCCC.png"
                     contain
                     max-width="90%"
                     style="margin-left: 15%"
@@ -168,6 +180,10 @@
         Consulte Beneficios Pre-Campaña!
       </h1>
     </v-flex>
+    <v-flex class="container">
+      <v-parallax src="/paralaxD.jpg" style="margin-left: -2%; margin-right: -2%; margin-top: 2%;" />
+    </v-flex>
+    <img class="responsive" src="/paralaxD.jpg">
     <v-flex row justify-center style="margin-top: 4%;">
       <h1 style="font-family: 'Times New Roman'; font-size: 2vw;">
         Comience a trabajar con nuestros productos, sea parte de Buck Semillas.
@@ -194,6 +210,10 @@ export default {
     top:40%;
     left:0%;
     z-index:1;
+}
+.responsive {
+  width: 100%;
+  height: auto;
 }
 
 </style>
