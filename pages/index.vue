@@ -180,10 +180,18 @@
         Consulte Beneficios Pre-Campaña!
       </h1>
     </v-flex>
-    <v-flex class="container">
+    <!-- <v-flex class="container">
       <v-parallax src="/paralaxD.jpg" style="margin-left: -2%; margin-right: -2%; margin-top: 2%;" />
-    </v-flex>
-    <img class="responsive" src="/paralaxD.jpg">
+    </v-flex> -->
+    <!-- <v-flex class="container">
+      <img class="responsive" src="/paralaxD.jpg">
+    </v-flex> -->
+    <!-- <img class="responsive" src="/paralaxD.jpg"> -->
+    <parallax-container style="margin-left: -6%; margin-right: -6%; margin-top: 2%;">
+      <parallax-element :parallaxStrength="10" :type="'translation'">
+        <v-parallax src="/paralaxD.jpg" />
+      </parallax-element>
+    </parallax-container>
     <v-flex row justify-center style="margin-top: 4%;">
       <h1 style="font-family: 'Times New Roman'; font-size: 2vw;">
         Comience a trabajar con nuestros productos, sea parte de Buck Semillas.
@@ -211,9 +219,9 @@ export default {
     left:0%;
     z-index:1;
 }
-.responsive {
+/* .responsive {
   width: 100%;
   height: auto;
-}
+} */
 
 </style>
