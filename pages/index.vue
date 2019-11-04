@@ -188,7 +188,7 @@
     </v-flex> -->
     <!-- <img class="responsive" src="/paralaxD.jpg"> -->
     <parallax-container style="margin-left: -6%; margin-right: -6%; margin-top: 2%;">
-      <parallax-element :parallaxStrength="10" :type="'translation'">
+      <parallax-element :parallax-strength="10" :type="'translation'">
         <v-parallax src="/paralaxD.jpg" />
       </parallax-element>
     </parallax-container>
@@ -196,6 +196,9 @@
       <h1 style="font-family: 'Times New Roman'; font-size: 2vw;">
         Comience a trabajar con nuestros productos, sea parte de Buck Semillas.
       </h1>
+    </v-flex>
+    <v-flex row justify-center>
+      <img class="responsivef" src="/logo_footer.png">
     </v-flex>
   </v-container>
 </template>
@@ -219,9 +222,11 @@ export default {
     left:0%;
     z-index:1;
 }
-/* .responsive {
+.responsivef {
   width: 100%;
   height: auto;
-} */
+  max-width: 160px;
+  margin-top: 2%;
+}
 
 </style>
