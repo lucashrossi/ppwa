@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-navigation-drawer v-model="drawer" fixed width="170">
+    <v-navigation-drawer v-model="drawer" width="170" fixed>
       <!-- <v-list-item>
         <v-list-item-content>
           <v-list-item-title class="title">
@@ -64,7 +64,7 @@
       </v-flex>
     </v-layout> -->
 
-    <v-toolbar max-height="64" flat style="font-family: 'Times New Roman';">
+    <v-app-bar max-height="64" flat style="font-family: 'Times New Roman';" fixed>
       <v-app-bar-nav-icon class="hidden-lg-and-up" @click.stop="drawer = !drawer" />
       <v-spacer class="hidden-lg-and-up" />
       <v-toolbar-title style="margin-right: -10%;">
@@ -123,7 +123,7 @@
         </v-btn>
       </v-toolbar-items>
       <!-- <v-spacer class="hidden-sm-and-down" /> -->
-    </v-toolbar>
+    </v-app-bar>
     <v-content style="background: #fff">
       <v-container>
         <nuxt />
