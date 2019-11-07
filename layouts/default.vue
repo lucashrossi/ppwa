@@ -84,6 +84,32 @@
         </a>
       </v-toolbar-title>
       <v-spacer />
+      <div class="text-center">
+        <v-menu offset-y open-on-hover>
+          <template v-slot:activator="{ on }">
+            <v-btn
+              text
+              height="60"
+              to="/Productos"
+              v-on="on"
+            >
+              Productos
+            </v-btn>
+          </template>
+          <v-list>
+            <v-list-item
+              v-for="(item, index) in itemsd"
+              :key="index"
+              v-on-click=""
+              :to="item.link"
+            >
+              <v-list-item-title style="font-family: 'Times New Roman';">
+                {{ item.title }}
+              </v-list-item-title>
+            </v-list-item>
+          </v-list>
+        </v-menu>
+      </div>
       <v-toolbar-items class="hidden-md-and-down">
         <v-btn
           v-for="item in itemsss"
@@ -156,7 +182,6 @@ export default {
         { title: 'Empresa', icon: '', link: '/Empresa' }
       ],
       items: [
-        { title: 'Productos', icon: '', link: '/Productos' },
         { title: 'Semilleros', icon: '', link: '/Semilleros' },
         { title: 'Noticias y Ensayos', icon: '', link: '/Noticias y Ensayos' },
         { title: 'Condiciones Comerciales', icon: '', link: '/Condiciones Comerciales' }
@@ -166,6 +191,11 @@ export default {
         { title: 'Twitter', icon: '', link: '/Twitter' },
         { title: 'WebMail', icon: '', link: '/WebMail' },
         { title: 'Contacto', icon: '', link: '/Contacto' }
+      ],
+      itemsd: [
+        { title: 'Trigo', link: '/Productos' },
+        { title: 'Avena' },
+        { title: 'Girasol' }
       ]
     }
   }

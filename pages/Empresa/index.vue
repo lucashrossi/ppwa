@@ -1,10 +1,10 @@
 <template>
   <v-container>
-    <v-flex row justify-center style="margin-top: 5%;">
+    <v-flex row justify-center style="margin-top: 60px;">
       <h1 style="font-family: 'Times New Roman'; font-size: 2vw;">
         Un sitio con historia en logro de semillas
       </h1>
-      <h1 style="font-family: 'Times New Roman'; font-size: 1.1vw; margin-top: 2%;">
+      <h1 style="font-family: 'Times New Roman'; font-size: 1.1vw; margin-top: 30px;">
         &nbsp;&nbsp;En el partido de Necochea, sobre la ruta 86, se encuentra el Criadero de Semillas Buck, una empresa de punta con sede en el casco de la estancia familiar. Entre una frondosa arboleda, el laboratorio, las oficinas, los galpones y los silos se mezclan con las casas de familia, la pileta y la capilla, idéntica a la del valle de Schoenstatt y los diecisiete santuarios que hay en el país.
         <br>
         <br>
@@ -13,7 +13,7 @@
       </h1>
     </v-flex>
     <v-flex class="container">
-      <parallax-container style="margin-left: -6%; margin-right: -6%; margin-top: 5%;">
+      <parallax-container style="margin-left: -6%; margin-right: -6%; margin-top: 3%;">
         <v-parallax src="/campoexp2.jpg" />
       </parallax-container>
       <v-flex class="overlay" style="margin-top: -5%;">
@@ -22,6 +22,31 @@
           max-width="100%"
         />
       </v-flex>
+    </v-flex>
+    <v-flex row justify-center style="margin-top: -4%;">
+      <v-flex lg6>
+        <h1 style="font-family: 'Times New Roman'; font-size: 1.1vw; margin-top: 10%; margin-bottom: 10%;">
+          &nbsp;&nbsp;Seguro de un porvenir próspero, José Buck viajó a Alemania para casarse con María Ana Hummler y a poco de regresar arrendó trescientas hectáreas de campo en Defferrari (Necochea), para desarrollar su propio programa de mejoramiento.
+          <br>
+          <br>
+          &nbsp;&nbsp;Pasaron doce años -el tiempo que necesita un cruzamiento para ser variedad- y el Criadero de Semillas Buck lanzó al mercado su primer trigo, Buck Araucano.
+          <br>
+          <br>
+          &nbsp;&nbsp;La empresa creció de la mano de Don José y su hijo Carlos, y con ella, la estancia. Los ingenieros y encargados se instalaron junto con sus familias y llegaron a vivir tantos chicos allí que en los años 60 se construyó una escuela, al otro lado de la ruta.
+        </h1>
+      </v-flex>
+      <v-flex>
+        <v-img
+          src="/historia_1.jpg"
+          max-width="80%"
+          style="margin-left: 10%;"
+        />
+      </v-flex>
+    </v-flex>
+    <v-flex>
+      <parallax-container style="margin-left: -6%; margin-right: -6%; margin-top: 4%;">
+        <v-parallax src="/historia.jpg" />
+      </parallax-container>
     </v-flex>
   </v-container>
 </template>
