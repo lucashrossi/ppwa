@@ -13,6 +13,30 @@
 
       <v-list dense>
         <v-list-item
+          v-for="item in itemssss"
+          :key="item.title"
+          :to="item.link"
+          :href="item.ref"
+          :target="item.tar"
+          link
+        >
+          <v-list-item-content>
+            <v-list-item-title>{{ item.title }}</v-list-item-title>
+            <v-list>
+              <v-list-item
+                v-for="(itemm, index) in itemsd"
+                :key="index"
+                v-on-click=""
+                :to="itemm.link"
+              >
+                <v-list-item-title style="font-family: 'Times New Roman';">
+                  {{ itemm.title }}
+                </v-list-item-title>
+              </v-list-item>
+            </v-list>
+          </v-list-item-content>
+        </v-list-item>
+        <v-list-item
           v-for="item in itemsss"
           :key="item.title"
           :to="item.link"
@@ -24,7 +48,7 @@
             <v-list-item-title>{{ item.title }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        <v-divider />
+        <!-- <v-divider /> -->
         <v-list-item
           v-for="item in items"
           :key="item.title"
@@ -84,7 +108,7 @@
         </a>
       </v-toolbar-title>
       <v-spacer />
-      <div class="text-center">
+      <div class="text-center, hidden-md-and-down">
         <v-menu offset-y open-on-hover>
           <template v-slot:activator="{ on }">
             <v-btn
@@ -179,7 +203,11 @@ export default {
       drawer: false,
       itemsss: [
         // { title: 'Home', icon: '', link: '/', tool: '', ref: '' },
+        // { title: 'Productos', icon: '', link: '/Productos' },
         { title: 'Empresa', icon: '', link: '/Empresa' }
+      ],
+      itemssss: [
+        { title: 'Productos', icon: '', link: '/Productos' }
       ],
       items: [
         { title: 'Semilleros', icon: '', link: '/Semilleros' },
