@@ -175,6 +175,22 @@
         &nbsp;&nbsp;La Calidad del Trigo ha sido desde siempre uno de nuestros principales objetivos, muestra de ello es que de las once variedades ofrecidas cinco pertenecen al Grupo 1 de Calidad con muy buenas cualidades agronómicas. Tal es el caso del ya mencionado BUCK RESPLANDOR y los ya conocidos BUCK DESTELLO (ciclo largo), BUCK METEORO y BUCK CAMBÁ (ciclo intermedio) y BUCK SAETA (ciclo corto).
       </h1>
     </v-flex>
+    <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/Catalogo%20Buck%202019.pdf?alt=media&token=d6769b58-3fb3-4e41-8b8b-69a1104f534c">
+      <parallax-container>
+        <parallax-element :parallax-strength="15" :type="'depth'">
+          <v-layout>
+            <v-flex xs12 row justify-center>
+              <v-img
+                style="margin-top: 3%; box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12)"
+                src="/Cat.jpg"
+                max-width="15%"
+                contain
+              />
+            </v-flex>
+          </v-layout>
+        </parallax-element>
+      </parallax-container>
+    </a>
     <v-flex row justify-center style="margin-top: 4%;">
       <h1 style="font-family: 'Times New Roman'; font-size: 2.5vw;">
         Consulte Beneficios Pre-Campaña!
@@ -187,16 +203,12 @@
       <img class="responsive" src="/paralaxD.jpg">
     </v-flex> -->
     <!-- <img class="responsive" src="/paralaxD.jpg"> -->
-    <parallax-container style="margin-left: -6%; margin-right: -6%; margin-top: 2%;">
-      <parallax-element :parallax-strength="10" :type="'translation'">
-        <v-parallax src="/paralaxD.jpg" />
-      </parallax-element>
-    </parallax-container>
-    <v-flex row justify-center style="margin-top: 4%;">
+    <v-parallax src="/paralaxD.jpg" style="margin-left: -6%; margin-right: -6%; margin-top: 2%;" />
+    <!-- <v-flex row justify-center style="margin-top: 4%;">
       <h1 style="font-family: 'Times New Roman'; font-size: 2vw;">
         Comience a trabajar con nuestros productos, sea parte de Buck Semillas.
       </h1>
-    </v-flex>
+    </v-flex> -->
     <v-flex row justify-center>
       <img class="responsivef" src="/logo_footer.png">
     </v-flex>

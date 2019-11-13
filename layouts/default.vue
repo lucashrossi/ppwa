@@ -212,7 +212,7 @@ export default {
       items: [
         { title: 'Semilleros', icon: '', link: '/Semilleros' },
         { title: 'Noticias y Ensayos', icon: '', link: '/Noticias y Ensayos' },
-        { title: 'Condiciones Comerciales', icon: '', link: '/Condiciones Comerciales' }
+        { title: 'Condiciones Comerciales', icon: '', link: '/CC' }
         // { title: 'Enlaces de Interes', icon: '', link: '/Enlaces de Interes' }
       ],
       itemss: [
