@@ -211,8 +211,8 @@ export default {
       ],
       items: [
         { title: 'Semilleros', icon: '', link: '/Semilleros' },
-        { title: 'Noticias y Ensayos', icon: '', link: '/Noticias y Ensayos' },
-        { title: 'Condiciones Comerciales', icon: '', link: '/CC' }
+        { title: 'Condiciones Comerciales', icon: '', link: '/CC' },
+        { title: 'Noticias y Ensayos', icon: '', link: '/Noticias y Ensayos' }
         // { title: 'Enlaces de Interes', icon: '', link: '/Enlaces de Interes' }
       ],
       itemss: [

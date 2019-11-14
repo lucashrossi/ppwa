@@ -175,22 +175,41 @@
         &nbsp;&nbsp;La Calidad del Trigo ha sido desde siempre uno de nuestros principales objetivos, muestra de ello es que de las once variedades ofrecidas cinco pertenecen al Grupo 1 de Calidad con muy buenas cualidades agronómicas. Tal es el caso del ya mencionado BUCK RESPLANDOR y los ya conocidos BUCK DESTELLO (ciclo largo), BUCK METEORO y BUCK CAMBÁ (ciclo intermedio) y BUCK SAETA (ciclo corto).
       </h1>
     </v-flex>
-    <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/Catalogo%20Buck%202019.pdf?alt=media&token=d6769b58-3fb3-4e41-8b8b-69a1104f534c">
-      <parallax-container>
-        <parallax-element :parallax-strength="15" :type="'depth'">
-          <v-layout>
-            <v-flex xs12 row justify-center>
-              <v-img
-                style="margin-top: 3%; box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12)"
-                src="/Cat.jpg"
-                max-width="15%"
-                contain
-              />
-            </v-flex>
-          </v-layout>
-        </parallax-element>
-      </parallax-container>
-    </a>
+    <v-layout row justify-space-between>
+      <v-flex xs12 lg4 row justify-center style="margin-top: 4%;">
+        <h1 style="font-family: 'Times New Roman'; font-size: 1.5vw;">
+          &nbsp;&nbsp;La campaña de Trigo 2018 fue la de mayor volumen de producción de nuestro país. Los resultados obtenidos en la RET y otros ensayos, además de la información de productores, nos permiten destacar el comportamiento de nuestras variedades BUCK DESTELLO, BUCK METEORO, BUCK SAETA, BUCK® SY120, BUCK® SY211 y BUCK® SY330.
+          <br>
+          &nbsp;&nbsp;Respecto a los Trigos Candeales vale destacar el nuevo cultivar BUCK PERLA, de ciclo corto y muy alto potencial de rendimiento, que se suma a los ya conocidos BUCK ZAFIRO y BUCK ESMERALDA, de excelente comportamiento agronómico y con una calidad industrial acorde a las necesidades de la industria fideera nacional.
+        </h1>
+      </v-flex>
+      <v-flex xs12 lg3 row justify-center align-center>
+        <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/Catalogo%20Buck%202019.pdf?alt=media&token=d6769b58-3fb3-4e41-8b8b-69a1104f534c">
+          <parallax-container>
+            <parallax-element :parallax-strength="15" :type="'depth'">
+              <v-layout>
+                <v-flex row justify-center align-center>
+                  <v-img
+                    style="margin-top: 1%; box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12)"
+                    src="/Cat.jpg"
+                    max-width="50%"
+                    contain
+                  />
+                </v-flex>
+              </v-layout>
+            </parallax-element>
+          </parallax-container>
+        </a>
+      </v-flex>
+      <v-flex xs12 lg4 row justify-center style="margin-top: 4%;">
+        <h1 style="font-family: 'Times New Roman'; font-size: 1.5vw;">
+          &nbsp;&nbsp;A través de nuestro Convenio con la Chacra Experimental Integrada de Barrow ofrecemos, bajo licencia, las variedades de Avena: BONAERENSE INTA MANÁ, BONAERENSE INTA AIKÉN y la nueva variedad
+          BONAERENSE INTA YAPA, todas ellas de excelente rendimiento potencial y adaptación a los diferentes requerimientos forrajeros. Desde hace más de 30 años nuestra empresa incursiona en el mejoramiento y comercialización de Híbridos de Girasol.
+          <br>
+          &nbsp;&nbsp;En este año 2019 estamos presentando el ya conocido BUCK 355CL y el nuevo híbrido BUCK 363CL. Ambos híbridos son obtenciones de nuestro programa de mejoramiento con destacado comportamiento en los diferentes sitios de evaluación del cultivo de girasol.
+        </h1>
+      </v-flex>
+    </v-layout>
     <v-flex row justify-center style="margin-top: 4%;">
       <h1 style="font-family: 'Times New Roman'; font-size: 2.5vw;">
         Consulte Beneficios Pre-Campaña!
