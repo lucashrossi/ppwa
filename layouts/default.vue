@@ -26,7 +26,6 @@
               <v-list-item
                 v-for="(itemm, index) in itemsd"
                 :key="index"
-                v-on-click=""
                 :to="itemm.link"
               >
                 <v-list-item-title style="font-family: 'Times New Roman';">
@@ -36,6 +35,7 @@
             </v-list>
           </v-list-item-content>
         </v-list-item>
+        <v-divider />
         <v-list-item
           v-for="item in itemsss"
           :key="item.title"
@@ -63,15 +63,36 @@
         </v-list-item>
         <v-divider />
         <v-list-item
-          v-for="item in itemss"
-          :key="item.title"
-          :to="item.link"
-          :href="item.ref"
-          :target="item.tar"
           link
+          target="_blank"
+          href="https://twitter.com/buck_semillas"
         >
           <v-list-item-content>
-            <v-list-item-title>{{ item.title }}</v-list-item-title>
+            <v-list-item-title style="font-family: 'Times New Roman';">
+              Twitter
+            </v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+        <v-list-item
+          link
+          target="_blank"
+          href="http://190.105.237.177/webmail"
+        >
+          <v-list-item-content>
+            <v-list-item-title style="font-family: 'Times New Roman';">
+              Webmail
+            </v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+        <v-list-item
+          link
+          target="_blank"
+          href="mailto:bucksem@bucksemillas.com.ar"
+        >
+          <v-list-item-content>
+            <v-list-item-title style="font-family: 'Times New Roman';">
+              Contacto
+            </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
       </v-list>
@@ -124,7 +145,6 @@
             <v-list-item
               v-for="(item, index) in itemsd"
               :key="index"
-              v-on-click=""
               :to="item.link"
             >
               <v-list-item-title style="font-family: 'Times New Roman';">
@@ -161,15 +181,28 @@
       <v-spacer class="hidden-sm-and-down" />
       <v-toolbar-items class="hidden-md-and-down">
         <v-btn
-          v-for="item in itemss"
-          :key="item.title"
-          :to="item.link"
-          :href="item.ref"
-          :target="item.tar"
+          target="_blank"
+          href="https://twitter.com/buck_semillas"
           text
           style="font-size: .750rem;"
         >
-          {{ item.title }}
+          Twitter
+        </v-btn>
+        <v-btn
+          target="_blank"
+          href="http://190.105.237.177/webmail"
+          text
+          style="font-size: .750rem;"
+        >
+          Webmail
+        </v-btn>
+        <v-btn
+          target="_blank"
+          href="mailto:bucksem@bucksemillas.com.ar"
+          text
+          style="font-size: .750rem;"
+        >
+          Contacto
         </v-btn>
       </v-toolbar-items>
       <!-- <v-spacer class="hidden-sm-and-down" /> -->
@@ -214,11 +247,6 @@ export default {
         { title: 'Condiciones Comerciales', icon: '', link: '/CC' },
         { title: 'Noticias y Ensayos', icon: '', link: '/Noticias y Ensayos' }
         // { title: 'Enlaces de Interes', icon: '', link: '/Enlaces de Interes' }
-      ],
-      itemss: [
-        { title: 'Twitter', icon: '', link: '/Twitter' },
-        { title: 'WebMail', icon: '', link: '/WebMail' },
-        { title: 'Contacto', icon: '', link: '/Contacto' }
       ],
       itemsd: [
         { title: 'Trigo', link: '/Productos' },
