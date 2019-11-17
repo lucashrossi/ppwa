@@ -16,7 +16,7 @@
       </h1>
     </v-flex>
     <v-layout row justify-space-between>
-      <v-flex xs12 md4 style="margin-top: 5%">
+      <v-flex xs12 md4 style="margin-top: 6%">
         <v-card
           class="mx-auto"
           max-width="400"
@@ -68,7 +68,7 @@
       <v-flex xs12 md4 row justify-center>
         <v-img
           src="/mapresp.jpg"
-          max-width="100%"
+          max-width="90%"
           style="margin-top: 0%;"
           contain
         />

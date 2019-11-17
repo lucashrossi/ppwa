@@ -19,7 +19,10 @@
         <v-card
           class="mx-auto"
           max-width="400"
-          elevation="1"
+          hover
+          nuxt
+          href="/Resplandor"
+          shaped
         >
           <v-img
             class="white--text align-end"
