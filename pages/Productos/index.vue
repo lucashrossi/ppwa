@@ -18,7 +18,7 @@
       <v-flex lg4>
         <v-card
           class="mx-auto"
-          max-width="400"
+          max-width="350"
           hover
           nuxt
           href="/Resplandor"
@@ -26,7 +26,6 @@
         >
           <v-img
             class="white--text align-end"
-            height="200px"
             src="/bolsas.jpg"
           >
             <v-card-title>Top 10 Australian beaches</v-card-title>
@@ -63,7 +62,7 @@
         <v-card
           class="mx-auto"
           max-width="400"
-          elevation="1"
+          hover
         >
           <v-img
             class="white--text align-end"
@@ -313,19 +312,25 @@
         </v-card>
       </v-flex>
     </v-flex>
-    <v-flex row justify-center style="margin-top: 60px;">
-      <h1 style="font-family: 'Times New Roman'; font-size: 2vw;">
-        TRIGO PAN
+    <v-flex row justify-center>
+      <h1 style="font-family: 'Times New Roman'; font-size: 1.1vw; margin-top: 30px;">
+        Descripción comparativa resumida:
       </h1>
+    </v-flex>
+    <v-flex style="margin-top: 2%;">
+      <v-img
+        src="/ctp.jpg"
+        max-width="100%"
+      />
     </v-flex>
     <v-flex row justify-center>
       <h1 style="font-family: 'Times New Roman'; font-size: 1.1vw; margin-top: 30px;">
-        Descripción comparativa resumida.
+        Fechas de siembra recomendadas según Sub-Regiones:
       </h1>
     </v-flex>
-    <v-flex style="margin-top: 5%;">
+    <v-flex style="margin-top: 2%;">
       <v-img
-        src="/ctp.jpg"
+        src="/fds.jpg"
         max-width="100%"
       />
     </v-flex>

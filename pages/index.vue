@@ -212,7 +212,9 @@
     </v-layout>
     <v-flex row justify-center style="margin-top: 4%;">
       <h1 style="font-family: 'Times New Roman'; font-size: 2.5vw;">
-        Consulte Beneficios Pre-Campaña!
+        <a href="mailto:bucksem@bucksemillas.com.ar" style="text-decoration: none; color: #000000;">
+          Consulte Beneficios Pre-Campaña!
+        </a>
       </h1>
     </v-flex>
     <!-- <v-flex class="container">
