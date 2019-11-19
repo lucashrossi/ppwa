@@ -249,7 +249,8 @@ export default {
         // { title: 'Enlaces de Interes', icon: '', link: '/Enlaces de Interes' }
       ],
       itemsd: [
-        { title: 'Trigo', link: '/Productos' },
+        { title: 'Trigo Pan', link: '/Productos' },
+        { title: 'Candeal' },
         { title: 'Avena' },
         { title: 'Girasol' }
       ]
