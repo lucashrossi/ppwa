@@ -16,30 +16,26 @@
     </v-flex>
     <v-flex row justify-center>
       <v-flex lg4>
-        <v-card
-          class="mx-auto"
-          max-width="350"
-          hover
-          nuxt
-          href="/Resplandor"
-          shaped
-        >
-          <v-img
-            class="white--text align-end"
-            src="/bolsas.jpg"
+        <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
+          <v-card
+            class="mx-auto"
+            max-width="350"
+            hover
+            shaped
           >
-            <v-card-title>Top 10 Australian beaches</v-card-title>
-          </v-img>
-
-          <v-card-subtitle class="pb-0">
-            Number10
-          </v-card-subtitle>
-
-          <v-card-text class="text--primary">
-            <div>Whitehaven Beach</div>
-
-            <div>Whitsunday Island, Whitsunday Islands</div>
-          </v-card-text>
+            <v-img
+              class="white--text align-end"
+              src="/bolsas.jpg"
+            >
+              <v-card-title>Top 10 Australian beaches</v-card-title>
+            </v-img>
+            <v-card-subtitle class="pb-0">
+              Number10
+            </v-card-subtitle>
+            <v-card-text class="text--primary">
+              <div>Whitehaven Beach</div>
+              <div>Whitsunday Island, Whitsunday Islands</div>
+            </v-card-text>
 
           <!-- <v-card-actions>
             <v-btn
@@ -56,7 +52,8 @@
               Explore
             </v-btn>
           </v-card-actions> -->
-        </v-card>
+          </v-card>
+        </nuxt-link>
       </v-flex>
       <v-flex lg4>
         <v-card

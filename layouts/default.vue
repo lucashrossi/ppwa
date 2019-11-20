@@ -12,29 +12,28 @@
       <v-divider /> -->
 
       <v-list dense>
-        <v-list-item
+        <v-list-group
           v-for="item in itemssss"
           :key="item.title"
           :to="item.link"
           :href="item.ref"
           :target="item.tar"
           link
+          value="true"
         >
-          <v-list-item-content>
+          <template v-slot:activator>
             <v-list-item-title>{{ item.title }}</v-list-item-title>
-            <v-list>
-              <v-list-item
-                v-for="(itemm, index) in itemsd"
-                :key="index"
-                :to="itemm.link"
-              >
-                <v-list-item-title style="font-family: 'Times New Roman';">
-                  {{ itemm.title }}
-                </v-list-item-title>
-              </v-list-item>
-            </v-list>
-          </v-list-item-content>
-        </v-list-item>
+          </template>
+          <v-list-item
+            v-for="(itemm, index) in itemsd"
+            :key="index"
+            :to="itemm.link"
+          >
+            <v-list-item-title style="font-family: 'Times New Roman'; margin-left: 20px">
+              {{ itemm.title }}
+            </v-list-item-title>
+          </v-list-item>
+        </v-list-group>
         <v-divider />
         <v-list-item
           v-for="item in itemsss"
@@ -116,7 +115,8 @@
         <!-- <v-btn href="/" text>
           Buck Semillas
         </v-btn> -->
-        <a href="/">
+        <!-- <a href="/"> -->
+        <nuxt-link to="/">
           <v-img
             src="/Logo.png"
             contain
@@ -126,7 +126,8 @@
           <!-- <v-img
             src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/Logo.png?alt=media&token=842454f6-4ee3-4214-913c-899bb15d3f75"
           /> -->
-        </a>
+        </nuxt-link>
+        <!-- </a> -->
       </v-toolbar-title>
       <v-spacer />
       <div class="text-center, hidden-md-and-down">
