@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-navigation-drawer v-model="drawer" width="170" fixed>
+    <v-navigation-drawer v-model="drawer" width="190" fixed>
       <!-- <v-list-item>
         <v-list-item-content>
           <v-list-item-title class="title">
