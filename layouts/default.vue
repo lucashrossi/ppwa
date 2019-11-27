@@ -124,6 +124,13 @@
             style="margin-left: 15%; margin-top: 2%;"
           />
           <!-- <v-img
+            class="hidden-lg-and-up"
+            src="/Logo.png"
+            contain
+            max-width="30%"
+            style="margin-left: 10%; margin-top: 0%;"
+          /> -->
+          <!-- <v-img
             src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/Logo.png?alt=media&token=842454f6-4ee3-4214-913c-899bb15d3f75"
           /> -->
         </nuxt-link>
@@ -251,9 +258,9 @@ export default {
       ],
       itemsd: [
         { title: 'Trigo Pan', link: '/Productos' },
-        { title: 'Candeal' },
-        { title: 'Avena' },
-        { title: 'Girasol' }
+        { title: 'Candeal', link: '/Candeal' },
+        { title: 'Avena', link: '/Avena' },
+        { title: 'Girasol', link: '/Girasol' }
       ]
     }
   }

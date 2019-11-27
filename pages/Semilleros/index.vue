@@ -15,19 +15,20 @@
             :items="desserts"
             :search="search"
             :items-per-page="150"
-            :sort-by="['PROVINCIA', 'LOCALIDAD', 'SEMILLERO', 'VARIEDAD', 'CONTACTO']"
-            :sort-desc="[false, true, true, true, true]"
+            :sort-by="['prov', 'ingeniero', 'name']"
+            :sort-desc="[false, false, false]"
             multi-sort
+            hide-default-footer
           >
             <template slot="items" slot-scope="props">
               <td>
                 {{ props.item.name }}
               </td>
               <td>
-                {{ props.item.prov }}
+                {{ props.item.ingeniero }}
               </td>
               <td>
-                {{ props.item.ingeniero }}
+                {{ props.item.prov }}
               </td>
               <td>
                 {{ props.item.localidad }}
@@ -53,8 +54,8 @@ export default {
       search: '',
       headers: [
         { text: 'PROVINCIA', value: 'prov', align: 'left' },
-        { text: 'SEMILLERO', value: 'name', align: 'center' },
         { text: 'LOCALIDAD', value: 'ingeniero', align: 'center' },
+        { text: 'SEMILLERO', value: 'name', align: 'center' },
         { text: 'CONTACO', value: 'localidad', align: 'center' },
         { text: 'VARIEDAD', value: 'distib', align: 'center' }
       ],
