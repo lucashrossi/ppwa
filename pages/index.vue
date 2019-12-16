@@ -231,7 +231,7 @@
       </h1>
     </v-flex> -->
     <v-flex row justify-center>
-      <img class="responsivef" src="/logo_footer.png">
+      <img class="responsivef" src="/logo_footer.webp">
     </v-flex>
   </v-container>
 </template>
