@@ -25,7 +25,7 @@
           <v-img
             class="white--text align-end"
             height="200px"
-            src="/bolsas.jpg"
+            src="/bolsas.webp"
           >
             <v-card-title>Top 10 Australian beaches</v-card-title>
           </v-img>
@@ -59,7 +59,7 @@
       </v-flex>
       <v-flex xs12 md4 row justify-center>
         <v-img
-          src="/cresp.jpg"
+          src="/cresp.webp"
           max-width="60%"
           style="margin-top: 5%;"
           contain
@@ -67,7 +67,7 @@
       </v-flex>
       <v-flex xs12 md4 row justify-center>
         <v-img
-          src="/mapresp.jpg"
+          src="/mapresp.webp"
           max-width="90%"
           style="margin-top: 0%;"
           contain

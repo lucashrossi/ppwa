@@ -14,11 +14,11 @@
     </v-flex>
     <v-flex class="container">
       <parallax-container style="margin-left: -6%; margin-right: -6%; margin-top: 3%;">
-        <v-parallax src="/campoexp2.jpg" />
+        <v-parallax src="/campoexp2.webp" />
       </parallax-container>
       <v-flex class="overlay" style="margin-top: -5%;">
         <v-img
-          src="/elAdlS.png"
+          src="/elAdlS.webp"
           max-width="100%"
         />
       </v-flex>
@@ -37,7 +37,7 @@
       </v-flex>
       <v-flex>
         <v-img
-          src="/historia_1.jpg"
+          src="/historia_1.webp"
           max-width="80%"
           style="margin-left: 10%;"
         />
@@ -45,7 +45,7 @@
     </v-flex>
     <v-flex>
       <parallax-container style="margin-left: -6%; margin-right: -6%; margin-top: 4%;">
-        <v-parallax src="/historia.jpg" />
+        <v-parallax src="/historia.webp" />
       </parallax-container>
     </v-flex>
   </v-container>

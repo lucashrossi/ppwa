@@ -19,7 +19,7 @@
           >
             <v-img
               class="white--text align-end"
-              src="/bolsas.jpg"
+              src="/bolsas.webp"
             >
               <v-card-title style="color: #ff0000">
                 Buck Perla
@@ -61,7 +61,7 @@
           <v-img
             class="white--text align-end"
             height="200px"
-            src="/bolsas.jpg"
+            src="/bolsas.webp"
           >
             <v-card-title>Buck Cumelén</v-card-title>
           </v-img>
@@ -102,7 +102,7 @@
           <v-img
             class="white--text align-end"
             height="200px"
-            src="/bolsas.jpg"
+            src="/bolsas.webp"
           >
             <v-card-title>Top 10 Australian beaches</v-card-title>
           </v-img>
@@ -145,7 +145,7 @@
           <v-img
             class="white--text align-end"
             height="200px"
-            src="/bolsas.jpg"
+            src="/bolsas.webp"
           >
             <v-card-title>Top 10 Australian beaches</v-card-title>
           </v-img>
@@ -186,7 +186,7 @@
           <v-img
             class="white--text align-end"
             height="200px"
-            src="/bolsas.jpg"
+            src="/bolsas.webp"
           >
             <v-card-title>Top 10 Australian beaches</v-card-title>
           </v-img>
@@ -227,7 +227,7 @@
           <v-img
             class="white--text align-end"
             height="200px"
-            src="/bolsas.jpg"
+            src="/bolsas.webp"
           >
             <v-card-title>Top 10 Australian beaches</v-card-title>
           </v-img>
@@ -268,7 +268,7 @@
           <v-img
             class="white--text align-end"
             height="200px"
-            src="/bolsas.jpg"
+            src="/bolsas.webp"
           >
             <v-card-title>Top 10 Australian beaches</v-card-title>
           </v-img>

@@ -18,21 +18,21 @@
     <v-layout row justify-center style="margin-top: 1.5%;">
       <v-flex xs6 md2 row justify-center>
         <v-img
-          src="/MAA.jpg"
+          src="/MAA.webp"
           max-width="60%"
           contain
         />
       </v-flex>
       <v-flex xs12 md8 row justify-center>
         <v-img
-          src="/RE.jpg"
+          src="/RE.webp"
           max-width="50%"
           contain
         />
       </v-flex>
       <v-flex xs6 md2 row justify-center>
         <v-img
-          src="/ArPov.jpg"
+          src="/ArPov.webp"
           max-width="60%"
           contain
         />
@@ -42,7 +42,7 @@
       <v-flex xs6 md2 row justify-center>
         <v-img
           style="margin-top: 30px; margin-bottom: 20px"
-          src="/RegExt.jpg"
+          src="/RegExt.webp"
           max-width="40%"
           contain
         />

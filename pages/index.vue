@@ -17,7 +17,7 @@
             style="margin-left: 10%"
           /> -->
           <v-img
-            src="/WheatCC.png"
+            src="/WheatCC.webp"
             contain
             max-width="50%"
             style="margin-left: 10%"
@@ -72,7 +72,7 @@
                     style="margin-left: 18%"
                   /> -->
                   <v-img
-                    src="/GirasolC.png"
+                    src="/GirasolC.webp"
                     contain
                     max-width="90%"
                     style="margin-left: 18%"
@@ -115,7 +115,7 @@
                     style="margin-left: 15%"
                   /> -->
                   <v-img
-                    src="/AvenaCCC.png"
+                    src="/AvenaCCC.webp"
                     contain
                     max-width="90%"
                     style="margin-left: 15%"
@@ -149,7 +149,7 @@
       </v-flex>
     </v-layout>
     <v-flex class="container">
-      <video style="width: 115%; height: auto; margin-left: -8%; margin-top: 8%;" loop autoplay>
+      <video style="width: 115%; height: auto; margin-left: -8%; margin-top: 8%;" loop autoplay muted>
         <source src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/DemoC.mp4?alt=media&token=7c39ff6c-081d-451c-99b9-fd4b57b9abbc">
       </video>
       <v-flex class="overlay">
@@ -191,7 +191,7 @@
                 <v-flex row justify-center align-center>
                   <v-img
                     style="margin-top: 1%; box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12)"
-                    src="/Cat.jpg"
+                    src="/Cat.webp"
                     max-width="50%"
                     contain
                   />
@@ -218,13 +218,13 @@
       </h1>
     </v-flex>
     <!-- <v-flex class="container">
-      <v-parallax src="/paralaxD.jpg" style="margin-left: -2%; margin-right: -2%; margin-top: 2%;" />
+      <v-parallax src="/paralaxD.webp" style="margin-left: -2%; margin-right: -2%; margin-top: 2%;" />
     </v-flex> -->
     <!-- <v-flex class="container">
-      <img class="responsive" src="/paralaxD.jpg">
+      <img class="responsive" src="/paralaxD.webp">
     </v-flex> -->
-    <!-- <img class="responsive" src="/paralaxD.jpg"> -->
-    <v-parallax src="/paralaxD.jpg" style="margin-left: -6%; margin-right: -6%; margin-top: 2%;" />
+    <!-- <img class="responsive" src="/paralaxD.webp"> -->
+    <v-parallax src="/paralaxD.webp" style="margin-left: -6%; margin-right: -6%; margin-top: 2%;" />
     <!-- <v-flex row justify-center style="margin-top: 4%;">
       <h1 style="font-family: 'Times New Roman'; font-size: 2vw;">
         Comience a trabajar con nuestros productos, sea parte de Buck Semillas.

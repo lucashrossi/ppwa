@@ -118,20 +118,20 @@
         <!-- <a href="/"> -->
         <nuxt-link to="/">
           <v-img
-            src="/Logo.png"
+            src="/Logo.webp"
             contain
             max-width="50%"
             style="margin-left: 15%; margin-top: 2%;"
           />
           <!-- <v-img
             class="hidden-lg-and-up"
-            src="/Logo.png"
+            src="/Logo.webp"
             contain
             max-width="30%"
             style="margin-left: 10%; margin-top: 0%;"
           /> -->
           <!-- <v-img
-            src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/Logo.png?alt=media&token=842454f6-4ee3-4214-913c-899bb15d3f75"
+            src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/Logowebp?alt=media&token=842454f6-4ee3-4214-913c-899bb15d3f75"
           /> -->
         </nuxt-link>
         <!-- </a> -->
