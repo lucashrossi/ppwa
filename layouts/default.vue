@@ -121,6 +121,7 @@
             src="/Logo.webp"
             contain
             max-width="50%"
+            width="550px"
             style="margin-left: 15%; margin-top: 2%;"
           />
           <!-- <v-img
@@ -137,7 +138,7 @@
         <!-- </a> -->
       </v-toolbar-title>
       <v-spacer />
-      <div class="text-center, hidden-md-and-down">
+      <div style="width: 127px;" class="text-center, hidden-md-and-down">
         <v-menu offset-y open-on-hover>
           <template v-slot:activator="{ on }">
             <v-btn

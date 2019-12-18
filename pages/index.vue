@@ -20,6 +20,7 @@
             src="/WheatCC.webp"
             contain
             max-width="50%"
+            height="192px"
             style="margin-left: 10%"
           />
         </div>

@@ -27,6 +27,7 @@
         <v-img
           src="/RE.webp"
           max-width="50%"
+          height="650px"
           contain
         />
       </v-flex>
