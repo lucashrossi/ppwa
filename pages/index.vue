@@ -7,7 +7,7 @@
     </v-layout>
   </v-container> -->
   <v-container>
-    <v-layout style="margin-top: 5%; margin-bottom: -1.5%;">
+    <v-layout style="margin-top: 110px; margin-bottom: -1.5%;">
       <v-flex row class="hidden-md-and-down" lg2 xl2>
         <div>
           <!-- <v-img
@@ -59,7 +59,7 @@
     <div
       style="height: 40px; border-bottom: 2px solid green;  border-left: 2px solid green;"
     />
-    <v-layout style="margin-top: 10%;" justify-center>
+    <v-layout style="margin-top: 8%;" justify-center>
       <v-flex row>
         <v-flex>
           <v-flex row justify-center>
@@ -176,7 +176,7 @@
         &nbsp;&nbsp;La Calidad del Trigo ha sido desde siempre uno de nuestros principales objetivos, muestra de ello es que de las once variedades ofrecidas cinco pertenecen al Grupo 1 de Calidad con muy buenas cualidades agronómicas. Tal es el caso del ya mencionado BUCK RESPLANDOR y los ya conocidos BUCK DESTELLO (ciclo largo), BUCK METEORO y BUCK CAMBÁ (ciclo intermedio) y BUCK SAETA (ciclo corto).
       </h1>
     </v-flex>
-    <v-layout row justify-space-between>
+    <v-layout row justify-space-around>
       <v-flex xs12 lg4 row justify-center style="margin-top: 4%;">
         <h1 style="font-family: 'Times New Roman'; font-size: 1.5vw;">
           &nbsp;&nbsp;La campaña de Trigo 2018 fue la de mayor volumen de producción de nuestro país. Los resultados obtenidos en la RET y otros ensayos, además de la información de productores, nos permiten destacar el comportamiento de nuestras variedades BUCK DESTELLO, BUCK METEORO, BUCK SAETA, BUCK® SY120, BUCK® SY211 y BUCK® SY330.
@@ -191,7 +191,7 @@
               <v-layout>
                 <v-flex row justify-center align-center>
                   <v-img
-                    style="margin-top: 1%; box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12)"
+                    style="margin-left: 2%; margin-top: 1%; box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12)"
                     src="/Cat.webp"
                     max-width="50%"
                     contain

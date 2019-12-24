@@ -72,7 +72,7 @@
             </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        <v-list-item
+        <!-- <v-list-item
           link
           target="_blank"
           href="http://190.105.237.177/webmail"
@@ -82,7 +82,7 @@
               Webmail
             </v-list-item-title>
           </v-list-item-content>
-        </v-list-item>
+        </v-list-item> -->
         <v-list-item
           link
           target="_blank"
@@ -118,11 +118,11 @@
         <!-- <a href="/"> -->
         <nuxt-link to="/">
           <v-img
-            src="/Logo.webp"
+            src="/Logot.webp"
             contain
             max-width="50%"
             width="550px"
-            style="margin-left: 15%; margin-top: 2%;"
+            style="margin-left: 15%; margin-top: 4%;"
           />
           <!-- <v-img
             class="hidden-lg-and-up"
@@ -138,13 +138,14 @@
         <!-- </a> -->
       </v-toolbar-title>
       <v-spacer />
-      <div style="width: 127px;" class="text-center, hidden-md-and-down">
+      <div class="text-center, hidden-md-and-down">
         <v-menu offset-y open-on-hover>
           <template v-slot:activator="{ on }">
             <v-btn
               text
               height="60"
               to="/Productos"
+              style="width: 150px;"
               v-on="on"
             >
               Productos
@@ -163,7 +164,7 @@
           </v-list>
         </v-menu>
       </div>
-      <v-toolbar-items class="hidden-md-and-down">
+      <!-- <v-toolbar-items class="hidden-md-and-down">
         <v-btn
           v-for="item in itemsss"
           :key="item.title"
@@ -174,7 +175,7 @@
         >
           {{ item.title }}
         </v-btn>
-      </v-toolbar-items>
+      </v-toolbar-items> -->
       <v-toolbar-items class="hidden-md-and-down">
         <v-btn
           v-for="item in items"
@@ -183,6 +184,7 @@
           :href="item.ref"
           :target="item.tar"
           text
+          style="width: 150px;"
         >
           {{ item.title }}
         </v-btn>
@@ -193,23 +195,23 @@
           target="_blank"
           href="https://twitter.com/buck_semillas"
           text
-          style="font-size: .750rem;"
+          style="font-size: .750rem; width: 100px;"
         >
           Twitter
         </v-btn>
-        <v-btn
+        <!-- <v-btn
           target="_blank"
           href="http://190.105.237.177/webmail"
           text
           style="font-size: .750rem;"
         >
           Webmail
-        </v-btn>
+        </v-btn> -->
         <v-btn
           target="_blank"
           href="mailto:bucksem@bucksemillas.com.ar"
           text
-          style="font-size: .750rem;"
+          style="font-size: .750rem; width: 100px;"
         >
           Contacto
         </v-btn>
@@ -234,6 +236,15 @@
         </p>
       </v-flex>
       <!-- <v-spacer /> -->
+      <v-btn
+        target="_blank"
+        href="http://190.105.237.177/webmail"
+        text
+        style="font-size: 0.7vw;"
+        x-small
+      >
+        Webmail
+      </v-btn>
     </v-footer>
   </v-app>
 </template>
@@ -243,18 +254,19 @@ export default {
   data () {
     return {
       drawer: false,
-      itemsss: [
-        // { title: 'Home', icon: '', link: '/', tool: '', ref: '' },
-        // { title: 'Productos', icon: '', link: '/Productos' },
-        { title: 'Empresa', icon: '', link: '/Empresa' }
-      ],
+      // itemsss: [
+      //   // { title: 'Home', icon: '', link: '/', tool: '', ref: '' },
+      //   // { title: 'Productos', icon: '', link: '/Productos' },
+      //   { title: 'Empresa', icon: '', link: '/Empresa' }
+      // ],
       itemssss: [
         { title: 'Productos', icon: '', link: '/Productos' }
       ],
       items: [
+        { title: 'Empresa', icon: '', link: '/Empresa' },
         { title: 'Semilleros', icon: '', link: '/Semilleros' },
-        { title: 'Condiciones Comerciales', icon: '', link: '/CC' },
-        { title: 'Noticias y Ensayos', icon: '', link: '/Noticias y Ensayos' }
+        { title: 'Regalias', icon: '', link: '/CC' },
+        { title: 'Ensayos', icon: '', link: '/Ensayos' }
         // { title: 'Enlaces de Interes', icon: '', link: '/Enlaces de Interes' }
       ],
       itemsd: [
