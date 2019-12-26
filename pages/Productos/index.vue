@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-flex row justify-center style="margin-top: 60px;">
-      <h1 style="font-family: 'Times New Roman'; font-size: 2vw;">
+      <h1 style="font-family: 'Times New Roman'; font-size: 2vw; color: rgba(180, 0, 0, 1);">
         TRIGO PAN
       </h1>
       <h1 style="font-family: 'Times New Roman'; font-size: 1.1vw; margin-top: 30px;">

@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-flex row justify-center style="margin-top: 60px;">
-      <h1 style="font-family: 'Times New Roman'; font-size: 1.2vw;">
+      <h1 style="font-family: 'Times New Roman'; font-size: 1.2vw; color: rgba(180, 0, 0, 1);">
         REGALIA EXTENDIDA
       </h1>
     </v-flex>

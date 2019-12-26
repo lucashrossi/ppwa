@@ -1,6 +1,6 @@
 <template>
   <v-container style="margin-top: 60px;">
-    <h2 style="text-align: center; font-family: 'Times New Roman'; font-size: 2vw;">
+    <h2 style="text-align: center; font-family: 'Times New Roman'; font-size: 2vw; color: rgba(180, 0, 0, 1);">
       RET
     </h2>
     <v-flex style="margin-left: -50px;">
