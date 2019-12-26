@@ -35,7 +35,7 @@
           </v-list-item>
         </v-list-group>
         <v-divider />
-        <v-list-item
+        <!-- <v-list-item
           v-for="item in itemsss"
           :key="item.title"
           :to="item.link"
@@ -46,7 +46,7 @@
           <v-list-item-content>
             <v-list-item-title>{{ item.title }}</v-list-item-title>
           </v-list-item-content>
-        </v-list-item>
+        </v-list-item> -->
         <!-- <v-divider /> -->
         <v-list-item
           v-for="item in items"
