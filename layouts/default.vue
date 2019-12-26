@@ -22,14 +22,16 @@
           value="true"
         >
           <template v-slot:activator>
-            <v-list-item-title>{{ item.title }}</v-list-item-title>
+            <v-list-item-title style="font-size: 12px; font-family: 'Times New Roman';">
+              {{ item.title }}
+            </v-list-item-title>
           </template>
           <v-list-item
             v-for="(itemm, index) in itemsd"
             :key="index"
             :to="itemm.link"
           >
-            <v-list-item-title style="font-family: 'Times New Roman'; margin-left: 20px">
+            <v-list-item-title style="font-size: 12px; font-family: 'Times New Roman'; margin-left: 20px">
               {{ itemm.title }}
             </v-list-item-title>
           </v-list-item>
@@ -57,7 +59,9 @@
           link
         >
           <v-list-item-content>
-            <v-list-item-title>{{ item.title }}</v-list-item-title>
+            <v-list-item-title style="font-size: 12px; font-family: 'Times New Roman';">
+              {{ item.title }}
+            </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
         <v-divider />
@@ -157,7 +161,7 @@
               :key="index"
               :to="item.link"
             >
-              <v-list-item-title style="font-family: 'Times New Roman';">
+              <v-list-item-title style="font-size: 14px; font-family: 'Times New Roman';">
                 {{ item.title }}
               </v-list-item-title>
             </v-list-item>
@@ -184,7 +188,7 @@
           :href="item.ref"
           :target="item.tar"
           text
-          style="width: 150px;"
+          style="width: 150px; font-size: 14px; font-family: 'Times New Roman';"
         >
           {{ item.title }}
         </v-btn>
@@ -195,7 +199,7 @@
           target="_blank"
           href="https://twitter.com/buck_semillas"
           text
-          style="font-size: .750rem; width: 100px;"
+          style="font-size: 12px; font-family: 'Times New Roman'; width: 100px;"
         >
           Twitter
         </v-btn>
@@ -211,7 +215,7 @@
           target="_blank"
           href="mailto:bucksem@bucksemillas.com.ar"
           text
-          style="font-size: .750rem; width: 100px;"
+          style="font-size: 12px; font-family: 'Times New Roman'; width: 100px;"
         >
           Contacto
         </v-btn>
@@ -240,7 +244,7 @@
         target="_blank"
         href="http://190.105.237.177/webmail"
         text
-        style="font-size: 0.7vw;"
+        style="font-size: 12px; font-family: 'Times New Roman';"
         x-small
       >
         Webmail
