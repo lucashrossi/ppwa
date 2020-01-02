@@ -1,13 +1,15 @@
 <template>
   <v-container>
-    <!-- <v-flex row justify-center style="margin-top: 60px;"> -->
-    <h1 style="font-family: 'Times New Roman'; font-size: 2vw; margin-top: 60px; text-align: center;">
-      CANDEAL
-    </h1>
-    <h1 style="font-family: 'Times New Roman'; font-size: 1.1vw; margin-top: 30px;">
-      &nbsp;&nbsp;En trigo Candeal vale destacar el nuevo cultivar BUCK PERLA, de ciclo corto.
-    </h1>
-    <!-- </v-flex> -->
+    <v-flex row justify-center style="margin-top: 60px;">
+      <h2 style="font-family: 'Times New Roman'; font-size: 2vw; color: rgba(180, 0, 0, 1);">
+        CANDEAL
+      </h2>
+    </v-flex>
+    <v-flex row justify-center>
+      <h2 style="font-family: 'Times New Roman'; font-size: 1.1vw; margin-top: 30px;">
+        &nbsp;&nbsp;En trigo Candeal vale destacar el nuevo cultivar BUCK PERLA, de ciclo corto.
+      </h2>
+    </v-flex>
     <v-flex row justify-center>
       <v-flex lg4 style="margin-top: 5%;">
         <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">

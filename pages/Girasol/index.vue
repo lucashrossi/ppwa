@@ -1,13 +1,15 @@
 <template>
   <v-container>
-    <!-- <v-flex row justify-center style="margin-top: 60px;"> -->
-    <h1 style="font-family: 'Times New Roman'; font-size: 2vw; margin-top: 60px; text-align: center;">
-      GIRASOL
-    </h1>
-    <h1 style="font-family: 'Times New Roman'; font-size: 1.1vw; margin-top: 30px;">
-      &nbsp;&nbsp;En Buck Semillas S.A. trabajamos en el mejoramiento de esta especie desde hace más de 30 años obteniendo y comercializando híbridos con reconocido potencial de rendimiento y estabilidad del mismo. Para esta campaña estamos presentando como comerciales los Girasoles Híbridos Buck 363CL y Buck 355CL.
-    </h1>
-    <!-- </v-flex> -->
+    <v-flex row justify-center style="margin-top: 60px;">
+      <h2 style="font-family: 'Times New Roman'; font-size: 2vw; color: rgba(180, 0, 0, 1);">
+        GIRASOL
+      </h2>
+    </v-flex>
+    <v-flex row justify-center>
+      <h2 style="font-family: 'Times New Roman'; font-size: 1.1vw; margin-top: 30px;">
+        &nbsp;&nbsp;En Buck Semillas S.A. trabajamos en el mejoramiento de esta especie desde hace más de 30 años obteniendo y comercializando híbridos con reconocido potencial de rendimiento y estabilidad del mismo. Para esta campaña estamos presentando como comerciales los Girasoles Híbridos Buck 363CL y Buck 355CL.
+      </h2>
+    </v-flex>
     <v-flex row justify-center style="padding-bottom: 30px; border-bottom: 4px solid green">
       <v-flex lg4 style="margin-top: 5%;">
         <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">

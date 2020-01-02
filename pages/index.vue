@@ -27,32 +27,40 @@
       </v-flex>
       <v-flex row xs10 justify-center>
         <div>
-          <v-img
-            src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/WheatCC.png?alt=media&token=a1d032b0-53eb-4008-b688-3022269b4497"
-            contain
-            max-width="50%"
-          />
+          <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
+            <v-img
+              src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/WheatCC.png?alt=media&token=a1d032b0-53eb-4008-b688-3022269b4497"
+              contain
+              max-width="50%"
+            />
+          </nuxt-link>
         </div>
         <div>
-          <v-img
-            src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/WheatCC.png?alt=media&token=a1d032b0-53eb-4008-b688-3022269b4497"
-            contain
-            max-width="50%"
-          />
+          <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
+            <v-img
+              src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/WheatCC.png?alt=media&token=a1d032b0-53eb-4008-b688-3022269b4497"
+              contain
+              max-width="50%"
+            />
+          </nuxt-link>
         </div>
         <div>
-          <v-img
-            src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/WheatCC.png?alt=media&token=a1d032b0-53eb-4008-b688-3022269b4497"
-            contain
-            max-width="50%"
-          />
+          <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
+            <v-img
+              src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/WheatCC.png?alt=media&token=a1d032b0-53eb-4008-b688-3022269b4497"
+              contain
+              max-width="50%"
+            />
+          </nuxt-link>
         </div>
         <div>
-          <v-img
-            src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/WheatCC.png?alt=media&token=a1d032b0-53eb-4008-b688-3022269b4497"
-            contain
-            max-width="50%"
-          />
+          <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
+            <v-img
+              src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/WheatCC.png?alt=media&token=a1d032b0-53eb-4008-b688-3022269b4497"
+              contain
+              max-width="50%"
+            />
+          </nuxt-link>
         </div>
       </v-flex>
     </v-layout>
@@ -82,18 +90,22 @@
               </v-flex>
               <v-flex row justify-center xs12>
                 <div>
-                  <v-img
-                    src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/GirasolC.png?alt=media&token=94d8832b-5b1a-4a39-9652-34a727f6cb00"
-                    contain
-                    max-width="90%"
-                  />
+                  <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
+                    <v-img
+                      src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/GirasolC.png?alt=media&token=94d8832b-5b1a-4a39-9652-34a727f6cb00"
+                      contain
+                      max-width="90%"
+                    />
+                  </nuxt-link>
                 </div>
                 <div>
-                  <v-img
-                    src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/GirasolC.png?alt=media&token=94d8832b-5b1a-4a39-9652-34a727f6cb00"
-                    contain
-                    max-width="90%"
-                  />
+                  <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
+                    <v-img
+                      src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/GirasolC.png?alt=media&token=94d8832b-5b1a-4a39-9652-34a727f6cb00"
+                      contain
+                      max-width="90%"
+                    />
+                  </nuxt-link>
                 </div>
               </v-flex>
             </v-layout>
@@ -125,18 +137,22 @@
               </v-flex>
               <v-flex row justify-center>
                 <div>
-                  <v-img
-                    src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/AvenaCCC.png?alt=media&token=8425f225-c036-43b0-855a-f4135d8d8716"
-                    contain
-                    max-width="90%"
-                  />
+                  <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
+                    <v-img
+                      src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/AvenaCCC.png?alt=media&token=8425f225-c036-43b0-855a-f4135d8d8716"
+                      contain
+                      max-width="90%"
+                    />
+                  </nuxt-link>
                 </div>
                 <div>
-                  <v-img
-                    src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/AvenaCCC.png?alt=media&token=8425f225-c036-43b0-855a-f4135d8d8716"
-                    contain
-                    max-width="90%"
-                  />
+                  <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
+                    <v-img
+                      src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/AvenaCCC.png?alt=media&token=8425f225-c036-43b0-855a-f4135d8d8716"
+                      contain
+                      max-width="90%"
+                    />
+                  </nuxt-link>
                 </div>
               </v-flex>
             </v-layout>

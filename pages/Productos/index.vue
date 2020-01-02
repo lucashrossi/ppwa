@@ -1,12 +1,12 @@
 <template>
   <v-container>
     <v-flex row justify-center style="margin-top: 60px;">
-      <h1 style="font-family: 'Times New Roman'; font-size: 2vw; color: rgba(180, 0, 0, 1);">
+      <h2 style="font-family: 'Times New Roman'; font-size: 2vw; color: rgba(180, 0, 0, 1);">
         TRIGO PAN
-      </h1>
-      <h1 style="font-family: 'Times New Roman'; font-size: 1.1vw; margin-top: 30px;">
+      </h2>
+      <h2 style="font-family: 'Times New Roman'; font-size: 1.1vw; margin-top: 30px;">
         &nbsp;&nbsp;Este año ofrecemos once variedades de Trigo Pan, entre las que destacamos el lanzamiento de dos nuevas variedades de ciclo largo y alto potencial de rendimiento: BUCK RESPLANDOR de Grupo 1 de Calidad y BUCK CUMELÉN de Grupo 2 de Calidad.
-      </h1>
+      </h2>
     </v-flex>
     <v-flex row justify-center>
       <v-flex lg4 style="margin-top: 5%;">
@@ -301,9 +301,9 @@
       </v-flex>
     </v-flex>
     <v-flex row justify-center>
-      <h1 style="font-family: 'Times New Roman'; font-size: 1.5vw; margin-top: 40px;">
+      <h2 style="font-family: 'Times New Roman'; font-size: 1.5vw; margin-top: 40px; color: rgba(180, 0, 0, 1);">
         Descripción comparativa resumida:
-      </h1>
+      </h2>
     </v-flex>
     <v-flex style="margin-top: 0.5%; padding-bottom: 30px; border-bottom: 4px solid green;">
       <v-img
@@ -312,9 +312,9 @@
       />
     </v-flex>
     <v-flex row justify-center>
-      <h1 style="font-family: 'Times New Roman'; font-size: 1.5vw; margin-top: 40px;">
+      <h2 style="font-family: 'Times New Roman'; font-size: 1.5vw; margin-top: 40px; color: rgba(180, 0, 0, 1);">
         Fechas de siembra recomendadas según Sub-Regiones:
-      </h1>
+      </h2>
     </v-flex>
     <v-flex style="margin-top: 1%;">
       <v-img
