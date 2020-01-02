@@ -149,7 +149,7 @@
               text
               height="60"
               to="/Productos"
-              style="width: 150px;"
+              style="width: 150px; font-size: 14px; font-family: 'Times New Roman';"
               v-on="on"
             >
               Productos
