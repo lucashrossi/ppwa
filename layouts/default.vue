@@ -71,7 +71,7 @@
           href="https://twitter.com/buck_semillas"
         >
           <v-list-item-content>
-            <v-list-item-title style="font-family: 'Times New Roman';">
+            <v-list-item-title style="font-size: 12px; font-family: 'Times New Roman';">
               Twitter
             </v-list-item-title>
           </v-list-item-content>
@@ -93,7 +93,7 @@
           href="mailto:bucksem@bucksemillas.com.ar"
         >
           <v-list-item-content>
-            <v-list-item-title style="font-family: 'Times New Roman';">
+            <v-list-item-title style="font-size: 12px; font-family: 'Times New Roman';">
               Contacto
             </v-list-item-title>
           </v-list-item-content>
