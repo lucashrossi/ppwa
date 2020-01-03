@@ -5,16 +5,19 @@ export default {
   /*
   ** Headers of the page
   */
+  // title: 'Buck Semillas',
   head: {
-    titleTemplate: '%s - ' + process.env.npm_package_name,
-    title: process.env.npm_package_name || '',
+    // titleTemplate: '%s - ' + process.env.npm_package_name,
+    // title: process.env.npm_package_name || '',
+    title: 'Buck Semillas',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      // { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/icon.webp' }
     ]
   },
   /*
@@ -49,21 +52,21 @@ export default {
       id: 'UA-154200983-2'
     }]
   ],
-
-  // pwa: {
-  //   manifest: {
-  //     name: 'My Awesome App',
-  //     lang: 'fa'
-  //   }
-  // },
-
-  // pwa: {
-  //   workbox: {
-  //     offlineAssets: [
-  //       '/static/Logo.png'
-  //     ]
-  //   }
-  // },
+  pwa: {
+    manifest: {
+      name: 'Buck Semillas',
+      short_name: 'Buck'
+      // lang: 'es'
+    }
+    // icon: {
+    //   /* icon options */
+    // }
+    // workbox: {
+    //   offlineAssets: [
+    //     '/static/Logo.png'
+    //   ]
+    // }
+  },
 
   /*
   ** vuetify module configuration

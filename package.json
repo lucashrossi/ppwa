@@ -1,7 +1,7 @@
 {
-  "name": "pwa",
+  "name": "buck",
   "version": "1.0.0",
-  "description": "Buck",
+  "description": "Buck Semillas",
   "author": "Hernán",
   "private": true,
   "scripts": {
