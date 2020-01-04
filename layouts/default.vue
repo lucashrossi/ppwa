@@ -112,22 +112,29 @@
       </v-flex>
     </v-layout> -->
 
-    <v-app-bar max-height="64" flat style="font-family: 'Times New Roman';" fixed>
+    <v-app-bar
+      height="64"
+      flat
+      style="font-family: 'Times New Roman';"
+      fixed
+    >
       <v-app-bar-nav-icon class="hidden-lg-and-up" @click.stop="drawer = !drawer" />
       <v-spacer class="hidden-lg-and-up" />
-      <v-toolbar-title style="margin-right: -10%;">
+      <v-toolbar-title>
         <!-- <v-btn href="/" text>
           Buck Semillas
         </v-btn> -->
         <!-- <a href="/"> -->
         <nuxt-link to="/">
-          <v-img
-            src="/Logot.webp"
-            contain
-            max-width="50%"
-            width="550px"
-            style="margin-left: 15%; margin-top: 4%;"
-          />
+          <v-flex row justify-center align-center>
+            <v-img
+              src="/Logot.webp"
+              contain
+              max-width="50%"
+              width="550px"
+              style="margin-top: 4%;"
+            />
+          </v-flex>
           <!-- <v-img
             class="hidden-lg-and-up"
             src="/Logo.webp"
@@ -141,7 +148,7 @@
         </nuxt-link>
         <!-- </a> -->
       </v-toolbar-title>
-      <v-spacer />
+      <v-spacer style="margin-right: -10%" />
       <div class="text-center, hidden-md-and-down">
         <v-menu offset-y open-on-hover>
           <template v-slot:activator="{ on }">

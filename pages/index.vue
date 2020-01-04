@@ -200,20 +200,19 @@
           &nbsp;&nbsp;Respecto a los Trigos Candeales vale destacar el nuevo cultivar BUCK PERLA, de ciclo corto y muy alto potencial de rendimiento, que se suma a los ya conocidos BUCK ZAFIRO y BUCK ESMERALDA, de excelente comportamiento agronómico y con una calidad industrial acorde a las necesidades de la industria fideera nacional.
         </h1>
       </v-flex>
-      <v-flex xs12 lg3 row justify-center align-center>
+      <v-flex xs3 lg3 row justify-center align-center>
         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/Catalogo%20Buck%202019.pdf?alt=media&token=d6769b58-3fb3-4e41-8b8b-69a1104f534c">
           <parallax-container>
             <parallax-element :parallax-strength="15" :type="'depth'">
-              <v-layout>
-                <v-flex row justify-center align-center>
-                  <v-img
-                    style="margin-left: 2%; margin-top: 1%; box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12)"
-                    src="/Cat.webp"
-                    max-width="50%"
-                    contain
-                  />
-                </v-flex>
-              </v-layout>
+              <!-- <v-layout> -->
+              <v-flex row justify-center align-center>
+                <v-img
+                  style="width: 350px; margin-left: 2%; margin-top: 1%; box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12)"
+                  src="/Cat.webp"
+                  max-width="100%"
+                />
+              </v-flex>
+              <!-- </v-layout> -->
             </parallax-element>
           </parallax-container>
         </a>
