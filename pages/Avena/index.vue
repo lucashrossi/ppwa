@@ -1,16 +1,16 @@
 <template>
   <v-container>
-    <v-flex row justify-center style="margin-top: 60px;">
+    <v-flex row justify-center style="margin-top: 60px; margin-left: 0%">
       <h2 style="font-family: 'Times New Roman'; font-size: 2vw; color: rgba(180, 0, 0, 1);">
         AVENA
       </h2>
     </v-flex>
-    <v-flex row justify-center>
+    <v-flex row justify-center style="margin-left: 0%">
       <h2 style="font-family: 'Times New Roman'; font-size: 1.1vw; margin-top: 30px;">
         &nbsp;&nbsp;Además este año ofrecemos, la nueva variedad de avena BONAERENSE INTA YAPA.
       </h2>
     </v-flex>
-    <v-flex row justify-center style="padding-bottom: 30px; border-bottom: 4px solid green">
+    <v-flex row justify-center style="padding-bottom: 30px; border-bottom: 4px solid green; margin-left: 0%">
       <v-flex lg4 style="margin-top: 5%;">
         <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
           <v-card

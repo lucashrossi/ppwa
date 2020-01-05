@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <v-flex row justify-center style="margin-top: 60px;">
+    <v-flex row justify-center style="margin-top: 60px; margin-left: 0%">
       <h1 style="font-family: 'Times New Roman'; font-size: 2vw; color: rgba(180, 0, 0, 1);">
         BUCK RESPLANDOR
       </h1>
@@ -15,7 +15,7 @@
         variedad de Grupo 1 de Calidad.
       </h1>
     </v-flex>
-    <v-layout row justify-space-between>
+    <v-layout row justify-space-between style="margin-left: 0%">
       <v-flex xs12 md4 style="margin-top: 6%">
         <v-card
           class="mx-auto"
@@ -57,7 +57,7 @@
             </v-card-actions> -->
         </v-card>
       </v-flex>
-      <v-flex xs12 md4 row justify-center>
+      <v-flex xs12 md4 row justify-center style="margin-left: 0%">
         <v-img
           src="/cresp.webp"
           max-width="60%"
@@ -65,7 +65,7 @@
           contain
         />
       </v-flex>
-      <v-flex xs12 md4 row justify-center>
+      <v-flex xs12 md4 row justify-center style="margin-left: 0%">
         <v-img
           src="/mapresp.webp"
           max-width="90%"

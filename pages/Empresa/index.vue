@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <v-flex row justify-center style="margin-top: 60px;">
+    <v-flex row justify-center style="margin-top: 60px; margin-left: 0%">
       <h2 style="font-family: 'Times New Roman'; font-size: 2vw; color: rgba(180, 0, 0, 1);">
         UN SITIO CON HISTORIA
       </h2>
@@ -23,7 +23,7 @@
         />
       </v-flex>
     </v-flex>
-    <v-flex row justify-center style="margin-top: -4%;">
+    <v-flex row justify-center style="margin-top: -4%; margin-left: 0%">
       <v-flex lg6>
         <h2 style="font-family: 'Times New Roman'; font-size: 1.1vw; margin-top: 10%; margin-bottom: 10%;">
           &nbsp;&nbsp;Seguro de un porvenir próspero, José Buck viajó a Alemania para casarse con María Ana Hummler y a poco de regresar arrendó trescientas hectáreas de campo en Defferrari (Necochea), para desarrollar su propio programa de mejoramiento.

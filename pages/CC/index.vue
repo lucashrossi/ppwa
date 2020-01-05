@@ -1,29 +1,29 @@
 <template>
   <v-container>
-    <v-flex row justify-center style="margin-top: 60px;">
+    <v-flex row justify-center style="margin-top: 60px; margin-left: 0%">
       <h2 style="font-family: 'Times New Roman'; font-size: 2vw; color: rgba(180, 0, 0, 1);">
         REGALIA EXTENDIDA
       </h2>
     </v-flex>
-    <v-flex row justify-center>
+    <v-flex row justify-center style="margin-left: 0%">
       <h2 style="font-family: 'Times New Roman'; font-size: 1.1vw; margin-top: 20px;">
         &nbsp;&nbsp;Todas las variedades de TRIGO ofrecidas se comercializan con la modalidad de Regalía Extendida, ya conocida por todos, y que implica que los agricultores que guarden semilla de su propia cosecha para utilizar en sus propias explotaciones deberán pagar a Buck Semillas S.A. una determinada cantidad de dinero en concepto de Canon Tecnológico.
       </h2>
     </v-flex>
-    <v-flex row justify-center>
+    <v-flex row justify-center style="margin-left: 0%">
       <h2 style="font-family: 'Times New Roman'; font-size: 1.1vw; margin-top: 10px;">
         &nbsp;&nbsp;Por cada hectárea que el agricultor, usuario, multiplicador o comprador haya sembrado con dicha/s variedad/es el valor del canon es:
       </h2>
     </v-flex>
-    <v-layout row justify-center style="margin-top: 1.5%;">
-      <v-flex xs6 md2 row justify-center>
+    <v-layout row justify-center style="margin-top: 1.5%; margin-left: 0%">
+      <v-flex xs6 md2 row justify-center style="margin-left: 0%">
         <v-img
           src="/MAA.webp"
           max-width="60%"
           contain
         />
       </v-flex>
-      <v-flex xs12 md8 row justify-center>
+      <v-flex xs12 md8 row justify-center style="margin-left: 0%">
         <v-img
           src="/RE.webp"
           max-width="50%"
@@ -31,7 +31,7 @@
           contain
         />
       </v-flex>
-      <v-flex xs6 md2 row justify-center>
+      <v-flex xs6 md2 row justify-center style="margin-left: 0%">
         <v-img
           src="/ArPov.webp"
           max-width="60%"
@@ -40,7 +40,7 @@
       </v-flex>
     </v-layout>
     <v-layout justify-center>
-      <v-flex xs6 md2 row justify-center>
+      <v-flex xs6 md2 row justify-center style="margin-left: 0%">
         <v-img
           style="margin-top: 30px; margin-bottom: 20px"
           src="/RegExt.webp"
@@ -49,8 +49,8 @@
         />
       </v-flex>
     </v-layout>
-    <v-layout row justify-center>
-      <v-flex xs12 md6 row justify-center>
+    <v-layout row justify-center style="margin-left: 0%">
+      <v-flex xs12 md6 row justify-center style="margin-left: 0%">
         <v-list dense style="margin-left: -3%">
           <v-list-item style="font-family: 'Times New Roman'; font-size: 1vw; min-height: 20px">
             ARPOV –
@@ -78,7 +78,7 @@
           </v-list-item>
         </v-list>
       </v-flex>
-      <v-flex xs12 md6 row justify-center>
+      <v-flex xs12 md6 row justify-center style="margin-left: 0%">
         <v-list dense>
           <v-list-item style="font-family: 'Times New Roman'; font-size: 1vw; min-height: 20px">
             INTA –
