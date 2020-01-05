@@ -130,9 +130,9 @@
             <v-img
               src="/Logot.webp"
               contain
-              max-width="50%"
-              width="550px"
-              style="margin-top: 4%;"
+              max-width="40%"
+              width="650px"
+              style="margin-top: 4%; margin-left: -18%"
             />
           </v-flex>
           <!-- <v-img
@@ -148,7 +148,7 @@
         </nuxt-link>
         <!-- </a> -->
       </v-toolbar-title>
-      <v-spacer style="margin-right: -10%" />
+      <v-spacer style="margin-right: -18%" />
       <div class="text-center, hidden-md-and-down">
         <v-menu offset-y open-on-hover>
           <template v-slot:activator="{ on }">
