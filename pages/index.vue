@@ -187,7 +187,7 @@
       </h1>
     </v-flex>
     <v-flex row justify-center style="margin-top: 4%; margin-left: 0%">
-      <h1 style="font-family: 'Times New Roman'; font-size: 1.5vw;">
+      <h1 style="font-family: 'Times New Roman'; font-size: 1.1vw;">
         &nbsp;&nbsp;Este año ofrecemos once variedades de Trigo Pan, entre las que destacamos el lanzamiento de dos nuevas variedades de ciclo largo y alto potencial de rendimiento: BUCK RESPLANDOR de Grupo 1 de Calidad y BUCK CUMELÉN de Grupo 2 de Calidad.
         <br>
         &nbsp;&nbsp;La Calidad del Trigo ha sido desde siempre uno de nuestros principales objetivos, muestra de ello es que de las once variedades ofrecidas cinco pertenecen al Grupo 1 de Calidad con muy buenas cualidades agronómicas. Tal es el caso del ya mencionado BUCK RESPLANDOR y los ya conocidos BUCK DESTELLO (ciclo largo), BUCK METEORO y BUCK CAMBÁ (ciclo intermedio) y BUCK SAETA (ciclo corto).
@@ -195,7 +195,7 @@
     </v-flex>
     <v-layout row justify-space-around style="margin-left: 0%">
       <v-flex xs12 lg4 row justify-center style="margin-top: 4%; margin-left: 0%">
-        <h1 style="font-family: 'Times New Roman'; font-size: 1.5vw;">
+        <h1 style="font-family: 'Times New Roman'; font-size: 1.1vw;">
           &nbsp;&nbsp;La campaña de Trigo 2018 fue la de mayor volumen de producción de nuestro país. Los resultados obtenidos en la RET y otros ensayos, además de la información de productores, nos permiten destacar el comportamiento de nuestras variedades BUCK DESTELLO, BUCK METEORO, BUCK SAETA, BUCK® SY120, BUCK® SY211 y BUCK® SY330.
           <br>
           &nbsp;&nbsp;Respecto a los Trigos Candeales vale destacar el nuevo cultivar BUCK PERLA, de ciclo corto y muy alto potencial de rendimiento, que se suma a los ya conocidos BUCK ZAFIRO y BUCK ESMERALDA, de excelente comportamiento agronómico y con una calidad industrial acorde a las necesidades de la industria fideera nacional.
@@ -226,7 +226,7 @@
         </a>
       </v-flex>
       <v-flex xs12 lg4 row justify-center style="margin-top: 4%; margin-left: 0%">
-        <h1 style="font-family: 'Times New Roman'; font-size: 1.5vw;">
+        <h1 style="font-family: 'Times New Roman'; font-size: 1.1vw;">
           &nbsp;&nbsp;A través de nuestro Convenio con la Chacra Experimental Integrada de Barrow ofrecemos, bajo licencia, las variedades de Avena: BONAERENSE INTA MANÁ, BONAERENSE INTA AIKÉN y la nueva variedad
           BONAERENSE INTA YAPA, todas ellas de excelente rendimiento potencial y adaptación a los diferentes requerimientos forrajeros. Desde hace más de 30 años nuestra empresa incursiona en el mejoramiento y comercialización de Híbridos de Girasol.
           <br>
@@ -235,8 +235,8 @@
       </v-flex>
     </v-layout>
     <v-flex row justify-center style="margin-top: 4%; margin-left: 0%">
-      <h1 style="font-family: 'Times New Roman'; font-size: 2.5vw;">
-        <a href="mailto:bucksem@bucksemillas.com.ar" style="text-decoration: none; color: #000000;">
+      <h1 style="font-family: 'Times New Roman'; font-size: 2.5vw;" class="tat">
+        <a href="mailto:bucksem@bucksemillas.com.ar" class="ca" style="text-decoration: none;">
           Consulte Beneficios Pre-Campaña!
         </a>
       </h1>
@@ -285,6 +285,30 @@ export default {
   height: auto;
   max-width: 160px;
   margin-top: 2%;
+}
+.tat {
+  transition: all 0.8s;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: ef;
+
+}
+.tat:hover {
+  text-shadow: 1px 1px rgba(180, 0, 0, 1);
+  transition: all 0.2s;
+  letter-spacing: 5px;
+}
+.ca {
+  color: rgba(180, 0, 0, 1);
+}
+.ca:hover {
+  color: rgb(224, 3, 3);
+}
+@keyframes ef {
+   0%{ transform: scale(1,1); }
+   10%{ transform: scale(1.3,1.1); }
+   /* 30%{ transform: scale(1.2,1.3); } */
+   100%{ transform: scale(1,1); }
 }
 
 </style>
