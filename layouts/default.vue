@@ -236,9 +236,9 @@
     </v-content>
     <v-footer>
       <p style="padding: 5px 0px 0px 5px; font-size: 1.2vw; margin-bottom: 0px;">
-        &copy; &nbsp;
+        &copy;
       </p>
-      <span style="padding: 0px 0px 0px 5px; font-size: 0.9vw; margin-top: 4px;">2019</span>
+      <span style="padding: 0px 0px 0px 5px; font-size: 0.9vw; margin-top: 4px;">2020</span>
       <v-spacer />
       <v-flex>
         <p style="padding: 2px 0px 0px 0px; font-size: 0.8vw; margin-bottom: 0px;">

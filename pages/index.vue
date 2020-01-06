@@ -178,11 +178,9 @@
       </v-flex>
     </v-flex>
     <v-flex row justify-center style="margin-top: 4%; margin-left: 0%">
-      <h1 style="font-family: 'Times New Roman'; font-size: 3vw;">
-        Campaña &nbsp;
-        <span style="color:red; font-size: 4vw;">
-          2019-2020
-        </span>
+      <h1 style="font-family: 'Times New Roman'; font-size: 2.5vw;">
+        Campaña&nbsp;
+        <span style="color:red; font-size: 3vw;">2019-2020</span>
         &nbsp;Semillas
       </h1>
     </v-flex>
@@ -193,8 +191,13 @@
         &nbsp;&nbsp;La Calidad del Trigo ha sido desde siempre uno de nuestros principales objetivos, muestra de ello es que de las once variedades ofrecidas cinco pertenecen al Grupo 1 de Calidad con muy buenas cualidades agronómicas. Tal es el caso del ya mencionado BUCK RESPLANDOR y los ya conocidos BUCK DESTELLO (ciclo largo), BUCK METEORO y BUCK CAMBÁ (ciclo intermedio) y BUCK SAETA (ciclo corto).
       </h1>
     </v-flex>
-    <v-layout row justify-space-around style="margin-left: 0%">
-      <v-flex xs12 lg4 row justify-center style="margin-top: 4%; margin-left: 0%">
+    <v-layout row justify-space-between style="margin-left: 0%">
+      <v-flex
+        xs12
+        lg4
+        row
+        style="margin-top: 4%; margin-left: 0%"
+      >
         <h1 style="font-family: 'Times New Roman'; font-size: 1.1vw;">
           &nbsp;&nbsp;La campaña de Trigo 2018 fue la de mayor volumen de producción de nuestro país. Los resultados obtenidos en la RET y otros ensayos, además de la información de productores, nos permiten destacar el comportamiento de nuestras variedades BUCK DESTELLO, BUCK METEORO, BUCK SAETA, BUCK® SY120, BUCK® SY211 y BUCK® SY330.
           <br>
@@ -202,18 +205,18 @@
         </h1>
       </v-flex>
       <v-flex
-        xs3
+        xs12
         lg3
         row
-        justify-center
         align-center
+        justify-center
         style="margin-left: 0%"
       >
         <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/Catalogo%20Buck%202019.pdf?alt=media&token=d6769b58-3fb3-4e41-8b8b-69a1104f534c">
           <parallax-container>
             <parallax-element :parallax-strength="15" :type="'depth'">
               <!-- <v-layout> -->
-              <v-flex row justify-center align-center style="margin-left: 0%">
+              <v-flex row style="margin-left: 0%">
                 <v-img
                   style="width: 320px; margin-top: 3%; box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12)"
                   src="/Cat.webp"
@@ -235,7 +238,7 @@
       </v-flex>
     </v-layout>
     <v-flex row justify-center style="margin-top: 4%; margin-left: 0%">
-      <h1 style="font-family: 'Times New Roman'; font-size: 2.5vw;" class="tat">
+      <h1 style="font-family: 'Times New Roman'; font-size: 2vw;" class="tat">
         <a href="mailto:bucksem@bucksemillas.com.ar" class="ca" style="text-decoration: none;">
           Consulte Beneficios Pre-Campaña!
         </a>
