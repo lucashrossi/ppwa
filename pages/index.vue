@@ -305,7 +305,7 @@ export default {
   color: rgba(180, 0, 0, 1);
 }
 .ca:hover {
-  color: rgb(224, 3, 3);
+  color: rgb(255, 0, 0);
 }
 @keyframes ef {
    0%{ transform: scale(1,1); }

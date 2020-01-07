@@ -89,8 +89,8 @@
         </v-list-item> -->
         <v-list-item
           link
-          target="_blank"
-          href="mailto:bucksem@bucksemillas.com.ar"
+          to="/Contacto"
+          nuxt
         >
           <v-list-item-content>
             <v-list-item-title style="font-size: 12px; font-family: 'Times New Roman';">
@@ -219,10 +219,10 @@
           Webmail
         </v-btn> -->
         <v-btn
-          target="_blank"
-          href="mailto:bucksem@bucksemillas.com.ar"
+          to="/Contacto"
           text
           style="font-size: 12px; font-family: 'Times New Roman'; width: 100px;"
+          nuxt
         >
           Contacto
         </v-btn>
