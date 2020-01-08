@@ -1,5 +1,10 @@
 <template>
-  <v-container fluid style="margin-top: 70px;">
+  <v-container fluid>
+    <v-flex row justify-center style="margin-top: 60px; margin-left: 0%">
+      <h2 style="font-family: 'Times New Roman'; font-size: 2vw; color: rgba(180, 0, 0, 1);">
+        SEMILLEROS FISCALIZADORES
+      </h2>
+    </v-flex>
     <v-layout flex align-center justify-center>
       <v-flex xs12>
         <v-card>
