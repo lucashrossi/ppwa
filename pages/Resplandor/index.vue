@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-flex row justify-center style="margin-top: 60px; margin-left: 0%">
-      <h1 style="font-family: 'Times New Roman'; font-size: 2vw; color: rgba(180, 0, 0, 1);">
+      <h1 style="font-family: 'Times New Roman'; font-size: 1.6vw; color: rgba(180, 0, 0, 1);">
         BUCK RESPLANDOR
       </h1>
       <h1 style="font-family: 'Times New Roman'; font-size: 1.1vw; margin-top: 30px;">
