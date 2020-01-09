@@ -31,13 +31,13 @@
           <v-flex xs12 sm6 md6 lg3>
             <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
               <v-layout row justify-center style="margin-left: 0%">
-                <v-flex xs4 sm4>
+                <v-flex xs4 sm4 lg4>
                   <v-img
                     src="/b1.webp"
                     contain
                   />
                 </v-flex>
-                <v-flex xs8 sm9>
+                <v-flex xs8 sm8 lg9>
                   <h2 style="text-align: center; font-family: 'Times New Roman'; font-size:20px; color: rgba(180, 0, 0, 1);">
                     Resplandor
                   </h2>
@@ -49,13 +49,13 @@
           <v-flex xs12 sm6 md6 lg3>
             <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
               <v-layout row justify-center style="margin-left: 0%">
-                <v-flex xs4 sm4>
+                <v-flex xs4 sm4 lg4>
                   <v-img
                     src="/b1.webp"
                     contain
                   />
                 </v-flex>
-                <v-flex xs8 sm9>
+                <v-flex xs8 sm8 lg9>
                   <h2 style="text-align: center; font-family: 'Times New Roman'; font-size:20px; color: rgba(180, 0, 0, 1);">
                     Resplandor
                   </h2>
@@ -67,13 +67,13 @@
           <v-flex xs12 sm6 md6 lg3>
             <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
               <v-layout row justify-center style="margin-left: 0%">
-                <v-flex xs4 sm4>
+                <v-flex xs4 sm4 lg4>
                   <v-img
                     src="/b1.webp"
                     contain
                   />
                 </v-flex>
-                <v-flex xs8 sm9>
+                <v-flex xs8 sm8 lg9>
                   <h2 style="text-align: center; font-family: 'Times New Roman'; font-size:20px; color: rgba(180, 0, 0, 1);">
                     Resplandor
                   </h2>
@@ -85,13 +85,13 @@
           <v-flex xs12 sm6 md6 lg3>
             <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
               <v-layout row justify-center style="margin-left: 0%">
-                <v-flex xs4 sm4>
+                <v-flex xs4 sm4 lg4>
                   <v-img
                     src="/b1.webp"
                     contain
                   />
                 </v-flex>
-                <v-flex xs8 sm9>
+                <v-flex xs8 sm8 lg9>
                   <h2 style="text-align: center; font-family: 'Times New Roman'; font-size:20px; color: rgba(180, 0, 0, 1);">
                     Resplandor
                   </h2>
