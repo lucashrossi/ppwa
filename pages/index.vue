@@ -25,43 +25,88 @@
           />
         </div>
       </v-flex>
-      <v-flex row xs10 justify-center style="margin-left: 0%">
+      <v-flex row justify-center style="margin-left: 0%">
+        <v-spacer class="hidden-md-and-down" />
         <div>
           <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
-            <v-img
-              src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/WheatCC.png?alt=media&token=a1d032b0-53eb-4008-b688-3022269b4497"
-              contain
-              max-width="50%"
-            />
+            <v-layout row justify-center style="margin-left: 0%">
+              <v-flex xs4 sm12>
+                <v-img
+                  src="/b1.webp"
+                  contain
+                  max-width="25%"
+                  style="margin-left: 37%"
+                />
+              </v-flex>
+              <v-flex xs8 sm12>
+                <h2 style="text-align: center; font-family: 'Times New Roman'; font-size: 1.6vw; color: rgba(180, 0, 0, 1);">
+                  Resplandor
+                </h2>
+              </v-flex>
+            </v-layout>
           </nuxt-link>
         </div>
+        <v-spacer class="hidden-md-and-down" />
         <div>
           <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
-            <v-img
-              src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/WheatCC.png?alt=media&token=a1d032b0-53eb-4008-b688-3022269b4497"
-              contain
-              max-width="50%"
-            />
+            <v-layout row justify-center style="margin-left: 0%">
+              <v-flex xs4 sm12>
+                <v-img
+                  src="/b1.webp"
+                  contain
+                  max-width="25%"
+                  style="margin-left: 37%"
+                />
+              </v-flex>
+              <v-flex xs8 sm12>
+                <h2 style="text-align: center; font-family: 'Times New Roman'; font-size: 1.6vw; color: rgba(180, 0, 0, 1);">
+                  Resplandor
+                </h2>
+              </v-flex>
+            </v-layout>
           </nuxt-link>
         </div>
+        <v-spacer class="hidden-md-and-down" />
         <div>
           <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
-            <v-img
-              src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/WheatCC.png?alt=media&token=a1d032b0-53eb-4008-b688-3022269b4497"
-              contain
-              max-width="50%"
-            />
+            <v-layout row justify-center style="margin-left: 0%">
+              <v-flex xs4 sm12>
+                <v-img
+                  src="/b1.webp"
+                  contain
+                  max-width="25%"
+                  style="margin-left: 37%"
+                />
+              </v-flex>
+              <v-flex xs8 sm12>
+                <h2 style="text-align: center; font-family: 'Times New Roman'; font-size: 1.6vw; color: rgba(180, 0, 0, 1);">
+                  Resplandor
+                </h2>
+              </v-flex>
+            </v-layout>
           </nuxt-link>
         </div>
+        <v-spacer class="hidden-md-and-down" />
         <div>
           <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
-            <v-img
-              src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/WheatCC.png?alt=media&token=a1d032b0-53eb-4008-b688-3022269b4497"
-              contain
-              max-width="50%"
-            />
+            <v-layout row justify-center style="margin-left: 0%">
+              <v-flex xs4 sm12>
+                <v-img
+                  src="/b1.webp"
+                  contain
+                  max-width="25%"
+                  style="margin-left: 37%"
+                />
+              </v-flex>
+              <v-flex xs8 sm12>
+                <h2 style="text-align: center; font-family: 'Times New Roman'; font-size: 1.6vw; color: rgba(180, 0, 0, 1);">
+                  Resplandor
+                </h2>
+              </v-flex>
+            </v-layout>
           </nuxt-link>
         </div>
+        <v-spacer class="hidden-md-and-down" />
       </v-flex>
     </v-layout>
     <div
