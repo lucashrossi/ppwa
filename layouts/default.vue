@@ -128,6 +128,7 @@
         <nuxt-link to="/">
           <v-flex row justify-center align-center>
             <v-img
+              id="home"
               src="/Logot.webp"
               contain
               max-width="40%"
