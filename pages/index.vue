@@ -251,7 +251,7 @@
         justify-center
         style="margin-left: 0%"
       >
-        <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/Catalogo%20Buck%202019.pdf?alt=media&token=d6769b58-3fb3-4e41-8b8b-69a1104f534c">
+        <a id="Catalogo" target="_blank" href="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/Catalogo%20Buck%202019.pdf?alt=media&token=d6769b58-3fb3-4e41-8b8b-69a1104f534c">
           <parallax-container>
             <parallax-element :parallax-strength="15" :type="'depth'">
               <!-- <v-layout> -->
