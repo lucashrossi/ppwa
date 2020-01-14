@@ -128,7 +128,6 @@
         <nuxt-link to="/">
           <v-flex row justify-center align-center>
             <v-img
-              srcset="/Logot.png"
               src="/Logot.png"
               contain
               max-width="40%"
