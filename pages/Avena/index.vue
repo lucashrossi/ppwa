@@ -21,7 +21,7 @@
           >
             <v-img
               class="white--text align-end"
-              src="/bolsas.webp"
+              src="/bolsas.png"
             >
               <v-card-title style="color: #ff0000">
                 Bonaerense Inta Yapa
@@ -63,7 +63,7 @@
           <v-img
             class="white--text align-end"
             height="200px"
-            src="/bolsas.webp"
+            src="/bolsas.png"
           >
             <v-card-title>Bonaerense Inta Aikén</v-card-title>
           </v-img>
@@ -104,7 +104,7 @@
           <v-img
             class="white--text align-end"
             height="200px"
-            src="/bolsas.webp"
+            src="/bolsas.png"
           >
             <v-card-title>Bonaerense Inta Maná</v-card-title>
           </v-img>

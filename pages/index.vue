@@ -16,8 +16,16 @@
             max-width="50%"
             style="margin-left: 10%"
           /> -->
+          <!-- <picture>
+            <source srcset="/WheatCC.webp" type="image/webp">
+            <source srcset="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/WheatCC.png?alt=media&token=6ab4d497-24b6-4b4d-acde-9589d29ed539" type="image/png">
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/WheatCC.png?alt=media&token=6ab4d497-24b6-4b4d-acde-9589d29ed539"
+              style="max-width: 50%; height: 192px; margin-left: 10%"
+            >
+          </picture> -->
           <v-img
-            src="/WheatCC.webp"
+            src="/WheatCC.png"
             contain
             max-width="50%"
             height="192px"
@@ -33,7 +41,7 @@
               <v-layout row justify-center style="margin-left: 0%">
                 <v-flex xs4 sm4 lg4>
                   <v-img
-                    src="/b1.webp"
+                    src="/b1.png"
                     contain
                   />
                 </v-flex>
@@ -51,7 +59,7 @@
               <v-layout row justify-center style="margin-left: 0%">
                 <v-flex xs4 sm4 lg4>
                   <v-img
-                    src="/b1.webp"
+                    src="/b1.png"
                     contain
                   />
                 </v-flex>
@@ -69,7 +77,7 @@
               <v-layout row justify-center style="margin-left: 0%">
                 <v-flex xs4 sm4 lg4>
                   <v-img
-                    src="/b1.webp"
+                    src="/b1.png"
                     contain
                   />
                 </v-flex>
@@ -87,7 +95,7 @@
               <v-layout row justify-center style="margin-left: 0%">
                 <v-flex xs4 sm4 lg4>
                   <v-img
-                    src="/b1.webp"
+                    src="/b1.png"
                     contain
                   />
                 </v-flex>
@@ -120,7 +128,7 @@
                     style="margin-left: 18%"
                   /> -->
                   <v-img
-                    src="/GirasolC.webp"
+                    src="/GirasolC.png"
                     contain
                     max-width="90%"
                     style="margin-left: 18%"
@@ -131,7 +139,7 @@
                 <div>
                   <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
                     <v-img
-                      src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/GirasolC.png?alt=media&token=94d8832b-5b1a-4a39-9652-34a727f6cb00"
+                      src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/GirasolC.png?alt=media&token=e734b661-9d1d-4d0a-9220-c35dfd7f0c0a"
                       contain
                       max-width="90%"
                     />
@@ -140,7 +148,7 @@
                 <div>
                   <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
                     <v-img
-                      src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/GirasolC.png?alt=media&token=94d8832b-5b1a-4a39-9652-34a727f6cb00"
+                      src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/GirasolC.png?alt=media&token=e734b661-9d1d-4d0a-9220-c35dfd7f0c0a"
                       contain
                       max-width="90%"
                     />
@@ -167,7 +175,7 @@
                     style="margin-left: 15%"
                   /> -->
                   <v-img
-                    src="/AvenaCCC.webp"
+                    src="/AvenaCCC.png"
                     contain
                     max-width="90%"
                     style="margin-left: 15%"
@@ -178,7 +186,7 @@
                 <div>
                   <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
                     <v-img
-                      src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/AvenaCCC.png?alt=media&token=8425f225-c036-43b0-855a-f4135d8d8716"
+                      src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/AvenaCCC.png?alt=media&token=837a5a97-b2a0-4904-b988-febf0794d814"
                       contain
                       max-width="90%"
                     />
@@ -258,7 +266,7 @@
               <v-flex row style="margin-left: 0%">
                 <v-img
                   style="width: 320px; margin-top: 3%; box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12)"
-                  src="/Cat.webp"
+                  src="/Cat.png"
                   max-width="100%"
                 />
               </v-flex>
@@ -291,14 +299,20 @@
     </v-flex> -->
     <!-- <img class="responsive" src="/paralaxD.webp"> -->
     <!-- <v-parallax src="/paralaxD.webp" style="margin-left: -6%; margin-right: -6%; margin-top: 2%;" /> -->
-    <v-parallax src="/paralaxD.webp" style="margin-left: -4.8%; margin-right: -4.8%; margin-top: 2%;" />
+    <!-- <v-parallax src="/paralaxD.webp" style="margin-left: -4.8%; margin-right: -4.8%; margin-top: 2%;" /> -->
+    <v-parallax src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/paralaxD.png?alt=media&token=a23119d9-716d-4e91-8c5e-29b667044a9c" style="margin-left: -4.8%; margin-right: -4.8%; margin-top: 2%;" />
     <!-- <v-flex row justify-center style="margin-top: 4%;">
       <h1 style="font-family: 'Times New Roman'; font-size: 2vw;">
         Comience a trabajar con nuestros productos, sea parte de Buck Semillas.
       </h1>
     </v-flex> -->
     <v-flex row justify-center style="margin-left: 0%">
-      <img class="responsivef" src="/logo_footer.webp">
+      <!-- <picture>
+        <source srcset="/logo_footer.webp" type="image/webp">
+        <source srcset="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/logo_footer.png?alt=media&token=6f792ac5-454b-48c1-abe6-89f7297c7456" type="image/png">
+        <img class="responsivef" src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/logo_footer.png?alt=media&token=6f792ac5-454b-48c1-abe6-89f7297c7456">
+      </picture> -->
+      <img class="responsivef" src="/logo_footer.png">
     </v-flex>
   </v-container>
 </template>

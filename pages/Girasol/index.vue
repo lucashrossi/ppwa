@@ -21,7 +21,7 @@
           >
             <v-img
               class="white--text align-end"
-              src="/bolsas.webp"
+              src="/bolsas.png"
             >
               <v-card-title style="color: #ff0000">
                 Buck 363CL
@@ -63,7 +63,7 @@
           <v-img
             class="white--text align-end"
             height="200px"
-            src="/bolsas.webp"
+            src="/bolsas.png"
           >
             <v-card-title>Buck 355CL</v-card-title>
           </v-img>

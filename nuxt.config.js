@@ -48,9 +48,8 @@ export default {
   */
   modules: [
     '@nuxtjs/pwa',
-    ['@nuxtjs/google-analytics', {
-      id: 'UA-154200983-2'
-    }]
+    ['@nuxtjs/google-analytics', { id: 'UA-154200983-2' }],
+    ['@nuxtjs/google-tag-manager', { id: 'GTM-KZ6F66F' }]
   ],
   pwa: {
     manifest: {

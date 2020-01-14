@@ -19,7 +19,7 @@
           >
             <v-img
               class="white--text align-end"
-              src="/bolsas.webp"
+              src="/bolsas.png"
             >
               <v-card-title style="color: #ff0000">
                 Buck Resplandor
@@ -60,7 +60,7 @@
         >
           <v-img
             class="white--text align-end"
-            src="/bolsas.webp"
+            src="/bolsas.png"
           >
             <v-card-title>Buck Cumelén</v-card-title>
           </v-img>
@@ -101,7 +101,7 @@
           <v-img
             class="white--text align-end"
             height="200px"
-            src="/bolsas.webp"
+            src="/bolsas.png"
           >
             <v-card-title>Top 10 Australian beaches</v-card-title>
           </v-img>
@@ -144,7 +144,7 @@
           <v-img
             class="white--text align-end"
             height="200px"
-            src="/bolsas.webp"
+            src="/bolsas.png"
           >
             <v-card-title>Top 10 Australian beaches</v-card-title>
           </v-img>
@@ -185,7 +185,7 @@
           <v-img
             class="white--text align-end"
             height="200px"
-            src="/bolsas.webp"
+            src="/bolsas.png"
           >
             <v-card-title>Top 10 Australian beaches</v-card-title>
           </v-img>
@@ -226,7 +226,7 @@
           <v-img
             class="white--text align-end"
             height="200px"
-            src="/bolsas.webp"
+            src="/bolsas.png"
           >
             <v-card-title>Top 10 Australian beaches</v-card-title>
           </v-img>
@@ -267,7 +267,7 @@
           <v-img
             class="white--text align-end"
             height="200px"
-            src="/bolsas.webp"
+            src="/bolsas.png"
           >
             <v-card-title>Top 10 Australian beaches</v-card-title>
           </v-img>
@@ -307,7 +307,7 @@
     </v-flex>
     <v-flex style="margin-top: 0.5%; padding-bottom: 30px; border-bottom: 4px solid green;">
       <v-img
-        src="/ctp.webp"
+        src="/ctp.png"
         max-width="100%"
       />
     </v-flex>
@@ -318,7 +318,7 @@
     </v-flex>
     <v-flex style="margin-top: 1%;">
       <v-img
-        src="/fds.webp"
+        src="/fds.png"
         max-width="100%"
       />
     </v-flex>
