@@ -195,7 +195,7 @@
                 <div>
                   <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
                     <v-img
-                      src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/AvenaCCC.png?alt=media&token=8425f225-c036-43b0-855a-f4135d8d8716"
+                      src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/AvenaCCC.png?alt=media&token=837a5a97-b2a0-4904-b988-febf0794d814"
                       contain
                       max-width="90%"
                     />
