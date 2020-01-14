@@ -115,7 +115,7 @@
     <v-app-bar
       height="64"
       flat
-      style="font-family: 'Times New Roman';"
+      style="font-family: 'Times New Roman'; background-color: rgb(230, 230, 230);"
       fixed
     >
       <v-app-bar-nav-icon class="hidden-lg-and-up" @click.stop="drawer = !drawer" />
@@ -131,9 +131,9 @@
               id="home"
               src="/Logot.png"
               contain
-              max-width="40%"
+              max-width="50%"
               width="650px"
-              style="margin-top: 4%; margin-left: -18%"
+              style="margin-top: 6%; margin-left: -18%"
             />
           </v-flex>
           <!-- <v-img
@@ -169,7 +169,7 @@
               :key="index"
               :to="item.link"
             >
-              <v-list-item-title style="font-size: 14px; font-family: 'Times New Roman';">
+              <v-list-item-title style="font-size: 14px; font-family: 'Times New Roman'; color: rgba(0, 0, 0, 1);">
                 {{ item.title }}
               </v-list-item-title>
             </v-list-item>
@@ -196,7 +196,7 @@
           :href="item.ref"
           :target="item.tar"
           text
-          style="width: 150px; font-size: 14px; font-family: 'Times New Roman';"
+          style="width: 150px; font-size: 14px; font-family: 'Times New Roman'; color: rgba(0, 0, 0, 1);"
         >
           {{ item.title }}
         </v-btn>

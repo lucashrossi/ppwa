@@ -6,6 +6,7 @@
       </v-flex>
     </v-layout>
   </v-container> -->
+  <!-- <v-container style="background-color: rgb(230, 230, 230);"> -->
   <v-container>
     <v-layout style="margin-top: 110px; margin-bottom: -1.5%;">
       <v-flex row class="hidden-md-and-down" lg2 xl2 style="margin-left: 0%">
