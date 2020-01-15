@@ -233,11 +233,11 @@
       </h1>
     </v-flex>
     <v-flex row justify-center style="margin-top: 4%; margin-left: 0%">
-      <h1 style="font-family: 'Times New Roman'; font-size: 1.1vw;">
+      <h2 style="font-family: 'Times New Roman'; font-size: 1.1vw;">
         &nbsp;&nbsp;Este año ofrecemos once variedades de Trigo Pan, entre las que destacamos el lanzamiento de dos nuevas variedades de ciclo largo y alto potencial de rendimiento: BUCK RESPLANDOR de Grupo 1 de Calidad y BUCK CUMELÉN de Grupo 2 de Calidad.
         <br>
         &nbsp;&nbsp;La Calidad del Trigo ha sido desde siempre uno de nuestros principales objetivos, muestra de ello es que de las once variedades ofrecidas cinco pertenecen al Grupo 1 de Calidad con muy buenas cualidades agronómicas. Tal es el caso del ya mencionado BUCK RESPLANDOR y los ya conocidos BUCK DESTELLO (ciclo largo), BUCK METEORO y BUCK CAMBÁ (ciclo intermedio) y BUCK SAETA (ciclo corto).
-      </h1>
+      </h2>
     </v-flex>
     <v-layout row justify-space-between style="margin-left: 0%">
       <v-flex
@@ -246,11 +246,11 @@
         row
         style="margin-top: 4%; margin-left: 0%"
       >
-        <h1 style="font-family: 'Times New Roman'; font-size: 1.1vw;">
+        <h2 style="font-family: 'Times New Roman'; font-size: 1.1vw;">
           &nbsp;&nbsp;La campaña de Trigo 2018 fue la de mayor volumen de producción de nuestro país. Los resultados obtenidos en la RET y otros ensayos, además de la información de productores, nos permiten destacar el comportamiento de nuestras variedades BUCK DESTELLO, BUCK METEORO, BUCK SAETA, BUCK® SY120, BUCK® SY211 y BUCK® SY330.
           <br>
           &nbsp;&nbsp;Respecto a los Trigos Candeales vale destacar el nuevo cultivar BUCK PERLA, de ciclo corto y muy alto potencial de rendimiento, que se suma a los ya conocidos BUCK ZAFIRO y BUCK ESMERALDA, de excelente comportamiento agronómico y con una calidad industrial acorde a las necesidades de la industria fideera nacional.
-        </h1>
+        </h2>
       </v-flex>
       <v-flex
         xs12
@@ -321,6 +321,15 @@
 <script>
 
 export default {
+  head () {
+    return {
+      // title: `Page 1 (${this.name}-side)`,
+      title: `Home`
+      // meta: [
+      //   { hid: 'description', name: 'description', content: 'Page 1 description' }
+      // ]
+    }
+  }
 }
 </script>
 

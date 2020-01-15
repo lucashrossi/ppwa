@@ -178,6 +178,16 @@ import { required, maxLength, email } from 'vuelidate/lib/validators'
 import { axios } from 'axios'
 
 export default {
+  head () {
+    return {
+      // title: `Page 1 (${this.name}-side)`,
+      title: `Productos`
+      // meta: [
+      //   { hid: 'description', name: 'description', content: 'Page 1 description' }
+      // ]
+    }
+  },
+
   mixins: [validationMixin],
 
   validations: {

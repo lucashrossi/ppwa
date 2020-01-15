@@ -8,3 +8,18 @@
     </v-flex>
   </v-container>
 </template>
+
+<script>
+
+export default {
+  head () {
+    return {
+      // title: `Page 1 (${this.name}-side)`,
+      title: `Ensayos`
+      // meta: [
+      //   { hid: 'description', name: 'description', content: 'Page 1 description' }
+      // ]
+    }
+  }
+}
+</script>
