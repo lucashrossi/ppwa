@@ -1,5 +1,5 @@
 <template>
-  <v-container style="margin-top: 60px;">
+  <v-container style="margin-top: 70px;">
     <h2 style="text-align: center; font-family: 'Times New Roman'; font-size: 1.6vw; color: rgba(180, 0, 0, 1);">
       RET
     </h2>

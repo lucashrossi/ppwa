@@ -1,5 +1,5 @@
 <template>
-  <v-container style="margin-top: 60px;">
+  <v-container style="margin-top: 70px;">
     <v-flex style="margin-top: 60px; margin-left: 0%" row justify-center>
       <v-flex xs10 md10 lg5 style="margin-left: 0%">
         <h2 style="font-family: 'Times New Roman'; font-size: 1.1vw; color: rgba(180, 0, 0, 1); text-align: center;">

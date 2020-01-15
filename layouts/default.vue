@@ -291,3 +291,9 @@ export default {
   }
 }
 </script>
+
+<style>
+/* .v-content__wrap {
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/BUCK%202019_062.jpg?alt=media&token=85e84014-724b-474e-adc3-a605e50b3060');
+} */
+</style>

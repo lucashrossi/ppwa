@@ -301,7 +301,7 @@
     <!-- <img class="responsive" src="/paralaxD.webp"> -->
     <!-- <v-parallax src="/paralaxD.webp" style="margin-left: -6%; margin-right: -6%; margin-top: 2%;" /> -->
     <!-- <v-parallax src="/paralaxD.webp" style="margin-left: -4.8%; margin-right: -4.8%; margin-top: 2%;" /> -->
-    <v-parallax src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/paralaxD.png?alt=media&token=a23119d9-716d-4e91-8c5e-29b667044a9c" style="margin-left: -4.8%; margin-right: -4.8%; margin-top: 2%;" />
+    <v-parallax src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/BUCK%202019_062.jpg?alt=media&token=85e84014-724b-474e-adc3-a605e50b3060" style="margin-left: -4.8%; margin-right: -4.8%; margin-top: 2%;" />
     <!-- <v-flex row justify-center style="margin-top: 4%;">
       <h1 style="font-family: 'Times New Roman'; font-size: 2vw;">
         Comience a trabajar con nuestros productos, sea parte de Buck Semillas.
