@@ -126,7 +126,7 @@
         </v-btn> -->
         <!-- <a href="/"> -->
         <nuxt-link to="/">
-          <v-flex row justify-center align-center>
+          <v-flex row justify-center align-center style="width: 100%">
             <v-img
               id="home"
               src="/Logot.png"
@@ -157,7 +157,7 @@
               text
               height="60"
               to="/Productos"
-              style="width: 150px; font-size: 14px; font-family: 'Times New Roman';"
+              style="width: 110px; font-size: 13px; font-family: 'Times New Roman';"
               v-on="on"
             >
               Productos
@@ -169,7 +169,7 @@
               :key="index"
               :to="item.link"
             >
-              <v-list-item-title style="font-size: 14px; font-family: 'Times New Roman'; color: rgba(0, 0, 0, 1);">
+              <v-list-item-title style="font-size: 13px; font-family: 'Times New Roman'; color: rgba(0, 0, 0, 1);">
                 {{ item.title }}
               </v-list-item-title>
             </v-list-item>
@@ -196,7 +196,7 @@
           :href="item.ref"
           :target="item.tar"
           text
-          style="width: 150px; font-size: 14px; font-family: 'Times New Roman'; color: rgba(0, 0, 0, 1);"
+          style="width: 110px; font-size: 13px; font-family: 'Times New Roman'; color: rgba(0, 0, 0, 1);"
         >
           {{ item.title }}
         </v-btn>
@@ -207,7 +207,7 @@
           target="_blank"
           href="https://twitter.com/buck_semillas"
           text
-          style="font-size: 12px; font-family: 'Times New Roman'; width: 100px;"
+          style="font-size: 11px; font-family: 'Times New Roman'; width: 100px;"
         >
           Twitter
         </v-btn>
@@ -222,7 +222,7 @@
         <v-btn
           to="/Contacto"
           text
-          style="font-size: 12px; font-family: 'Times New Roman'; width: 100px;"
+          style="font-size: 11px; font-family: 'Times New Roman'; width: 100px;"
           nuxt
         >
           Contacto
