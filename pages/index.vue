@@ -8,16 +8,17 @@
   </v-container> -->
   <!-- <v-container style="background-color: rgb(230, 230, 230);"> -->
   <v-container>
-    <v-layout style="margin-top: 110px; margin-bottom: -1.5%;">
-      <v-flex row class="hidden-md-and-down" lg2 xl2 style="margin-left: 0%">
-        <div>
-          <!-- <v-img
+    <div style="background-size: 100% 95%; background-repeat: no-repeat; background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('/btarmt.png');">
+      <v-layout style="margin-top: 110px; margin-bottom: -1.5%;">
+        <v-flex row class="hidden-md-and-down" lg2 xl2 style="margin-left: 0%">
+          <div>
+            <!-- <v-img
             src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/WheatCC.png?alt=media&token=a1d032b0-53eb-4008-b688-3022269b4497"
             contain
             max-width="50%"
             style="margin-left: 10%"
           /> -->
-          <!-- <picture>
+            <!-- <picture>
             <source srcset="/WheatCC.webp" type="image/webp">
             <source srcset="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/WheatCC.png?alt=media&token=6ab4d497-24b6-4b4d-acde-9589d29ed539" type="image/png">
             <img
@@ -25,206 +26,207 @@
               style="max-width: 50%; height: 192px; margin-left: 10%"
             >
           </picture> -->
-          <v-img
-            src="/WheatCC.png"
-            contain
-            max-width="50%"
-            height="192px"
-            style="margin-left: 10%"
-          />
-        </div>
-      </v-flex>
-      <v-flex row justify-center style="margin-left: 0%">
-        <v-spacer class="hidden-md-and-down" />
-        <v-layout row justify-center style="margin-left: 0%">
-          <v-flex xs12 sm6 md6 lg3>
-            <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
-              <v-layout row justify-center style="margin-left: 0%">
-                <v-flex xs4 sm4 lg4>
-                  <v-img
-                    src="/b1.png"
-                    contain
-                  />
-                </v-flex>
-                <v-flex xs8 sm8 lg9>
-                  <h2 style="text-align: center; font-family: 'Times New Roman'; font-size:20px; color: rgba(180, 0, 0, 1);">
-                    Resplandor
-                  </h2>
-                </v-flex>
-              </v-layout>
-            </nuxt-link>
-          </v-flex>
+            <v-img
+              src="/WheatCC.png"
+              contain
+              max-width="50%"
+              height="192px"
+              style="margin-left: 10%"
+            />
+          </div>
+        </v-flex>
+        <v-flex row justify-center style="margin-left: 0%">
           <v-spacer class="hidden-md-and-down" />
-          <v-flex xs12 sm6 md6 lg3>
-            <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
-              <v-layout row justify-center style="margin-left: 0%">
-                <v-flex xs4 sm4 lg4>
-                  <v-img
-                    src="/b1.png"
-                    contain
-                  />
-                </v-flex>
-                <v-flex xs8 sm8 lg9>
-                  <h2 style="text-align: center; font-family: 'Times New Roman'; font-size:20px; color: rgba(180, 0, 0, 1);">
-                    Resplandor
-                  </h2>
-                </v-flex>
-              </v-layout>
-            </nuxt-link>
-          </v-flex>
+          <v-layout row justify-center style="margin-left: 0%">
+            <v-flex xs12 sm6 md6 lg3>
+              <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
+                <v-layout row justify-center style="margin-left: 0%">
+                  <v-flex xs4 sm4 lg4>
+                    <v-img
+                      src="/b1.png"
+                      contain
+                    />
+                  </v-flex>
+                  <v-flex xs8 sm8 lg9>
+                    <h2 style="text-align: center; font-family: 'Times New Roman'; font-size:20px; color: rgba(180, 0, 0, 1);">
+                      Resplandor
+                    </h2>
+                  </v-flex>
+                </v-layout>
+              </nuxt-link>
+            </v-flex>
+            <v-spacer class="hidden-md-and-down" />
+            <v-flex xs12 sm6 md6 lg3>
+              <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
+                <v-layout row justify-center style="margin-left: 0%">
+                  <v-flex xs4 sm4 lg4>
+                    <v-img
+                      src="/b1.png"
+                      contain
+                    />
+                  </v-flex>
+                  <v-flex xs8 sm8 lg9>
+                    <h2 style="text-align: center; font-family: 'Times New Roman'; font-size:20px; color: rgba(180, 0, 0, 1);">
+                      Resplandor
+                    </h2>
+                  </v-flex>
+                </v-layout>
+              </nuxt-link>
+            </v-flex>
+            <v-spacer class="hidden-md-and-down" />
+            <v-flex xs12 sm6 md6 lg3>
+              <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
+                <v-layout row justify-center style="margin-left: 0%">
+                  <v-flex xs4 sm4 lg4>
+                    <v-img
+                      src="/b1.png"
+                      contain
+                    />
+                  </v-flex>
+                  <v-flex xs8 sm8 lg9>
+                    <h2 style="text-align: center; font-family: 'Times New Roman'; font-size:20px; color: rgba(180, 0, 0, 1);">
+                      Resplandor
+                    </h2>
+                  </v-flex>
+                </v-layout>
+              </nuxt-link>
+            </v-flex>
+            <v-spacer class="hidden-md-and-down" />
+            <v-flex xs12 sm6 md6 lg3>
+              <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
+                <v-layout row justify-center style="margin-left: 0%">
+                  <v-flex xs4 sm4 lg4>
+                    <v-img
+                      src="/b1.png"
+                      contain
+                    />
+                  </v-flex>
+                  <v-flex xs8 sm8 lg9>
+                    <h2 style="text-align: center; font-family: 'Times New Roman'; font-size:20px; color: rgba(180, 0, 0, 1);">
+                      Resplandor
+                    </h2>
+                  </v-flex>
+                </v-layout>
+              </nuxt-link>
+            </v-flex>
+          </v-layout>
           <v-spacer class="hidden-md-and-down" />
-          <v-flex xs12 sm6 md6 lg3>
-            <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
-              <v-layout row justify-center style="margin-left: 0%">
-                <v-flex xs4 sm4 lg4>
-                  <v-img
-                    src="/b1.png"
-                    contain
-                  />
-                </v-flex>
-                <v-flex xs8 sm8 lg9>
-                  <h2 style="text-align: center; font-family: 'Times New Roman'; font-size:20px; color: rgba(180, 0, 0, 1);">
-                    Resplandor
-                  </h2>
-                </v-flex>
-              </v-layout>
-            </nuxt-link>
-          </v-flex>
-          <v-spacer class="hidden-md-and-down" />
-          <v-flex xs12 sm6 md6 lg3>
-            <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
-              <v-layout row justify-center style="margin-left: 0%">
-                <v-flex xs4 sm4 lg4>
-                  <v-img
-                    src="/b1.png"
-                    contain
-                  />
-                </v-flex>
-                <v-flex xs8 sm8 lg9>
-                  <h2 style="text-align: center; font-family: 'Times New Roman'; font-size:20px; color: rgba(180, 0, 0, 1);">
-                    Resplandor
-                  </h2>
-                </v-flex>
-              </v-layout>
-            </nuxt-link>
-          </v-flex>
-        </v-layout>
-        <v-spacer class="hidden-md-and-down" />
-      </v-flex>
-    </v-layout>
-    <div
-      style="height: 40px; border-bottom: 2px solid green; border-left: 2px solid green;"
-    />
-    <v-layout style="margin-top: 8%;" justify-center>
-      <v-flex row style="margin-left: 0%">
-        <v-flex>
-          <v-flex row justify-center style="margin-left: 0%">
-            <v-layout style="margin-top: 1%; margin-bottom: -3%;">
-              <v-flex row class="hidden-md-and-down" lg2 xl2 style="margin-left: 0%">
-                <div>
-                  <!-- <v-img
+        </v-flex>
+      </v-layout>
+      <div
+        style="height: 40px; border-bottom: 2px solid green; border-left: 2px solid green;"
+      />
+      <v-layout style="margin-top: 8%;" justify-center>
+        <v-flex row style="margin-left: 0%">
+          <v-flex>
+            <v-flex row justify-center style="margin-left: 0%">
+              <v-layout style="margin-top: 1%; margin-bottom: -3%;">
+                <v-flex row class="hidden-md-and-down" lg2 xl2 style="margin-left: 0%">
+                  <div>
+                    <!-- <v-img
                     src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/GirasolC.png?alt=media&token=94d8832b-5b1a-4a39-9652-34a727f6cb00"
                     contain
                     max-width="90%"
                     style="margin-left: 18%"
                   /> -->
-                  <v-img
-                    src="/GirasolC.png"
-                    contain
-                    max-width="90%"
-                    style="margin-left: 18%"
-                  />
-                </div>
-              </v-flex>
-              <v-flex row justify-center xs12 style="margin-left: 0%">
-                <div>
-                  <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
                     <v-img
-                      src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/GirasolC.png?alt=media&token=e734b661-9d1d-4d0a-9220-c35dfd7f0c0a"
+                      src="/GirasolC.png"
                       contain
                       max-width="90%"
+                      style="margin-left: 18%"
                     />
-                  </nuxt-link>
-                </div>
-                <div>
-                  <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
-                    <v-img
-                      src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/GirasolC.png?alt=media&token=e734b661-9d1d-4d0a-9220-c35dfd7f0c0a"
-                      contain
-                      max-width="90%"
-                    />
-                  </nuxt-link>
-                </div>
-              </v-flex>
-            </v-layout>
+                  </div>
+                </v-flex>
+                <v-flex row justify-center xs12 style="margin-left: 0%">
+                  <div>
+                    <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
+                      <v-img
+                        src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/GirasolC.png?alt=media&token=e734b661-9d1d-4d0a-9220-c35dfd7f0c0a"
+                        contain
+                        max-width="90%"
+                      />
+                    </nuxt-link>
+                  </div>
+                  <div>
+                    <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
+                      <v-img
+                        src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/GirasolC.png?alt=media&token=e734b661-9d1d-4d0a-9220-c35dfd7f0c0a"
+                        contain
+                        max-width="90%"
+                      />
+                    </nuxt-link>
+                  </div>
+                </v-flex>
+              </v-layout>
+            </v-flex>
+            <v-flex row justify-left style="margin-left: 0%">
+              <div
+                style="width: 95%; height: 40px; border-bottom: 2px solid green;  border-left: 2px solid green; margin-left: -1%;"
+              />
+            </v-flex>
           </v-flex>
-          <v-flex row justify-left style="margin-left: 0%">
-            <div
-              style="width: 95%; height: 40px; border-bottom: 2px solid green;  border-left: 2px solid green; margin-left: -1%;"
-            />
-          </v-flex>
-        </v-flex>
-        <v-flex>
-          <v-flex row justify-center style="margin-left: 0%">
-            <v-layout style="margin-top: 1%; margin-bottom: -3%;">
-              <v-flex row class="hidden-md-and-down" lg2 xl2 style="margin-left: 0%">
-                <div>
-                  <!-- <v-img
+          <v-flex>
+            <v-flex row justify-center style="margin-left: 0%">
+              <v-layout style="margin-top: 1%; margin-bottom: -3%;">
+                <v-flex row class="hidden-md-and-down" lg2 xl2 style="margin-left: 0%">
+                  <div>
+                    <!-- <v-img
                     src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/AvenaCCC.png?alt=media&token=8425f225-c036-43b0-855a-f4135d8d8716"
                     contain
                     max-width="90%"
                     style="margin-left: 15%"
                   /> -->
-                  <v-img
-                    src="/AvenaCCC.png"
-                    contain
-                    max-width="90%"
-                    style="margin-left: 15%"
-                  />
-                </div>
-              </v-flex>
-              <v-flex row justify-center style="margin-left: 0%">
-                <div>
-                  <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
                     <v-img
-                      src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/AvenaCCC.png?alt=media&token=837a5a97-b2a0-4904-b988-febf0794d814"
+                      src="/AvenaCCC.png"
                       contain
                       max-width="90%"
+                      style="margin-left: 15%"
                     />
-                  </nuxt-link>
-                </div>
-                <div>
-                  <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
-                    <v-img
-                      src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/AvenaCCC.png?alt=media&token=837a5a97-b2a0-4904-b988-febf0794d814"
-                      contain
-                      max-width="90%"
-                    />
-                  </nuxt-link>
-                </div>
-              </v-flex>
-            </v-layout>
-          </v-flex>
-          <v-flex row justify-left style="margin-left: 0%">
-            <div
-              style="width: 100%; height: 40px; border-bottom: 2px solid green;  border-left: 2px solid green;"
-            />
+                  </div>
+                </v-flex>
+                <v-flex row justify-center style="margin-left: 0%">
+                  <div>
+                    <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
+                      <v-img
+                        src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/AvenaCCC.png?alt=media&token=837a5a97-b2a0-4904-b988-febf0794d814"
+                        contain
+                        max-width="90%"
+                      />
+                    </nuxt-link>
+                  </div>
+                  <div>
+                    <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
+                      <v-img
+                        src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/AvenaCCC.png?alt=media&token=837a5a97-b2a0-4904-b988-febf0794d814"
+                        contain
+                        max-width="90%"
+                      />
+                    </nuxt-link>
+                  </div>
+                </v-flex>
+              </v-layout>
+            </v-flex>
+            <v-flex row justify-left style="margin-left: 0%">
+              <div
+                style="width: 100%; height: 40px; border-bottom: 2px solid green;  border-left: 2px solid green;"
+              />
+            </v-flex>
           </v-flex>
         </v-flex>
+      </v-layout>
+      <v-flex class="container">
+        <!-- <video style="width: 115%; height: auto; margin-left: -8%; margin-top: 8%;" loop autoplay muted> -->
+        <video style="width: 112%; height: auto; margin-left: -6%; margin-top: 8%;" loop autoplay muted>
+          <source src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/DemoC.mp4?alt=media&token=7c39ff6c-081d-451c-99b9-fd4b57b9abbc">
+        </video>
+        <v-flex class="overlay">
+          <v-img
+            src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/el-apelliro-de-la-semillaGT.png?alt=media&token=1274d9f2-39a0-4d26-9eb6-645e95d890f3"
+            max-width="100%"
+          />
+        </v-flex>
       </v-flex>
-    </v-layout>
-    <v-flex class="container">
-      <!-- <video style="width: 115%; height: auto; margin-left: -8%; margin-top: 8%;" loop autoplay muted> -->
-      <video style="width: 112%; height: auto; margin-left: -6%; margin-top: 8%;" loop autoplay muted>
-        <source src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/DemoC.mp4?alt=media&token=7c39ff6c-081d-451c-99b9-fd4b57b9abbc">
-      </video>
-      <v-flex class="overlay">
-        <v-img
-          src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/el-apelliro-de-la-semillaGT.png?alt=media&token=1274d9f2-39a0-4d26-9eb6-645e95d890f3"
-          max-width="100%"
-        />
-      </v-flex>
-    </v-flex>
+    </div>
     <v-flex row justify-center style="margin-top: 4%; margin-left: 0%">
       <h2 style="font-family: 'Times New Roman'; font-size: 2.5vw;">
         Campaña&nbsp;

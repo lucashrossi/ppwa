@@ -230,13 +230,17 @@
       </v-toolbar-items>
       <!-- <v-spacer class="hidden-sm-and-down" /> -->
     </v-app-bar>
-    <v-content v-if="this.$route.path === '/'" style="background: #fff; background-size: 100% 1200px; background-repeat: no-repeat; background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/fondo.png');">
-      <!-- <v-img v-if="this.$route.path === '/'" src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/BUCK%202019_062.jpg?alt=media&token=85e84014-724b-474e-adc3-a605e50b3060" /> -->
+    <!-- <v-content v-if="this.$route.path === '/'" style="background: #fff; background-size: 100% 1200px; background-repeat: no-repeat; background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/fondo.png');">
       <v-container>
         <nuxt />
       </v-container>
     </v-content>
     <v-content v-else style="background: #fff">
+      <v-container>
+        <nuxt />
+      </v-container>
+    </v-content> -->
+    <v-content style="background: #fff">
       <!-- <v-img v-if="this.$route.path === '/'" src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/BUCK%202019_062.jpg?alt=media&token=85e84014-724b-474e-adc3-a605e50b3060" /> -->
       <v-container>
         <nuxt />
