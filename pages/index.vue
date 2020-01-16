@@ -226,11 +226,11 @@
       </v-flex>
     </v-flex>
     <v-flex row justify-center style="margin-top: 4%; margin-left: 0%">
-      <h1 style="font-family: 'Times New Roman'; font-size: 2.5vw;">
+      <h2 style="font-family: 'Times New Roman'; font-size: 2.5vw;">
         Campaña&nbsp;
         <span style="color:red; font-size: 3vw;">2019-2020</span>
         &nbsp;Semillas
-      </h1>
+      </h2>
     </v-flex>
     <v-flex row justify-center style="margin-top: 4%; margin-left: 0%">
       <h2 style="font-family: 'Times New Roman'; font-size: 1.1vw;">
@@ -277,20 +277,20 @@
         </a>
       </v-flex>
       <v-flex xs12 lg4 row justify-center style="margin-top: 4%; margin-left: 0%">
-        <h1 style="font-family: 'Times New Roman'; font-size: 1.1vw;">
+        <h2 style="font-family: 'Times New Roman'; font-size: 1.1vw;">
           &nbsp;&nbsp;A través de nuestro Convenio con la Chacra Experimental Integrada de Barrow ofrecemos, bajo licencia, las variedades de Avena: BONAERENSE INTA MANÁ, BONAERENSE INTA AIKÉN y la nueva variedad
           BONAERENSE INTA YAPA, todas ellas de excelente rendimiento potencial y adaptación a los diferentes requerimientos forrajeros. Desde hace más de 30 años nuestra empresa incursiona en el mejoramiento y comercialización de Híbridos de Girasol.
           <br>
           &nbsp;&nbsp;En este año 2019 estamos presentando el ya conocido BUCK 355CL y el nuevo híbrido BUCK 363CL. Ambos híbridos son obtenciones de nuestro programa de mejoramiento con destacado comportamiento en los diferentes sitios de evaluación del cultivo de girasol.
-        </h1>
+        </h2>
       </v-flex>
     </v-layout>
     <v-flex row justify-center style="margin-top: 4%; margin-left: 0%">
-      <h1 style="font-family: 'Times New Roman'; font-size: 2vw;" class="tat">
+      <h2 style="font-family: 'Times New Roman'; font-size: 2vw;" class="tat">
         <a href="mailto:bucksem@bucksemillas.com.ar" class="ca" style="text-decoration: none;">
           Consulte Beneficios Pre-Campaña!
         </a>
-      </h1>
+      </h2>
     </v-flex>
     <!-- <v-flex class="container">
       <v-parallax src="/paralaxD.webp" style="margin-left: -2%; margin-right: -2%; margin-top: 2%;" />
@@ -303,9 +303,9 @@
     <!-- <v-parallax src="/paralaxD.webp" style="margin-left: -4.8%; margin-right: -4.8%; margin-top: 2%;" /> -->
     <v-parallax src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/BUCK%202019_062.jpg?alt=media&token=85e84014-724b-474e-adc3-a605e50b3060" style="margin-left: -4.8%; margin-right: -4.8%; margin-top: 2%;" />
     <!-- <v-flex row justify-center style="margin-top: 4%;">
-      <h1 style="font-family: 'Times New Roman'; font-size: 2vw;">
+      <h2 style="font-family: 'Times New Roman'; font-size: 2vw;">
         Comience a trabajar con nuestros productos, sea parte de Buck Semillas.
-      </h1>
+      </h2>
     </v-flex> -->
     <v-flex row justify-center style="margin-left: 0%">
       <!-- <picture>

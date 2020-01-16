@@ -36,7 +36,10 @@
     <body>
       <div id="notfound">
         <div class="notfound">
+          <br>
           <h1>Oops!</h1>
+          <br>
+          <h1>404</h1>
           <div class="notfound-404">
             <!-- <h2>404 - The Page can't be found</h2> -->
             <h1 v-if="error.statusCode === 404">
@@ -74,7 +77,7 @@ export default {
   },
   data () {
     return {
-      pageNotFound: "404 - The Page can't be found",
+      pageNotFound: "The Page can't be found",
       otherError: 'An error occurred'
     }
   }
@@ -110,7 +113,7 @@ body {
 }
 
 .notfound {
-  max-width: 520px;
+  max-width: 800px;
   width: 100%;
   line-height: 1.4;
   text-align: center;
