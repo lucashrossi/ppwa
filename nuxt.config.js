@@ -15,12 +15,14 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       // { hid: 'description', name: 'description', content: process.env.npm_package_description || '' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description },
-      { name: 'keywords', content: 'buck, trigo, semillas, girasol, avena, candeal' }
+      { hid: 'description', name: 'description', content: 'Criadero Buck - Venta de semillas de trigo, girasol, avena y candeal' },
+      { name: 'keywords', content: 'buck, semillas, trigo, girasol, avena, candeal, genetica de trigo, mejoramiento genetico de trigo, calidad de trigo' },
+      { name: 'robots', content: 'index,follow' }
     ],
     link: [
       // { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-      { rel: 'icon', type: 'image/x-icon', href: '/icon.webp' }
+      { rel: 'icon', type: 'image/x-icon', href: '/icon.webp' },
+      { rel: 'canonical', type: 'image/x-icon', href: 'https://buck-semillas.appspot.com/' }
     ]
   },
   /*

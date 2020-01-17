@@ -288,7 +288,7 @@ export default {
       items: [
         { title: 'Empresa', icon: '', link: '/Empresa' },
         { title: 'Semilleros', icon: '', link: '/Semilleros' },
-        { title: 'Regalias', icon: '', link: '/CC' },
+        { title: 'Regalias', icon: '', link: '/Regalias' },
         { title: 'Ensayos', icon: '', link: '/Ensayos' }
         // { title: 'Enlaces de Interes', icon: '', link: '/Enlaces de Interes' }
       ],

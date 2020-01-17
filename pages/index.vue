@@ -228,11 +228,11 @@
       </v-flex>
     </div>
     <v-flex row justify-center style="margin-top: 4%; margin-left: 0%">
-      <h2 style="font-family: 'Times New Roman'; font-size: 2.5vw;">
-        Campaña&nbsp;
+      <h1 style="font-family: 'Times New Roman'; font-size: 2.5vw;">
+        Campaña Trigo&nbsp;
         <span style="color:red; font-size: 3vw;">2019-2020</span>
-        &nbsp;Semillas
-      </h2>
+        &nbsp;Buck Semillas
+      </h1>
     </v-flex>
     <v-flex row justify-center style="margin-top: 4%; margin-left: 0%">
       <h2 style="font-family: 'Times New Roman'; font-size: 1.1vw;">
