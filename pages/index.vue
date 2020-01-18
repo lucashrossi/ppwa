@@ -38,16 +38,16 @@
         <v-flex row justify-center style="margin-left: 0%">
           <v-spacer class="hidden-md-and-down" />
           <v-layout row justify-center style="margin-left: 0%">
-            <v-flex xs12 sm6 md6 lg3>
+            <v-flex class="mbm" xs12 sm6 md6 lg3>
               <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
                 <v-layout row justify-center style="margin-left: 0%">
-                  <v-flex xs4 sm4 lg4>
+                  <v-flex xs2 sm2 lg4>
                     <v-img
                       src="/b1.png"
                       contain
                     />
                   </v-flex>
-                  <v-flex xs8 sm8 lg9>
+                  <v-flex xs10 sm10 lg9>
                     <h2 style="text-align: center; font-family: 'Times New Roman'; font-size:20px; color: rgba(180, 0, 0, 1);">
                       Resplandor
                     </h2>
@@ -56,16 +56,16 @@
               </nuxt-link>
             </v-flex>
             <v-spacer class="hidden-md-and-down" />
-            <v-flex xs12 sm6 md6 lg3>
+            <v-flex class="mbm" xs12 sm6 md6 lg3>
               <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
                 <v-layout row justify-center style="margin-left: 0%">
-                  <v-flex xs4 sm4 lg4>
+                  <v-flex xs2 sm2 lg4>
                     <v-img
                       src="/b1.png"
                       contain
                     />
                   </v-flex>
-                  <v-flex xs8 sm8 lg9>
+                  <v-flex xs10 sm10 lg9>
                     <h2 style="text-align: center; font-family: 'Times New Roman'; font-size:20px; color: rgba(180, 0, 0, 1);">
                       Resplandor
                     </h2>
@@ -74,16 +74,16 @@
               </nuxt-link>
             </v-flex>
             <v-spacer class="hidden-md-and-down" />
-            <v-flex xs12 sm6 md6 lg3>
+            <v-flex class="mbm" xs12 sm6 md6 lg3>
               <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
                 <v-layout row justify-center style="margin-left: 0%">
-                  <v-flex xs4 sm4 lg4>
+                  <v-flex xs2 sm2 lg4>
                     <v-img
                       src="/b1.png"
                       contain
                     />
                   </v-flex>
-                  <v-flex xs8 sm8 lg9>
+                  <v-flex xs10 sm10 lg9>
                     <h2 style="text-align: center; font-family: 'Times New Roman'; font-size:20px; color: rgba(180, 0, 0, 1);">
                       Resplandor
                     </h2>
@@ -92,16 +92,16 @@
               </nuxt-link>
             </v-flex>
             <v-spacer class="hidden-md-and-down" />
-            <v-flex xs12 sm6 md6 lg3>
+            <v-flex class="mbm" xs12 sm6 md6 lg3>
               <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
                 <v-layout row justify-center style="margin-left: 0%">
-                  <v-flex xs4 sm4 lg4>
+                  <v-flex xs2 sm2 lg4>
                     <v-img
                       src="/b1.png"
                       contain
                     />
                   </v-flex>
-                  <v-flex xs8 sm8 lg9>
+                  <v-flex xs10 sm10 lg9>
                     <h2 style="text-align: center; font-family: 'Times New Roman'; font-size:20px; color: rgba(180, 0, 0, 1);">
                       Resplandor
                     </h2>
@@ -115,6 +115,7 @@
       </v-layout>
       <div
         style="height: 40px; border-bottom: 2px solid green; border-left: 2px solid green;"
+        class="sbv"
       />
       <v-layout style="margin-top: 8%;" justify-center>
         <v-flex row style="margin-left: 0%">
@@ -162,6 +163,7 @@
             <v-flex row justify-left style="margin-left: 0%">
               <div
                 style="width: 95%; height: 40px; border-bottom: 2px solid green;  border-left: 2px solid green; margin-left: -1%;"
+                class="sbv"
               />
             </v-flex>
           </v-flex>
@@ -209,6 +211,7 @@
             <v-flex row justify-left style="margin-left: 0%">
               <div
                 style="width: 100%; height: 40px; border-bottom: 2px solid green;  border-left: 2px solid green;"
+                class="sbv"
               />
             </v-flex>
           </v-flex>
@@ -228,14 +231,14 @@
       </v-flex>
     </div>
     <v-flex row justify-center style="margin-top: 4%; margin-left: 0%">
-      <h1 style="font-family: 'Times New Roman'; font-size: 2.5vw;">
+      <h1 class="fss" style="font-family: 'Times New Roman'; font-size: 2.5vw;">
         Campaña Trigo&nbsp;
-        <span style="color:red; font-size: 3vw;">2019-2020</span>
+        <span class="fsss" style="color:red; font-size: 3vw;">2019-2020</span>
         &nbsp;Buck Semillas
       </h1>
     </v-flex>
     <v-flex row justify-center style="margin-top: 4%; margin-left: 0%">
-      <h2 style="font-family: 'Times New Roman'; font-size: 1.1vw;">
+      <h2 class="fs" style="font-family: 'Times New Roman'; font-size: 1.1vw;">
         &nbsp;&nbsp;Este año ofrecemos once variedades de Trigo Pan, entre las que destacamos el lanzamiento de dos nuevas variedades de ciclo largo y alto potencial de rendimiento: BUCK RESPLANDOR de Grupo 1 de Calidad y BUCK CUMELÉN de Grupo 2 de Calidad.
         <br>
         &nbsp;&nbsp;La Calidad del Trigo ha sido desde siempre uno de nuestros principales objetivos, muestra de ello es que de las once variedades ofrecidas cinco pertenecen al Grupo 1 de Calidad con muy buenas cualidades agronómicas. Tal es el caso del ya mencionado BUCK RESPLANDOR y los ya conocidos BUCK DESTELLO (ciclo largo), BUCK METEORO y BUCK CAMBÁ (ciclo intermedio) y BUCK SAETA (ciclo corto).
@@ -248,7 +251,7 @@
         row
         style="margin-top: 4%; margin-left: 0%"
       >
-        <h2 style="font-family: 'Times New Roman'; font-size: 1.1vw;">
+        <h2 class="fs" style="font-family: 'Times New Roman'; font-size: 1.1vw;">
           &nbsp;&nbsp;La campaña de Trigo 2018 fue la de mayor volumen de producción de nuestro país. Los resultados obtenidos en la RET y otros ensayos, además de la información de productores, nos permiten destacar el comportamiento de nuestras variedades BUCK DESTELLO, BUCK METEORO, BUCK SAETA, BUCK® SY120, BUCK® SY211 y BUCK® SY330.
           <br>
           &nbsp;&nbsp;Respecto a los Trigos Candeales vale destacar el nuevo cultivar BUCK PERLA, de ciclo corto y muy alto potencial de rendimiento, que se suma a los ya conocidos BUCK ZAFIRO y BUCK ESMERALDA, de excelente comportamiento agronómico y con una calidad industrial acorde a las necesidades de la industria fideera nacional.
@@ -268,7 +271,8 @@
               <!-- <v-layout> -->
               <v-flex row style="margin-left: 0%">
                 <v-img
-                  style="width: 320px; margin-top: 3%; box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12)"
+                  class="cat"
+                  style="width: 320px; margin-top: 5%; box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12)"
                   src="/Cat.png"
                   max-width="100%"
                 />
@@ -279,7 +283,7 @@
         </a>
       </v-flex>
       <v-flex xs12 lg4 row justify-center style="margin-top: 4%; margin-left: 0%">
-        <h2 style="font-family: 'Times New Roman'; font-size: 1.1vw;">
+        <h2 class="fs" style="font-family: 'Times New Roman'; font-size: 1.1vw;">
           &nbsp;&nbsp;A través de nuestro Convenio con la Chacra Experimental Integrada de Barrow ofrecemos, bajo licencia, las variedades de Avena: BONAERENSE INTA MANÁ, BONAERENSE INTA AIKÉN y la nueva variedad
           BONAERENSE INTA YAPA, todas ellas de excelente rendimiento potencial y adaptación a los diferentes requerimientos forrajeros. Desde hace más de 30 años nuestra empresa incursiona en el mejoramiento y comercialización de Híbridos de Girasol.
           <br>
@@ -303,7 +307,7 @@
     <!-- <img class="responsive" src="/paralaxD.webp"> -->
     <!-- <v-parallax src="/paralaxD.webp" style="margin-left: -6%; margin-right: -6%; margin-top: 2%;" /> -->
     <!-- <v-parallax src="/paralaxD.webp" style="margin-left: -4.8%; margin-right: -4.8%; margin-top: 2%;" /> -->
-    <v-parallax src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/BUCK%202019_062.jpg?alt=media&token=85e84014-724b-474e-adc3-a605e50b3060" style="margin-left: -4.8%; margin-right: -4.8%; margin-top: 2%;" />
+    <v-parallax class="prl" src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/BUCK%202019_062.jpg?alt=media&token=85e84014-724b-474e-adc3-a605e50b3060" style="margin-left: -4.8%; margin-right: -4.8%; margin-top: 2%;" />
     <!-- <v-flex row justify-center style="margin-top: 4%;">
       <h2 style="font-family: 'Times New Roman'; font-size: 2vw;">
         Comience a trabajar con nuestros productos, sea parte de Buck Semillas.
@@ -377,6 +381,48 @@ export default {
    10%{ transform: scale(1.3,1.1); }
    /* 30%{ transform: scale(1.2,1.3); } */
    100%{ transform: scale(1,1); }
+}
+@media (max-width: 599px) {
+  .fs {
+    font-size: 3vw !important;
+    /* font-size:14px; */
+  }
+  .fss {
+    font-size: 4vw !important;
+    /* font-size:14px; */
+  }
+  .fsss {
+    font-size: 4.5vw !important;
+    /* font-size:14px; */
+  }
+  .tat {
+    font-size: 4vw !important;
+    margin-bottom: 5% !important;
+    margin-top: 5% !important;
+  }
+  .tat:hover {
+  letter-spacing: 1.5px !important;
+  }
+  .prl {
+    height: 200px !important;
+  }
+  .imb {
+    max-width: 70% !important;
+  }
+  .mbm {
+    margin-bottom: 5% !important;
+  }
+}
+@media (max-width: 1263px) {
+  .cat {
+    max-width: 70% !important;
+    margin-top: 5% !important;
+    margin-left: 13% !important;
+    margin-bottom: 5% !important;
+  }
+  .sbv {
+    border-left: none !important;
+  }
 }
 
 </style>

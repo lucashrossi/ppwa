@@ -22,7 +22,7 @@
           value="true"
         >
           <template v-slot:activator>
-            <v-list-item-title style="font-size: 12px; font-family: 'Times New Roman';">
+            <v-list-item-title style="font-size: 14px; font-family: 'Times New Roman';">
               {{ item.title }}
             </v-list-item-title>
           </template>
@@ -31,7 +31,7 @@
             :key="index"
             :to="itemm.link"
           >
-            <v-list-item-title style="font-size: 12px; font-family: 'Times New Roman'; margin-left: 20px">
+            <v-list-item-title style="font-size: 14px; font-family: 'Times New Roman'; margin-left: 20px">
               {{ itemm.title }}
             </v-list-item-title>
           </v-list-item>
@@ -59,7 +59,7 @@
           link
         >
           <v-list-item-content>
-            <v-list-item-title style="font-size: 12px; font-family: 'Times New Roman';">
+            <v-list-item-title style="font-size: 14px; font-family: 'Times New Roman';">
               {{ item.title }}
             </v-list-item-title>
           </v-list-item-content>
@@ -71,7 +71,7 @@
           href="https://twitter.com/buck_semillas"
         >
           <v-list-item-content>
-            <v-list-item-title style="font-size: 12px; font-family: 'Times New Roman';">
+            <v-list-item-title style="font-size: 14px; font-family: 'Times New Roman';">
               Twitter
             </v-list-item-title>
           </v-list-item-content>
@@ -93,7 +93,7 @@
           nuxt
         >
           <v-list-item-content>
-            <v-list-item-title style="font-size: 12px; font-family: 'Times New Roman';">
+            <v-list-item-title style="font-size: 14px; font-family: 'Times New Roman';">
               Contacto
             </v-list-item-title>
           </v-list-item-content>
@@ -117,6 +117,7 @@
       flat
       style="font-family: 'Times New Roman'; background-color: rgb(230, 230, 230);"
       fixed
+      class="sbc"
     >
       <v-app-bar-nav-icon class="hidden-lg-and-up" @click.stop="drawer = !drawer" />
       <v-spacer class="hidden-lg-and-up" />
@@ -134,6 +135,7 @@
               max-width="50%"
               width="650px"
               style="margin-top: 6%; margin-left: -18%"
+              class="ibl"
             />
           </v-flex>
           <!-- <v-img
@@ -247,24 +249,25 @@
       </v-container>
     </v-content>
     <v-footer>
-      <p style="padding: 5px 0px 0px 5px; font-size: 1.2vw; margin-bottom: 0px;">
+      <p class="fs" style="padding: 5px 0px 0px 5px; font-size: 1.2vw; margin-bottom: 0px;">
         &copy;
       </p>
-      <span style="padding: 0px 0px 0px 5px; font-size: 0.9vw; margin-top: 4px;">2020</span>
+      <span class="fs" style="padding: 0px 0px 0px 5px; font-size: 0.9vw; margin-top: 4px;">2020</span>
       <v-spacer />
       <v-flex>
-        <p style="padding: 2px 0px 0px 0px; font-size: 0.8vw; margin-bottom: 0px;">
+        <p class="fs" style="padding: 2px 0px 0px 0px; font-size: 0.8vw; margin-bottom: 0px;">
           Tel.: 02262 43-4061 | Ruta 86 KM 36, 7637 | Necochea, Buenos Aires |
           <a href="mailto:bucksem@bucksemillas.com.ar">bucksem@bucksemillas.com.ar</a>
         </p>
       </v-flex>
-      <!-- <v-spacer /> -->
+      <v-spacer />
       <v-btn
         target="_blank"
         href="http://190.105.237.177/webmail"
         text
         style="font-size: 12px; font-family: 'Times New Roman';"
         x-small
+        class="wm"
       >
         Webmail
       </v-btn>
@@ -307,4 +310,21 @@ export default {
 /* .v-content__wrap {
   background-image: url('https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/BUCK%202019_062.jpg?alt=media&token=85e84014-724b-474e-adc3-a605e50b3060');
 } */
+@media (max-width: 599px) {
+  .wm {
+    font-size: 4vw !important;
+    margin-top: 3% !important;
+    margin-left: 35% !important;
+  }
+  .sbc {
+    background-color: rgb(255, 255, 255) !important;
+  }
+  .v-icon {
+    font-size: 34px !important;
+  }
+  .ibl {
+    margin-top: 0% !important;
+    margin-left: -10% !important;
+  }
+}
 </style>
