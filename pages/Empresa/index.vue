@@ -1,10 +1,10 @@
 <template>
   <v-container>
     <v-flex row justify-center style="margin-top: 70px; margin-left: 0%">
-      <h2 style="font-family: 'Times New Roman'; font-size: 1.6vw; color: rgba(180, 0, 0, 1);">
+      <h2 class="fss" style="font-family: 'Times New Roman'; font-size: 1.6vw; color: rgba(180, 0, 0, 1);">
         UN SITIO CON HISTORIA
       </h2>
-      <h2 style="font-family: 'Times New Roman'; font-size: 1.1vw; margin-top: 30px;">
+      <h2 class="fs" style="font-family: 'Times New Roman'; font-size: 1.1vw; margin-top: 30px;">
         &nbsp;&nbsp;En el partido de Necochea, sobre la ruta 86, se encuentra el Criadero de Semillas Buck, una empresa de punta con sede en el casco de la estancia familiar. Entre una frondosa arboleda, el laboratorio, las oficinas, los galpones y los silos se mezclan con las casas de familia, la pileta y la capilla, idéntica a la del valle de Schoenstatt y los diecisiete santuarios que hay en el país.
         <br>
         <br>
@@ -13,8 +13,8 @@
       </h2>
     </v-flex>
     <v-flex class="container">
-      <parallax-container style="margin-left: -6%; margin-right: -6%; margin-top: 3%;">
-        <v-parallax src="/campoexp2.png" />
+      <parallax-container class="prlg" style="margin-left: -6%; margin-right: -6%; margin-top: 3%;">
+        <v-parallax class="prlgg" src="/campoexp2.png" />
       </parallax-container>
       <v-flex class="overlay" style="margin-top: -5%;">
         <v-img
@@ -25,7 +25,7 @@
     </v-flex>
     <v-flex row justify-center style="margin-top: -4%; margin-left: 0%">
       <v-flex lg6>
-        <h2 style="font-family: 'Times New Roman'; font-size: 1.1vw; margin-top: 10%; margin-bottom: 10%;">
+        <h2 class="fs" style="font-family: 'Times New Roman'; font-size: 1.1vw; margin-top: 10%; margin-bottom: 10%;">
           &nbsp;&nbsp;Seguro de un porvenir próspero, José Buck viajó a Alemania para casarse con María Ana Hummler y a poco de regresar arrendó trescientas hectáreas de campo en Defferrari (Necochea), para desarrollar su propio programa de mejoramiento.
           <br>
           <br>
@@ -43,7 +43,7 @@
         />
       </v-flex>
     </v-flex>
-    <v-flex>
+    <v-flex class="prln">
       <parallax-container style="margin-left: -6%; margin-right: -6%; margin-top: 4%;">
         <v-parallax src="/historia.png" />
       </parallax-container>
@@ -75,5 +75,23 @@ export default {
     left:0%;
     z-index:1;
 }
-
+@media (max-width: 599px) {
+  .fs {
+    font-size: 3vw !important;
+    /* font-size:14px; */
+  }
+  .fss {
+    font-size: 4vw !important;
+    /* font-size:14px; */
+  }
+  .prln {
+    display: none !important;
+  }
+  .prlg {
+    margin-bottom: -35% !important;
+  }
+  .prlgg {
+    height: 200px !important;
+  }
+}
 </style>

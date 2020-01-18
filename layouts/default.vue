@@ -249,7 +249,7 @@
       </v-container>
     </v-content>
     <v-footer>
-      <p class="fs" style="padding: 5px 0px 0px 5px; font-size: 1.2vw; margin-bottom: 0px;">
+      <p class="fs crm" style="padding: 5px 0px 0px 5px; font-size: 1.2vw; margin-bottom: 0px;">
         &copy;
       </p>
       <span class="fs" style="padding: 0px 0px 0px 5px; font-size: 0.9vw; margin-top: 4px;">2020</span>
@@ -260,7 +260,7 @@
           <a href="mailto:bucksem@bucksemillas.com.ar">bucksem@bucksemillas.com.ar</a>
         </p>
       </v-flex>
-      <v-spacer />
+      <!-- <v-spacer /> -->
       <v-btn
         target="_blank"
         href="http://190.105.237.177/webmail"
@@ -314,17 +314,22 @@ export default {
   .wm {
     font-size: 4vw !important;
     margin-top: 3% !important;
-    margin-left: 35% !important;
+    margin-bottom: 3% !important;
+    margin-left: 36% !important;
   }
   .sbc {
     background-color: rgb(255, 255, 255) !important;
   }
   .v-icon {
     font-size: 34px !important;
+    margin-left: 40% !important;
   }
   .ibl {
     margin-top: 0% !important;
-    margin-left: -10% !important;
+    /* margin-left: -10% !important; */
+  }
+  .crm {
+    margin-left: 43% !important;
   }
 }
 </style>

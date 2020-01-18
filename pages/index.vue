@@ -9,7 +9,7 @@
   <!-- <v-container style="background-color: rgb(230, 230, 230);"> -->
   <v-container>
     <div style="background-size: 100% 95%; background-repeat: no-repeat; background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('/btarmt.png');">
-      <v-layout style="margin-top: 110px; margin-bottom: -1.5%;">
+      <v-layout class="loh" style="margin-top: 110px; margin-bottom: -1.5%;">
         <v-flex row class="hidden-md-and-down" lg2 xl2 style="margin-left: 0%">
           <div>
             <!-- <v-img
@@ -163,7 +163,7 @@
             <v-flex row justify-left style="margin-left: 0%">
               <div
                 style="width: 95%; height: 40px; border-bottom: 2px solid green;  border-left: 2px solid green; margin-left: -1%;"
-                class="sbv"
+                class="sbv sbvg"
               />
             </v-flex>
           </v-flex>
@@ -211,7 +211,7 @@
             <v-flex row justify-left style="margin-left: 0%">
               <div
                 style="width: 100%; height: 40px; border-bottom: 2px solid green;  border-left: 2px solid green;"
-                class="sbv"
+                class="sbv sbvg"
               />
             </v-flex>
           </v-flex>
@@ -412,6 +412,9 @@ export default {
   .mbm {
     margin-bottom: 5% !important;
   }
+  .loh {
+    margin-top: 80px !important;
+  }
 }
 @media (max-width: 1263px) {
   .cat {
@@ -422,6 +425,10 @@ export default {
   }
   .sbv {
     border-left: none !important;
+  }
+  .sbvg {
+    margin-left: -2% !important;
+    width: 100% !important;
   }
 }
 

@@ -1,10 +1,10 @@
 <template>
   <v-container>
     <v-flex row justify-center style="margin-top: 70px; margin-left: 0%">
-      <h1 style="font-family: 'Times New Roman'; font-size: 1.6vw; color: rgba(180, 0, 0, 1);">
+      <h2 class="fss" style="font-family: 'Times New Roman'; font-size: 1.6vw; color: rgba(180, 0, 0, 1);">
         BUCK RESPLANDOR
-      </h1>
-      <h1 style="font-family: 'Times New Roman'; font-size: 1.1vw; margin-top: 30px;">
+      </h2>
+      <h2 class="fs" style="font-family: 'Times New Roman'; font-size: 1.1vw; margin-top: 30px;">
         &nbsp;&nbsp;Producto del cruzamiento entre una línea tradicional de nuestro programa, y material de origen europeo surge este nuevo cultivar de ciclo largo y Grupo 1 de calidad, con una excelente estabilidad de rendimiento. Buck Resplandor no posee requerimientos de vernalización y se caracteriza por ser muy sensible al fotoperíodo, característica que le confiere muy buena plasticidad en la fecha de siembra y una amplia adaptabilidad a distintas zonas agroecológicas.
         <br>
         <br>
@@ -13,7 +13,7 @@
         <br>
         &nbsp;&nbsp;Los datos de calidad comercial e industrial disponible muestran a Buck Resplandor con excelentes valores de Peso Hectolítrico, Gluten Húmedo, W y Estabilidad Farinográfica. Información que ratifica sus cualidades como
         variedad de Grupo 1 de Calidad.
-      </h1>
+      </h2>
     </v-flex>
     <v-layout row justify-space-between style="margin-left: 0%">
       <v-flex xs12 md4 style="margin-top: 6%">
@@ -94,4 +94,14 @@ export default {
 
 <style>
 
+@media (max-width: 599px) {
+  .fs {
+    font-size: 3vw !important;
+    /* font-size:14px; */
+  }
+  .fss {
+    font-size: 4vw !important;
+    /* font-size:14px; */
+  }
+}
 </style>

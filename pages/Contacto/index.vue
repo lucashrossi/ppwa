@@ -1,8 +1,8 @@
 <template>
-  <v-container style="margin-top: 70px;">
+  <v-container class="mtf" style="margin-top: 70px;">
     <v-flex style="margin-top: 60px; margin-left: 0%" row justify-center>
       <v-flex xs10 md10 lg5 style="margin-left: 0%">
-        <h2 style="font-family: 'Times New Roman'; font-size: 1.1vw; color: rgba(180, 0, 0, 1); text-align: center;">
+        <h2 class="fss" style="font-family: 'Times New Roman'; font-size: 1.1vw; color: rgba(180, 0, 0, 1); text-align: center;">
           Déjenos su consulta:
         </h2>
         <form style="margin-top: 10px; margin-bottom: 15%; margin-left: 0%" @submit.prevent="submit">
@@ -66,8 +66,8 @@
         </form>
       </v-flex>
       <v-spacer class="hidden-md-and-down" />
-      <v-flex xs10 md10 lg5>
-        <h2 style="font-family: 'Times New Roman'; font-size: 1.1vw; color: rgba(180, 0, 0, 1); text-align: center;">
+      <v-flex class="mtf" xs10 md10 lg5>
+        <h2 class="fss" style="font-family: 'Times New Roman'; font-size: 1.1vw; color: rgba(180, 0, 0, 1); text-align: center;">
           Aquí estamos:
         </h2>
         <iframe
@@ -80,7 +80,7 @@
         />
       </v-flex>
     </v-flex>
-    <v-flex row justify-center style="margin-left: 0%">
+    <v-flex class="mtf" row justify-center style="margin-left: 0%">
       <v-flex
         xs12
         md12
@@ -89,24 +89,24 @@
         style="margin-left: 0%"
       >
         <v-list dense>
-          <h2 style="font-family: 'Times New Roman'; font-size: 1.1vw; color: rgba(180, 0, 0, 1); text-align: center;">
+          <h2 class="fs" style="font-family: 'Times New Roman'; font-size: 1.1vw; color: rgba(180, 0, 0, 1); text-align: center;">
             ADMINISTRACIÓN
           </h2>
-          <h2 style="font-family: 'Times New Roman'; font-size: 0.8vw; text-align: center;">
+          <h2 class="fs" style="font-family: 'Times New Roman'; font-size: 0.8vw; text-align: center;">
             Sr. Marcelo Bodega Tel: 02262-434061/2
           </h2>
           <div style="font-family: 'Times New Roman'; font-size: 1vw; min-height: 20px; text-align: center;">
-            <a target="_blank" href="mailto:marcelo@bucksemillas.com.ar" style="font-family: 'Times New Roman'; font-size: 0.9vw; color: #7b0000;">marcelo@bucksemillas.com.ar</a>
+            <a class="fs" target="_blank" href="mailto:marcelo@bucksemillas.com.ar" style="font-family: 'Times New Roman'; font-size: 0.9vw; color: #7b0000;">marcelo@bucksemillas.com.ar</a>
           </div>
           <br>
-          <h2 style="font-family: 'Times New Roman'; font-size: 1.1vw; color: rgba(180, 0, 0, 1); text-align: center;">
+          <h2 class="fs" style="font-family: 'Times New Roman'; font-size: 1.1vw; color: rgba(180, 0, 0, 1); text-align: center;">
             PROV. DE SANTA FE
           </h2>
-          <h2 style="font-family: 'Times New Roman'; font-size: 0.8vw; text-align: center;">
+          <h2 class="fs" style="font-family: 'Times New Roman'; font-size: 0.8vw; text-align: center;">
             Sr. Juan José Loreto Tel: 02477-15567888
           </h2>
           <div style="font-family: 'Times New Roman'; font-size: 1vw; min-height: 20px; text-align: center;">
-            <a target="_blank" href="mailto:jjloreto@bucksemillas.com.ar" style="font-family: 'Times New Roman'; font-size: 0.9vw; color: #7b0000;">jjloreto@bucksemillas.com.ar</a>
+            <a class="fs" target="_blank" href="mailto:jjloreto@bucksemillas.com.ar" style="font-family: 'Times New Roman'; font-size: 0.9vw; color: #7b0000;">jjloreto@bucksemillas.com.ar</a>
           </div>
         </v-list>
       </v-flex>
@@ -118,24 +118,24 @@
         style="margin-left: 0%"
       >
         <v-list dense>
-          <h2 style="font-family: 'Times New Roman'; font-size: 1.1vw; color: rgba(180, 0, 0, 1); text-align: center;">
+          <h2 class="fs" style="font-family: 'Times New Roman'; font-size: 1.1vw; color: rgba(180, 0, 0, 1); text-align: center;">
             SUR BS. AS. Y LA PAMPA
           </h2>
-          <h2 style="font-family: 'Times New Roman'; font-size: 0.8vw; text-align: center;">
+          <h2 class="fs" style="font-family: 'Times New Roman'; font-size: 0.8vw; text-align: center;">
             Sr. Alejandro Dominé Tel: 0291-156426200
           </h2>
           <div style="font-family: 'Times New Roman'; font-size: 1vw; min-height: 20px; text-align: center;">
-            <a target="_blank" href="mailto:adomine@bucksemillas.com.ar" style="font-family: 'Times New Roman'; font-size: 0.9vw; color: #7b0000;">adomine@bucksemillas.com.ar</a>
+            <a class="fs" target="_blank" href="mailto:adomine@bucksemillas.com.ar" style="font-family: 'Times New Roman'; font-size: 0.9vw; color: #7b0000;">adomine@bucksemillas.com.ar</a>
           </div>
           <br>
-          <h2 style="font-family: 'Times New Roman'; font-size: 1.1vw; color: rgba(180, 0, 0, 1); text-align: center;">
+          <h2 class="fs" style="font-family: 'Times New Roman'; font-size: 1.1vw; color: rgba(180, 0, 0, 1); text-align: center;">
             PROV. DE ENTRE RIOS
           </h2>
-          <h2 style="font-family: 'Times New Roman'; font-size: 0.8vw; text-align: center;">
+          <h2 class="fs" style="font-family: 'Times New Roman'; font-size: 0.8vw; text-align: center;">
             Ing. Miguel Paul Tel: 0343-156200121
           </h2>
           <div style="font-family: 'Times New Roman'; font-size: 1vw; min-height: 20px; text-align: center;">
-            <a target="_blank" href="mailto:paulmiguel@ametbiz.com.ar" style="font-family: 'Times New Roman'; font-size: 0.9vw; color: #7b0000;">paulmiguel@ametbiz.com.ar</a>
+            <a class="fs" target="_blank" href="mailto:paulmiguel@ametbiz.com.ar" style="font-family: 'Times New Roman'; font-size: 0.9vw; color: #7b0000;">paulmiguel@ametbiz.com.ar</a>
           </div>
         </v-list>
       </v-flex>
@@ -147,24 +147,24 @@
         style="margin-left: 0%"
       >
         <v-list dense>
-          <h2 style="font-family: 'Times New Roman'; font-size: 1.1vw; color: rgba(180, 0, 0, 1); text-align: center;">
+          <h2 class="fs" style="font-family: 'Times New Roman'; font-size: 1.1vw; color: rgba(180, 0, 0, 1); text-align: center;">
             CENTRO Y NORTE BS. AS.
           </h2>
-          <h2 style="font-family: 'Times New Roman'; font-size: 0.8vw; text-align: center;">
+          <h2 class="fs" style="font-family: 'Times New Roman'; font-size: 0.8vw; text-align: center;">
             Sr. Mauro Irazoqui Tel: 02474-15662170
           </h2>
           <div style="font-family: 'Times New Roman'; font-size: 1vw; min-height: 20px; text-align: center;">
-            <a target="_blank" href="mailto:mauroirazoqui@yahoo.com.ar" style="font-family: 'Times New Roman'; font-size: 0.9vw; color: #7b0000;">mauroirazoqui@yahoo.com.ar</a>
+            <a class="fs" target="_blank" href="mailto:mauroirazoqui@yahoo.com.ar" style="font-family: 'Times New Roman'; font-size: 0.9vw; color: #7b0000;">mauroirazoqui@yahoo.com.ar</a>
           </div>
           <br>
-          <h2 style="font-family: 'Times New Roman'; font-size: 1.1vw; color: rgba(180, 0, 0, 1); text-align: center;">
+          <h2 class="fs" style="font-family: 'Times New Roman'; font-size: 1.1vw; color: rgba(180, 0, 0, 1); text-align: center;">
             PROV. DE CORDOBA
           </h2>
-          <h2 style="font-family: 'Times New Roman'; font-size: 0.8vw; text-align: center;">
+          <h2 class="fs" style="font-family: 'Times New Roman'; font-size: 0.8vw; text-align: center;">
             Sr. Domingo Capeloni Tel: 03468-15588721
           </h2>
           <div style="font-family: 'Times New Roman'; font-size: 1vw; min-height: 20px; text-align: center;">
-            <a target="_blank" href="mailto:domingo@capelonisemillas.com" style="font-family: 'Times New Roman'; font-size: 0.9vw; color: #7b0000;">domingo@capelonisemillas.com</a>
+            <a class="fs" target="_blank" href="mailto:domingo@capelonisemillas.com" style="font-family: 'Times New Roman'; font-size: 0.9vw; color: #7b0000;">domingo@capelonisemillas.com</a>
           </div>
         </v-list>
       </v-flex>
@@ -274,3 +274,19 @@ export default {
   }
 }
 </script>
+
+<style>
+@media (max-width: 599px) {
+   .fs {
+    font-size: 3vw !important;
+    /* font-size:14px; */
+  }
+  .fss {
+    font-size: 4vw !important;
+    /* font-size:14px; */
+  }
+  .mtf {
+    margin-top: 10% !important;
+  }
+}
+</style>

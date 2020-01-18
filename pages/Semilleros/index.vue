@@ -1,7 +1,7 @@
 <template>
   <v-container fluid>
     <v-flex row justify-center style="margin-top: 70px; margin-left: 0%">
-      <h2 style="font-family: 'Times New Roman'; font-size: 1.6vw; color: rgba(180, 0, 0, 1);">
+      <h2 class="fss" style="font-family: 'Times New Roman'; font-size: 1.6vw; color: rgba(180, 0, 0, 1);">
         SEMILLEROS FISCALIZADORES
       </h2>
     </v-flex>
@@ -1086,5 +1086,14 @@ export default {
     font-size: .8vw;
     height: 15px;
 }
-
+@media (max-width: 599px) {
+  .fs {
+    font-size: 3vw !important;
+    /* font-size:14px; */
+  }
+  .fss {
+    font-size: 4vw !important;
+    /* font-size:14px; */
+  }
+}
 </style>
