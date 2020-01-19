@@ -132,7 +132,7 @@ export default {
 <style>
 @media (max-width: 599px) {
   .fs {
-    font-size: 3vw !important;
+    font-size: 2.5vw !important;
     /* font-size:14px; */
   }
   .fss {
@@ -142,6 +142,8 @@ export default {
   .reg {
     max-width: 100% !important;
     height: 450px !important;
+    margin-top: 5% !important;
+    margin-bottom: 5% !important;
   }
 }
 </style>

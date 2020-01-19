@@ -13,9 +13,9 @@
       </h2>
     </v-flex>
     <v-flex class="container">
-      <parallax-container class="prlg" style="margin-left: -6%; margin-right: -6%; margin-top: 3%;">
-        <v-parallax class="prlgg" src="/campoexp2.png" />
-      </parallax-container>
+      <!-- <parallax-container class="prlg" style="margin-left: -6%; margin-right: -6%; margin-top: 3%;"> -->
+      <v-parallax class="prlg" style="margin-left: -6%; margin-right: -6%; margin-top: 3%; margin-bottom: 4%;" src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/BUCK%202019_062.jpg?alt=media&token=85e84014-724b-474e-adc3-a605e50b3060" />
+      <!-- </parallax-container> -->
       <v-flex class="overlay" style="margin-top: -5%;">
         <v-img
           src="/elAdlS.png"
@@ -23,7 +23,7 @@
         />
       </v-flex>
     </v-flex>
-    <v-flex row justify-center style="margin-top: -4%; margin-left: 0%">
+    <v-flex row justify-center style="margin-left: 0%">
       <v-flex lg6>
         <h2 class="fs" style="font-family: 'Times New Roman'; font-size: 1.1vw; margin-top: 10%; margin-bottom: 10%;">
           &nbsp;&nbsp;Seguro de un porvenir próspero, José Buck viajó a Alemania para casarse con María Ana Hummler y a poco de regresar arrendó trescientas hectáreas de campo en Defferrari (Necochea), para desarrollar su propio programa de mejoramiento.
@@ -88,10 +88,16 @@ export default {
     display: none !important;
   }
   .prlg {
-    margin-bottom: -35% !important;
-  }
-  .prlgg {
+    margin-bottom: -5% !important;
+    /* display: none !important; */
     height: 200px !important;
   }
+  /* .prlgg {
+    height: 00px !important;
+  } */
+  /* .prlggg {
+    margin-bottom: 0% !important;
+    display: block !important;
+  } */
 }
 </style>
