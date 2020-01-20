@@ -112,10 +112,17 @@
       </v-flex>
     </v-layout> -->
 
-    <v-app-bar
+    <!-- <v-app-bar
       height="64"
       flat
       style="font-family: 'Times New Roman'; background-color: rgb(230, 230, 230);"
+      fixed
+      class="sbc"
+    > -->
+    <v-app-bar
+      height="64"
+      flat
+      style="font-family: 'Times New Roman';"
       fixed
       class="sbc"
     >
@@ -232,7 +239,7 @@
       </v-toolbar-items>
       <!-- <v-spacer class="hidden-sm-and-down" /> -->
     </v-app-bar>
-    <!-- <v-content v-if="this.$route.path === '/'" style="background: #fff; background-size: 100% 1200px; background-repeat: no-repeat; background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/fondo.png');">
+    <v-content v-if="this.$route.path === '/'" class="sbm" style="background: #fff; background-size: 100% 1200px; background-repeat: no-repeat; background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('/sbsa.png');">
       <v-container>
         <nuxt />
       </v-container>
@@ -241,13 +248,13 @@
       <v-container>
         <nuxt />
       </v-container>
-    </v-content> -->
-    <v-content style="background: #fff">
-      <!-- <v-img v-if="this.$route.path === '/'" src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/BUCK%202019_062.jpg?alt=media&token=85e84014-724b-474e-adc3-a605e50b3060" /> -->
-      <v-container>
+    </v-content>
+    <!-- <v-content style="background: #fff"> -->
+    <!-- <v-img v-if="this.$route.path === '/'" src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/BUCK%202019_062.jpg?alt=media&token=85e84014-724b-474e-adc3-a605e50b3060" /> -->
+    <!-- <v-container>
         <nuxt />
       </v-container>
-    </v-content>
+    </v-content> -->
     <v-footer>
       <p class="fs crm" style="padding: 5px 0px 0px 5px; font-size: 1.2vw; margin-bottom: 0px;">
         &copy;
@@ -331,5 +338,25 @@ export default {
   .crm {
     margin-left: 43% !important;
   }
+  .sbm {
+    background-image: none !important;
+    /* background-size: 0 !important; */
+  }
 }
+@media (max-width: 960px) and (min-width: 599px) {
+  .sbm {
+    background-size: 100% 1000px !important;
+  }
+}
+@media (max-width: 1263px) and (min-width: 960px) {
+  .sbm {
+    background-size: 100% 1050px !important;
+  }
+}
+@media (max-width: 1904px) and (min-width: 1263px) {
+  .sbm {
+    background-size: 100% 1100px !important;
+  }
+}
+
 </style>

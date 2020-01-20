@@ -23,7 +23,7 @@
           contain
         />
       </v-flex>
-      <v-flex xs12 md8 row justify-center style="margin-left: 0%; margin-right: 0%">
+      <v-flex xs12 md8 row justify-center style="margin-left: 0%; margin-right: 0%; margin-top: 1%">
         <v-img
           class="reg"
           src="/RE.png"
@@ -54,29 +54,29 @@
     <v-layout row justify-center style="margin-left: 0%">
       <v-flex xs12 md6 row justify-center style="margin-left: 0%">
         <v-list dense>
-          <v-list-item class="fs" style="font-family: 'Times New Roman'; font-size: 1vw; min-height: 20px">
+          <v-list-item class="fsr" style="font-family: 'Times New Roman'; font-size: 1vw; min-height: 20px">
             ARPOV –
-            <a class="fs" target="_blank" href="http://www.arpov.org.ar/" style="font-family: 'Times New Roman'; font-size: 0.9vw; color: #7b0000;">http://www.arpov.org.ar/</a>
+            <a class="fsr" target="_blank" href="http://www.arpov.org.ar/" style="font-family: 'Times New Roman'; font-size: 0.9vw; color: #7b0000;">http://www.arpov.org.ar/</a>
           </v-list-item>
-          <v-list-item class="fs" style="font-family: 'Times New Roman'; font-size: 1vw; min-height: 20px">
+          <v-list-item class="fsr" style="font-family: 'Times New Roman'; font-size: 1vw; min-height: 20px">
             Asociación Semilleros Argentinos (ASA) –
-            <a class="fs" target="_blank" href="http://www.asa.org.ar/" style="font-family: 'Times New Roman'; font-size: 0.9vw; color: #7b0000;">http://www.asa.org.ar/</a>
+            <a class="fsr" target="_blank" href="http://www.asa.org.ar/" style="font-family: 'Times New Roman'; font-size: 0.9vw; color: #7b0000;">http://www.asa.org.ar/</a>
           </v-list-item>
-          <v-list-item class="fs" style="font-family: 'Times New Roman'; font-size: 1vw; min-height: 20px">
+          <v-list-item class="fsr" style="font-family: 'Times New Roman'; font-size: 1vw; min-height: 20px">
             Argentrigo –
-            <a class="fs" target="_blank" href="http://www.argentrigo.org.ar/" style="font-family: 'Times New Roman'; font-size: 0.9vw; color: #7b0000;">http://www.argentrigo.org.ar/</a>
+            <a class="fsr" target="_blank" href="http://www.argentrigo.org.ar/" style="font-family: 'Times New Roman'; font-size: 0.9vw; color: #7b0000;">http://www.argentrigo.org.ar/</a>
           </v-list-item>
-          <v-list-item class="fs" style="font-family: 'Times New Roman'; font-size: 1vw; min-height: 20px">
+          <v-list-item class="fsr" style="font-family: 'Times New Roman'; font-size: 1vw; min-height: 20px">
             Bolsa de Cereales de Bs.As. –
-            <a class="fs" target="_blank" href="http://www.bolsadecereales.com/" style="font-family: 'Times New Roman'; font-size: 0.9vw; color: #7b0000;">http://www.bolsadecereales.com/</a>
+            <a class="fsr" target="_blank" href="http://www.bolsadecereales.com/" style="font-family: 'Times New Roman'; font-size: 0.9vw; color: #7b0000;">http://www.bolsadecereales.com/</a>
           </v-list-item>
-          <v-list-item class="fs" style="font-family: 'Times New Roman'; font-size: 1vw; min-height: 20px">
+          <v-list-item class="fsr" style="font-family: 'Times New Roman'; font-size: 1vw; min-height: 20px">
             Estación Meteorológica –
-            <a class="fs" target="_blank" href="http://siga2.inta.gov.ar/" style="font-family: 'Times New Roman'; font-size: 0.9vw; color: #7b0000;">http://siga2.inta.gov.ar/</a>
+            <a class="fsr" target="_blank" href="http://siga2.inta.gov.ar/" style="font-family: 'Times New Roman'; font-size: 0.9vw; color: #7b0000;">http://siga2.inta.gov.ar/</a>
           </v-list-item>
-          <v-list-item class="fs" style="font-family: 'Times New Roman'; font-size: 1vw; min-height: 20px">
+          <v-list-item class="fsr" style="font-family: 'Times New Roman'; font-size: 1vw; min-height: 20px">
             INASE –
-            <a class="fs" target="_blank" href="https://www.inase.gov.ar/" style="font-family: 'Times New Roman'; font-size: 0.9vw; color: #7b0000;">https://www.inase.gov.ar/</a>
+            <a class="fsr" target="_blank" href="https://www.inase.gov.ar/" style="font-family: 'Times New Roman'; font-size: 0.9vw; color: #7b0000;">https://www.inase.gov.ar/</a>
           </v-list-item>
         </v-list>
       </v-flex>
@@ -88,25 +88,25 @@
         style="margin-left: 0%"
       >
         <v-list dense>
-          <v-list-item class="fs" style="font-family: 'Times New Roman'; font-size: 1vw; min-height: 20px">
+          <v-list-item class="fsr" style="font-family: 'Times New Roman'; font-size: 1vw; min-height: 20px">
             INTA –
-            <a class="fs" target="_blank" href="https://inta.gob.ar/" style="font-family: 'Times New Roman'; font-size: 0.9vw; color: #7b0000;">https://inta.gob.ar/</a>
+            <a class="fsr" target="_blank" href="https://inta.gob.ar/" style="font-family: 'Times New Roman'; font-size: 0.9vw; color: #7b0000;">https://inta.gob.ar/</a>
           </v-list-item>
-          <v-list-item class="fs" style="font-family: 'Times New Roman'; font-size: 1vw; min-height: 20px">
+          <v-list-item class="fsr" style="font-family: 'Times New Roman'; font-size: 1vw; min-height: 20px">
             Mercado a Término de Bs.As. -
-            <a class="fs" target="_blank" href="http://www.matba.com.ar/" style="font-family: 'Times New Roman'; font-size: 0.9vw; color: #7b0000;">http://www.matba.com.ar/</a>
+            <a class="fsr" target="_blank" href="http://www.matba.com.ar/" style="font-family: 'Times New Roman'; font-size: 0.9vw; color: #7b0000;">http://www.matba.com.ar/</a>
           </v-list-item>
-          <v-list-item class="fs" style="font-family: 'Times New Roman'; font-size: 1vw; min-height: 20px">
+          <v-list-item class="fsr" style="font-family: 'Times New Roman'; font-size: 1vw; min-height: 20px">
             Ministerio de Agroindustria -
-            <a class="fs" target="_blank" href="https://www.agroindustria.gob.ar/sitio/" style="font-family: 'Times New Roman'; font-size: 0.9vw; color: #7b0000;">https://www.agroindustria.gob.ar/</a>
+            <a class="fsr" target="_blank" href="https://www.agroindustria.gob.ar/sitio/" style="font-family: 'Times New Roman'; font-size: 0.9vw; color: #7b0000;">https://www.agroindustria.gob.ar/</a>
           </v-list-item>
-          <v-list-item class="fs" style="font-family: 'Times New Roman'; font-size: 1vw; min-height: 20px">
+          <v-list-item class="fsr" style="font-family: 'Times New Roman'; font-size: 1vw; min-height: 20px">
             Red de Trigo INASE -
-            <a class="fs" target="_blank" href="https://www.argentina.gob.ar/inase/red-variedades-de-trigo/" style="font-family: 'Times New Roman'; font-size: 0.9vw; color: #7b0000;">https://www.argentina.gob.ar</a>
+            <a class="fsr" target="_blank" href="https://www.argentina.gob.ar/inase/red-variedades-de-trigo/" style="font-family: 'Times New Roman'; font-size: 0.9vw; color: #7b0000;">https://www.argentina.gob.ar</a>
           </v-list-item>
-          <v-list-item class="fs" style="font-family: 'Times New Roman'; font-size: 1vw; min-height: 20px">
+          <v-list-item class="fsr" style="font-family: 'Times New Roman'; font-size: 1vw; min-height: 20px">
             Servicio Meteorológico Nacional -
-            <a class="fs" target="_blank" href="http://www.smn.gov.ar/" style="font-family: 'Times New Roman'; font-size: 0.9vw; color: #7b0000;">http://www.smn.gov.ar/</a>
+            <a class="fsr" target="_blank" href="http://www.smn.gov.ar/" style="font-family: 'Times New Roman'; font-size: 0.9vw; color: #7b0000;">http://www.smn.gov.ar/</a>
           </v-list-item>
         </v-list>
       </v-flex>
@@ -132,11 +132,15 @@ export default {
 <style>
 @media (max-width: 599px) {
   .fs {
-    font-size: 2.5vw !important;
+    font-size: 3vw !important;
     /* font-size:14px; */
   }
   .fss {
     font-size: 4vw !important;
+    /* font-size:14px; */
+  }
+  .fsr {
+    font-size: 2.5vw !important;
     /* font-size:14px; */
   }
   .reg {

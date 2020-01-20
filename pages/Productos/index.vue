@@ -341,7 +341,20 @@ export default {
 </script>
 
 <style>
-
+@media (max-width: 599px) {
+ .fs {
+    font-size: 3vw !important;
+    /* font-size:14px; */
+  }
+  .fss {
+    font-size: 4vw !important;
+    /* font-size:14px; */
+  }
+  .fsss {
+    font-size: 4.5vw !important;
+    /* font-size:14px; */
+  }
+}
 .container { position:relative;}
 .overlay {
     position:absolute;

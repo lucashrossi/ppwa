@@ -43,10 +43,10 @@
         />
       </v-flex>
     </v-flex>
-    <v-flex class="prln">
-      <parallax-container style="margin-left: -6%; margin-right: -6%; margin-top: 4%;">
-        <v-parallax src="/historia.png" />
-      </parallax-container>
+    <v-flex>
+      <!-- <parallax-container style="margin-left: -6%; margin-right: -6%; margin-top: 4%;"> -->
+      <v-parallax class="prlg" style="margin-left: -6%; margin-right: -6%; margin-top: 4%;" src="/historia.png" />
+      <!-- </parallax-container> -->
     </v-flex>
   </v-container>
 </template>
