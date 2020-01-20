@@ -61,15 +61,34 @@ export default {
       name: 'Buck Semillas',
       short_name: 'Buck'
       // lang: 'es'
-    }
+    },
     // icon: {
     //   /* icon options */
     // }
-    // workbox: {
-    //   offlineAssets: [
-    //     '/static/Logo.png'
-    //   ]
-    // }
+    workbox: {
+      // offlineAssets: [
+      //   '/static/Logo.png'
+      // ]
+      runtimeCaching: [
+        {
+          // Should be a regex string. Compiles into new RegExp('https://my-cdn.com/.*')
+          urlPattern: 'https://firebasestorage.googleapis.com/.*'
+          // Defaults to `networkFirst` if omitted
+          // handler: 'networkFirst',
+          // Defaults to `GET` if omitted
+          // method: 'GET'
+          // handler: 'cacheFirst',
+          // method: 'GET',
+          // strategyOptions: {
+          //   cacheName: 'images',
+          //   cacheableResponse: { statuses: [0, 200] }
+          // }
+        }
+        // {
+        //   urlPattern: '/layouts/.*'
+        // }
+      ]
+    }
   },
 
   /*

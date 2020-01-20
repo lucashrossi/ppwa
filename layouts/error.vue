@@ -10,7 +10,7 @@
       Home page
     </NuxtLink>
   </v-app> -->
-  <div>
+  <v-app>
     <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -56,7 +56,7 @@
         </div>
       </div>
     </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
-  </div>
+  </v-app>
 </template>
 
 <script>
