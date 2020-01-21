@@ -19,7 +19,7 @@
           >
             <v-img
               class="white--text align-end"
-              src="/bolsas.png"
+              src="/bolsas.jpg"
             >
               <v-card-title style="color: #ff0000">
                 Buck Resplandor
@@ -60,7 +60,7 @@
         >
           <v-img
             class="white--text align-end"
-            src="/bolsas.png"
+            src="/bolsas.jpg"
           >
             <v-card-title>Buck Cumelén</v-card-title>
           </v-img>
@@ -101,7 +101,7 @@
           <v-img
             class="white--text align-end"
             height="200px"
-            src="/bolsas.png"
+            src="/bolsas.jpg"
           >
             <v-card-title>Top 10 Australian beaches</v-card-title>
           </v-img>
@@ -144,7 +144,7 @@
           <v-img
             class="white--text align-end"
             height="200px"
-            src="/bolsas.png"
+            src="/bolsas.jpg"
           >
             <v-card-title>Top 10 Australian beaches</v-card-title>
           </v-img>
@@ -185,7 +185,7 @@
           <v-img
             class="white--text align-end"
             height="200px"
-            src="/bolsas.png"
+            src="/bolsas.jpg"
           >
             <v-card-title>Top 10 Australian beaches</v-card-title>
           </v-img>
@@ -226,7 +226,7 @@
           <v-img
             class="white--text align-end"
             height="200px"
-            src="/bolsas.png"
+            src="/bolsas.jpg"
           >
             <v-card-title>Top 10 Australian beaches</v-card-title>
           </v-img>
@@ -267,7 +267,7 @@
           <v-img
             class="white--text align-end"
             height="200px"
-            src="/bolsas.png"
+            src="/bolsas.jpg"
           >
             <v-card-title>Top 10 Australian beaches</v-card-title>
           </v-img>
@@ -318,7 +318,7 @@
     </v-flex>
     <v-flex style="margin-top: 1%;">
       <v-img
-        src="/fds.png"
+        src="fds.png"
         max-width="100%"
       />
     </v-flex>

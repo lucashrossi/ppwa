@@ -14,9 +14,9 @@
     </v-flex>
     <v-flex class="container">
       <!-- <parallax-container class="prlg" style="margin-left: -6%; margin-right: -6%; margin-top: 3%;"> -->
-      <v-parallax class="prlg" style="margin-left: -6%; margin-right: -6%; margin-top: 3%; margin-bottom: 4%;" src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/BUCK%202019_062.jpg?alt=media&token=85e84014-724b-474e-adc3-a605e50b3060" />
+      <v-parallax class="prlg" style="margin-left: -6%; margin-right: -6%; margin-top: 3%; margin-bottom: 4%;" src="/campoexp.jpg" />
       <!-- </parallax-container> -->
-      <v-flex class="overlay" style="margin-top: -5%;">
+      <v-flex class="overlay" style="margin-top: 2%;">
         <v-img
           src="/elAdlS.png"
           max-width="100%"

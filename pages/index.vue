@@ -252,7 +252,7 @@
     <v-flex class="container">
       <!-- <video style="width: 115%; height: auto; margin-left: -8%; margin-top: 8%;" loop autoplay muted> -->
       <video style="width: 112%; height: auto; margin-left: -6%; margin-top: 4%;" loop autoplay muted>
-        <source src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/DemoC.mp4?alt=media&token=7c39ff6c-081d-451c-99b9-fd4b57b9abbc">
+        <source src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/demodron2.mp4?alt=media&token=55303050-d1df-46b8-98a9-171fd7dbe4c9">
       </video>
       <v-flex class="overlay">
         <v-img
@@ -339,7 +339,7 @@
     <!-- <img class="responsive" src="/paralaxD.webp"> -->
     <!-- <v-parallax src="/paralaxD.webp" style="margin-left: -6%; margin-right: -6%; margin-top: 2%;" /> -->
     <!-- <v-parallax src="/paralaxD.webp" style="margin-left: -4.8%; margin-right: -4.8%; margin-top: 2%;" /> -->
-    <v-parallax class="prl" src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/BUCK%202019_062.jpg?alt=media&token=85e84014-724b-474e-adc3-a605e50b3060" style="margin-left: -4.8%; margin-right: -4.8%; margin-top: 2%;" />
+    <v-parallax class="prl" src="/paralaxhome.jpg" style="margin-left: -4.8%; margin-right: -4.8%; margin-top: 2%;" />
     <!-- <v-flex row justify-center style="margin-top: 4%;">
       <h2 style="font-family: 'Times New Roman'; font-size: 2vw;">
         Comience a trabajar con nuestros productos, sea parte de Buck Semillas.

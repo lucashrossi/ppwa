@@ -25,7 +25,7 @@
           <v-img
             class="white--text align-end"
             height="200px"
-            src="/bolsas.png"
+            src="bolsas.jpg"
           >
             <v-card-title>Top 10 Australian beaches</v-card-title>
           </v-img>

@@ -72,9 +72,10 @@ export default {
       runtimeCaching: [
         {
           // Should be a regex string. Compiles into new RegExp('https://my-cdn.com/.*')
-          urlPattern: 'https://firebasestorage.googleapis.com/.*'
+          // urlPattern: 'https://firebasestorage.googleapis.com/.*'
           // Defaults to `networkFirst` if omitted
           // handler: 'networkFirst',
+          // handler: 'stalewhilerevalidate'
           // Defaults to `GET` if omitted
           // method: 'GET'
           // handler: 'cacheFirst',
@@ -82,6 +83,13 @@ export default {
           // strategyOptions: {
           //   cacheName: 'images',
           //   cacheableResponse: { statuses: [0, 200] }
+          // }
+          // strategyOptions: {
+          //   cacheName: 'our-cache',
+          //   cacheExpiration: {
+          //     maxEntries: 10,
+          //     maxAgeSeconds: 300
+          //   }
           // }
         }
         // {
