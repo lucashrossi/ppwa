@@ -39,6 +39,8 @@
             max-width="50%"
             height="192px"
             style="margin-left: 10%"
+            title="Figura trigo"
+            alt="Firura trigo"
           />
         </div>
       </v-flex>
@@ -52,6 +54,8 @@
                   <v-img
                     src="/b1.png"
                     contain
+                    title="Bolsa Buck"
+                    alt="Bolsa Buck"
                   />
                 </v-flex>
                 <v-flex xs10 sm10 lg9>
@@ -77,10 +81,35 @@
           <v-flex class="mbm" xs12 sm6 md6 lg3>
             <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
               <v-layout row justify-center style="margin-left: 0%">
-                <v-flex xs2 sm2 lg4>
+                <v-flex xs2 sm2 lg3>
                   <v-img
                     src="/b1.png"
                     contain
+                    title="Bolsa Buck"
+                    alt="Bolsa Buck"
+                  />
+                </v-flex>
+                <v-flex xs10 sm10 lg9>
+                  <h2 style="text-align: center; font-family: 'Times New Roman'; font-size:20px; color: rgba(180, 0, 0, 1);">
+                    Resplandor
+                  </h2>
+                  <h2 style="text-align: center; font-family: 'Times New Roman'; font-size:14px;">
+                    Estabilidad de Rto y Platicidad de Siembradfsssss ssssssssss sssssssssss ss
+                  </h2>
+                </v-flex>
+              </v-layout>
+            </nuxt-link>
+          </v-flex>
+          <v-spacer class="hidden-md-and-down" />
+          <v-flex class="mbm" xs12 sm6 md6 lg3>
+            <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
+              <v-layout row justify-center style="margin-left: 0%">
+                <v-flex xs2 sm2 lg3>
+                  <v-img
+                    src="/b1.png"
+                    contain
+                    title="Bolsa Buck"
+                    alt="Bolsa Buck"
                   />
                 </v-flex>
                 <v-flex xs10 sm10 lg9>
@@ -95,28 +124,12 @@
           <v-flex class="mbm" xs12 sm6 md6 lg3>
             <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
               <v-layout row justify-center style="margin-left: 0%">
-                <v-flex xs2 sm2 lg4>
+                <v-flex xs2 sm2 lg3>
                   <v-img
                     src="/b1.png"
                     contain
-                  />
-                </v-flex>
-                <v-flex xs10 sm10 lg9>
-                  <h2 style="text-align: center; font-family: 'Times New Roman'; font-size:20px; color: rgba(180, 0, 0, 1);">
-                    Resplandor
-                  </h2>
-                </v-flex>
-              </v-layout>
-            </nuxt-link>
-          </v-flex>
-          <v-spacer class="hidden-md-and-down" />
-          <v-flex class="mbm" xs12 sm6 md6 lg3>
-            <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
-              <v-layout row justify-center style="margin-left: 0%">
-                <v-flex xs2 sm2 lg4>
-                  <v-img
-                    src="/b1.png"
-                    contain
+                    title="Bolsa Buck"
+                    alt="Bolsa Buck"
                   />
                 </v-flex>
                 <v-flex xs10 sm10 lg9>
@@ -160,6 +173,8 @@
                     contain
                     max-width="90%"
                     style="margin-left: 18%"
+                    title="Figura girasol"
+                    alt="Figura girasol"
                   />
                 </div>
               </v-flex>
@@ -170,6 +185,8 @@
                       src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/GirasolC.png?alt=media&token=e734b661-9d1d-4d0a-9220-c35dfd7f0c0a"
                       contain
                       max-width="90%"
+                      title="Bolsa girasol"
+                      alt="Bolsa girasol"
                     />
                   </nuxt-link>
                 </div>
@@ -179,6 +196,8 @@
                       src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/GirasolC.png?alt=media&token=e734b661-9d1d-4d0a-9220-c35dfd7f0c0a"
                       contain
                       max-width="90%"
+                      title="Bolsa girasol"
+                      alt="Bolsa girasol"
                     />
                   </nuxt-link>
                 </div>
@@ -215,6 +234,8 @@
                     contain
                     max-width="90%"
                     style="margin-left: 15%"
+                    title="Figura avena"
+                    alt="Figura avena"
                   />
                 </div>
               </v-flex>
@@ -225,6 +246,8 @@
                       src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/AvenaCCC.png?alt=media&token=837a5a97-b2a0-4904-b988-febf0794d814"
                       contain
                       max-width="90%"
+                      title="Bolsa avena"
+                      alt="Bolsa avena"
                     />
                   </nuxt-link>
                 </div>
@@ -258,6 +281,8 @@
         <v-img
           src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/el-apelliro-de-la-semillaGT.png?alt=media&token=1274d9f2-39a0-4d26-9eb6-645e95d890f3"
           max-width="100%"
+          title="El Apellido de la Semilla"
+          alt="El Apellido de la Semilla"
         />
       </v-flex>
     </v-flex>
@@ -307,6 +332,8 @@
                   style="width: 320px; margin-top: 5%; box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12)"
                   src="/Cat.png"
                   max-width="100%"
+                  title="Catalogo Buck"
+                  alt="Catalogo Buck"
                 />
               </v-flex>
               <!-- </v-layout> -->
@@ -339,7 +366,7 @@
     <!-- <img class="responsive" src="/paralaxD.webp"> -->
     <!-- <v-parallax src="/paralaxD.webp" style="margin-left: -6%; margin-right: -6%; margin-top: 2%;" /> -->
     <!-- <v-parallax src="/paralaxD.webp" style="margin-left: -4.8%; margin-right: -4.8%; margin-top: 2%;" /> -->
-    <v-parallax class="prl" src="/paralaxhome.jpg" style="margin-left: -4.8%; margin-right: -4.8%; margin-top: 2%;" />
+    <v-parallax class="prl" lazy-src="/paralaxhomelazy.jpg" src="/paralaxhome.jpg" style="margin-left: -4.8%; margin-right: -4.8%; margin-top: 2%;" />
     <!-- <v-flex row justify-center style="margin-top: 4%;">
       <h2 style="font-family: 'Times New Roman'; font-size: 2vw;">
         Comience a trabajar con nuestros productos, sea parte de Buck Semillas.
@@ -351,7 +378,7 @@
         <source srcset="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/logo_footer.png?alt=media&token=6f792ac5-454b-48c1-abe6-89f7297c7456" type="image/png">
         <img class="responsivef" src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/logo_footer.png?alt=media&token=6f792ac5-454b-48c1-abe6-89f7297c7456">
       </picture> -->
-      <img class="responsivef" src="/logo_footer.png">
+      <img class="responsivef" src="/logo_footer.png" title="Logo Buck footer" alt="Logo Buck footer">
     </v-flex>
   </v-container>
 </template>

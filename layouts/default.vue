@@ -143,6 +143,8 @@
               width="650px"
               style="margin-top: 6%; margin-left: -18%"
               class="ibl"
+              title="Logo Buck"
+              alt="Logo Buck"
             />
           </v-flex>
           <!-- <v-img
