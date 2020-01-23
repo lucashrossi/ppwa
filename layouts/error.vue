@@ -10,7 +10,8 @@
       Home page
     </NuxtLink>
   </v-app> -->
-  <v-app>
+  <div>
+    <!-- <v-app style="background-color: white;"> -->
     <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -39,7 +40,7 @@
           <br>
           <h1>Oops!</h1>
           <br>
-          <h1>404</h1>
+          <h1>Error 404</h1>
           <div class="notfound-404">
             <!-- <h2>404 - The Page can't be found</h2> -->
             <h1 v-if="error.statusCode === 404">
@@ -56,7 +57,8 @@
         </div>
       </div>
     </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
-  </v-app>
+  <!-- </v-app> -->
+  </div>
 </template>
 
 <script>
