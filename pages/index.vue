@@ -272,14 +272,14 @@
         </v-flex>
       </v-flex>
     </v-layout>
-    <v-flex class="container">
+    <v-flex class="container vnm">
       <!-- <video style="width: 115%; height: auto; margin-left: -8%; margin-top: 8%;" loop autoplay muted> -->
       <video style="width: 112%; height: auto; margin-left: -6%; margin-top: 4%;" loop autoplay muted>
         <source src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/demodron2.mp4?alt=media&token=55303050-d1df-46b8-98a9-171fd7dbe4c9">
       </video>
       <v-flex class="overlay">
         <v-img
-          src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/el-apelliro-de-la-semillaGT.png?alt=media&token=1274d9f2-39a0-4d26-9eb6-645e95d890f3"
+          src="/elAdlS.png"
           max-width="100%"
           title="El Apellido de la Semilla"
           alt="El Apellido de la Semilla"
@@ -295,11 +295,11 @@
       </h1>
     </v-flex>
     <v-flex row justify-center style="margin-top: 4%; margin-left: 0%">
-      <h2 class="fs" style="font-family: 'Times New Roman'; font-size: 1.1vw;">
+      <p class="fs" style="font-family: 'Times New Roman'; font-size: 1.1vw;">
         &nbsp;&nbsp;Este año ofrecemos once variedades de Trigo Pan, entre las que destacamos el lanzamiento de dos nuevas variedades de ciclo largo y alto potencial de rendimiento: BUCK RESPLANDOR de Grupo 1 de Calidad y BUCK CUMELÉN de Grupo 2 de Calidad.
         <br>
         &nbsp;&nbsp;La Calidad del Trigo ha sido desde siempre uno de nuestros principales objetivos, muestra de ello es que de las once variedades ofrecidas cinco pertenecen al Grupo 1 de Calidad con muy buenas cualidades agronómicas. Tal es el caso del ya mencionado BUCK RESPLANDOR y los ya conocidos BUCK DESTELLO (ciclo largo), BUCK METEORO y BUCK CAMBÁ (ciclo intermedio) y BUCK SAETA (ciclo corto).
-      </h2>
+      </p>
     </v-flex>
     <v-layout row justify-space-between style="margin-left: 0%">
       <v-flex
@@ -308,11 +308,11 @@
         row
         style="margin-top: 4%; margin-left: 0%"
       >
-        <h2 class="fs" style="font-family: 'Times New Roman'; font-size: 1.1vw;">
+        <p class="fs" style="font-family: 'Times New Roman'; font-size: 1.1vw;">
           &nbsp;&nbsp;La campaña de Trigo 2018 fue la de mayor volumen de producción de nuestro país. Los resultados obtenidos en la RET y otros ensayos, además de la información de productores, nos permiten destacar el comportamiento de nuestras variedades BUCK DESTELLO, BUCK METEORO, BUCK SAETA, BUCK® SY120, BUCK® SY211 y BUCK® SY330.
           <br>
           &nbsp;&nbsp;Respecto a los Trigos Candeales vale destacar el nuevo cultivar BUCK PERLA, de ciclo corto y muy alto potencial de rendimiento, que se suma a los ya conocidos BUCK ZAFIRO y BUCK ESMERALDA, de excelente comportamiento agronómico y con una calidad industrial acorde a las necesidades de la industria fideera nacional.
-        </h2>
+        </p>
       </v-flex>
       <v-flex
         xs12
@@ -342,12 +342,12 @@
         </a>
       </v-flex>
       <v-flex xs12 lg4 row justify-center style="margin-top: 4%; margin-left: 0%">
-        <h2 class="fs" style="font-family: 'Times New Roman'; font-size: 1.1vw;">
+        <p class="fs" style="font-family: 'Times New Roman'; font-size: 1.1vw;">
           &nbsp;&nbsp;A través de nuestro Convenio con la Chacra Experimental Integrada de Barrow ofrecemos, bajo licencia, las variedades de Avena: BONAERENSE INTA MANÁ, BONAERENSE INTA AIKÉN y la nueva variedad
           BONAERENSE INTA YAPA, todas ellas de excelente rendimiento potencial y adaptación a los diferentes requerimientos forrajeros. Desde hace más de 30 años nuestra empresa incursiona en el mejoramiento y comercialización de Híbridos de Girasol.
           <br>
           &nbsp;&nbsp;En este año 2019 estamos presentando el ya conocido BUCK 355CL y el nuevo híbrido BUCK 363CL. Ambos híbridos son obtenciones de nuestro programa de mejoramiento con destacado comportamiento en los diferentes sitios de evaluación del cultivo de girasol.
-        </h2>
+        </p>
       </v-flex>
     </v-layout>
     <v-flex row justify-center style="margin-top: 4%; margin-left: 0%">
@@ -366,7 +366,14 @@
     <!-- <img class="responsive" src="/paralaxD.webp"> -->
     <!-- <v-parallax src="/paralaxD.webp" style="margin-left: -6%; margin-right: -6%; margin-top: 2%;" /> -->
     <!-- <v-parallax src="/paralaxD.webp" style="margin-left: -4.8%; margin-right: -4.8%; margin-top: 2%;" /> -->
-    <v-parallax class="prl" lazy-src="/paralaxhomelazy.jpg" src="/paralaxhome.jpg" style="margin-left: -4.8%; margin-right: -4.8%; margin-top: 2%;" />
+    <v-parallax
+      class="prl"
+      lazy-src="/paralaxhomelazy.jpg"
+      src="/paralaxhome.jpg"
+      title="Parallax ensayos Buck"
+      alt="Parallax ensayos Buck"
+      style="margin-left: -4.8%; margin-right: -4.8%; margin-top: 2%;"
+    />
     <!-- <v-flex row justify-center style="margin-top: 4%;">
       <h2 style="font-family: 'Times New Roman'; font-size: 2vw;">
         Comience a trabajar con nuestros productos, sea parte de Buck Semillas.
@@ -473,6 +480,9 @@ export default {
   }
   .loh {
     margin-top: 80px !important;
+  }
+  .vnm {
+    display: none
   }
 }
 @media (max-width: 1263px) {

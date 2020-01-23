@@ -17,12 +17,13 @@ export default {
       // { hid: 'description', name: 'description', content: process.env.npm_package_description || '' },
       { hid: 'description', name: 'description', content: 'Criadero Buck - Venta de semillas de trigo, girasol, avena y candeal' },
       { name: 'keywords', content: 'buck, semillas, trigo, girasol, avena, candeal, genetica de trigo, mejoramiento genetico de trigo, calidad de trigo' },
-      { name: 'robots', content: 'index,follow' }
+      { name: 'robots', content: 'index, follow' },
+      { name: 'google-site-verification', content: '5q_M_ijYYxl-4_GHUysw0L11887-TTQpdP3RLU74kdg' }
     ],
     link: [
-      // { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-      { rel: 'icon', type: 'image/x-icon', href: '/icon.webp' },
-      { rel: 'canonical', type: 'image/x-icon', href: 'https://buck-semillas.appspot.com/' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/icon.png' },
+      { rel: 'canonical', href: 'https://buck-semillas.appspot.com/' }
     ]
   },
   /*
@@ -54,7 +55,9 @@ export default {
   modules: [
     '@nuxtjs/pwa',
     ['@nuxtjs/google-analytics', { id: 'UA-154200983-2' }],
-    ['@nuxtjs/google-tag-manager', { id: 'GTM-KZ6F66F' }]
+    ['@nuxtjs/google-tag-manager', { id: 'GTM-KZ6F66F' }],
+    '@nuxtjs/sitemap',
+    ['@nuxtjs/robots', { /* module options */ }]
   ],
   pwa: {
     manifest: {
@@ -97,6 +100,21 @@ export default {
         // }
       ]
     }
+  },
+  sitemap: {
+    'hostname': 'https://buck-semillas.appspot.com/',
+    'path': '/sitemap.xml',
+    'exclude': [],
+    'routes': [],
+    'cacheTime': 900000,
+    'gzip': false,
+    'trailingSlash': false,
+    'defaults': {},
+    'pathGzip': '/sitemap.xml'
+  },
+  robots: {
+    Useragent: '*',
+    Allow: '/'
   },
 
   /*
