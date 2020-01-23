@@ -5,7 +5,7 @@
         SEMILLEROS FISCALIZADORES
       </h2>
     </v-flex>
-    <v-layout flex align-center justify-center>
+    <v-layout flex align-center justify-center style="margin-top: 2%;">
       <v-flex xs12>
         <v-card>
           <v-card-title>
