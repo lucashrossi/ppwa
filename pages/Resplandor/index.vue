@@ -26,6 +26,8 @@
             class="white--text align-end"
             height="200px"
             src="bolsas.jpg"
+            title="Bolsas Buck"
+            alt="Bolsas Buck"
           >
             <v-card-title>Top 10 Australian beaches</v-card-title>
           </v-img>
@@ -63,6 +65,8 @@
           max-width="60%"
           style="margin-top: 5%;"
           contain
+          title="Catalogo Resplandor"
+          alt="Catalogo Resplandor"
         />
       </v-flex>
       <v-flex xs12 md4 row justify-center style="margin-left: 0%">
@@ -71,6 +75,8 @@
           max-width="90%"
           style="margin-top: 0%;"
           contain
+          title="Fecha de siembra Resplandor"
+          alt="Fecha de siembra Resplandor"
         />
       </v-flex>
     </v-layout>

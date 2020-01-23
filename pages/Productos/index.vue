@@ -20,6 +20,8 @@
             <v-img
               class="white--text align-end"
               src="/bolsas.jpg"
+              title="Bolsas Buck"
+              alt="Bolsas Buck"
             >
               <v-card-title style="color: #ff0000">
                 Buck Resplandor
@@ -61,6 +63,8 @@
           <v-img
             class="white--text align-end"
             src="/bolsas.jpg"
+            title="Bolsas Buck"
+            alt="Bolsas Buck"
           >
             <v-card-title>Buck Cumelén</v-card-title>
           </v-img>
@@ -102,6 +106,8 @@
             class="white--text align-end"
             height="200px"
             src="/bolsas.jpg"
+            title="Bolsas Buck"
+            alt="Bolsas Buck"
           >
             <v-card-title>Top 10 Australian beaches</v-card-title>
           </v-img>
@@ -145,6 +151,8 @@
             class="white--text align-end"
             height="200px"
             src="/bolsas.jpg"
+            title="Bolsas Buck"
+            alt="Bolsas Buck"
           >
             <v-card-title>Top 10 Australian beaches</v-card-title>
           </v-img>
@@ -186,6 +194,8 @@
             class="white--text align-end"
             height="200px"
             src="/bolsas.jpg"
+            title="Bolsas Buck"
+            alt="Bolsas Buck"
           >
             <v-card-title>Top 10 Australian beaches</v-card-title>
           </v-img>
@@ -227,6 +237,8 @@
             class="white--text align-end"
             height="200px"
             src="/bolsas.jpg"
+            title="Bolsas Buck"
+            alt="Bolsas Buck"
           >
             <v-card-title>Top 10 Australian beaches</v-card-title>
           </v-img>
@@ -268,6 +280,8 @@
             class="white--text align-end"
             height="200px"
             src="/bolsas.jpg"
+            title="Bolsas Buck"
+            alt="Bolsas Buck"
           >
             <v-card-title>Top 10 Australian beaches</v-card-title>
           </v-img>
@@ -309,6 +323,8 @@
       <v-img
         src="/ctp.png"
         max-width="100%"
+        title="Caracteristicas variedades Buck"
+        alt="Caracteristicas variedades Buck"
       />
     </v-flex>
     <v-flex row justify-center style="margin-left: 0%">
@@ -320,6 +336,8 @@
       <v-img
         src="fds.png"
         max-width="100%"
+        title="Fechas de siembra variedades Buck"
+        alt="Fechas de siembra variedades Buck"
       />
     </v-flex>
   </v-container>

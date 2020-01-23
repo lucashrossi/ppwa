@@ -20,6 +20,8 @@
         <v-img
           src="/elAdlS.png"
           max-width="100%"
+          title="El Apellido de la Semillas"
+          alt="El Apellido de la Semillas"
         />
       </v-flex>
     </v-flex>
@@ -40,6 +42,8 @@
           src="/historia_1.png"
           max-width="80%"
           style="margin-left: 10%;"
+          title="Historia Buck"
+          alt="Historia Buck"
         />
       </v-flex>
     </v-flex>

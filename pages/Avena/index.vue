@@ -22,6 +22,8 @@
             <v-img
               class="white--text align-end"
               src="/bolsas.jpg"
+              title="Bolsas Buck"
+              alt="Bolsas Buck"
             >
               <v-card-title style="color: #ff0000">
                 Bonaerense Inta Yapa
@@ -64,6 +66,8 @@
             class="white--text align-end"
             height="200px"
             src="/bolsas.jpg"
+            title="Bolsas Buck"
+            alt="Bolsas Buck"
           >
             <v-card-title>Bonaerense Inta Aikén</v-card-title>
           </v-img>
@@ -105,6 +109,8 @@
             class="white--text align-end"
             height="200px"
             src="/bolsas.jpg"
+            title="Bolsas Buck"
+            alt="Bolsas Buck"
           >
             <v-card-title>Bonaerense Inta Maná</v-card-title>
           </v-img>

@@ -21,6 +21,8 @@
           src="/MAA.png"
           max-width="60%"
           contain
+          title="Buck miembro de ASA y Arpov"
+          alt="Buck miembro de ASA y Arpov"
         />
       </v-flex>
       <v-flex xs12 md8 row justify-center style="margin-left: 0%; margin-right: 0%; margin-top: 1%">
@@ -30,6 +32,8 @@
           max-width="50%"
           height="650px"
           contain
+          title="Regalias variedades Buck"
+          alt="Regalias variedades Buck"
         />
       </v-flex>
       <v-flex xs10 md2 row justify-center style="margin-left: 0%; margin-right: 0%">
@@ -37,6 +41,8 @@
           src="/ArPov.png"
           max-width="60%"
           contain
+          title="Logo Arpov"
+          alt="Logo Arpov"
         />
       </v-flex>
     </v-layout>
@@ -48,6 +54,8 @@
           src="/RegExt.png"
           max-width="40%"
           contain
+          title="Logo regalias extendidas"
+          alt="Logo regalias extendidas"
         />
       </v-flex>
     </v-layout>
