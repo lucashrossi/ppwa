@@ -64,42 +64,43 @@ export default {
       name: 'Buck Semillas',
       short_name: 'Buck'
       // lang: 'es'
-    },
+    }
     // icon: {
     //   /* icon options */
     // }
-    workbox: {
-      // offlineAssets: [
-      //   '/static/Logo.png'
-      // ]
-      runtimeCaching: [
-        {
-          // Should be a regex string. Compiles into new RegExp('https://my-cdn.com/.*')
-          // urlPattern: 'https://firebasestorage.googleapis.com/.*'
-          // Defaults to `networkFirst` if omitted
-          // handler: 'networkFirst',
-          // handler: 'stalewhilerevalidate'
-          // Defaults to `GET` if omitted
-          // method: 'GET'
-          // handler: 'cacheFirst',
-          // method: 'GET',
-          // strategyOptions: {
-          //   cacheName: 'images',
-          //   cacheableResponse: { statuses: [0, 200] }
-          // }
-          // strategyOptions: {
-          //   cacheName: 'our-cache',
-          //   cacheExpiration: {
-          //     maxEntries: 10,
-          //     maxAgeSeconds: 300
-          //   }
-          // }
-        }
-        // {
-        //   urlPattern: '/layouts/.*'
-        // }
-      ]
-    }
+    // workbox: {
+    // offlineAssets: [
+    //   '/static/Logo.png'
+    // ]
+    // runtimeCaching: [
+    //   {
+    // Should be a regex string. Compiles into new RegExp('https://my-cdn.com/.*')
+    // urlPattern: 'https://firebasestorage.googleapis.com/.*'
+    // Defaults to `networkFirst` if omitted
+    // handler: 'networkFirst',
+    // handler: 'stalewhilerevalidate'
+    // Defaults to `GET` if omitted
+    // method: 'GET'
+    // handler: 'cacheFirst',
+    // method: 'GET',
+    // strategyOptions: {
+    //   cacheName: 'images',
+    //   cacheableResponse: { statuses: [0, 200] }
+    // }
+    // strategyOptions: {
+    //   cacheName: 'our-cache',
+    //   cacheExpiration: {
+    //     maxEntries: 10,
+    //     maxAgeSeconds: 300
+    //   }
+    // }
+    // }
+    // {
+    //   urlPattern: '/layouts/.*'
+    // }
+    //   ],
+    //   cleanupOutdatedCaches: true
+    // }
   },
   sitemap: {
     'hostname': 'https://buck-semillas.appspot.com/',
