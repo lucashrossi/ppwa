@@ -14,7 +14,7 @@
     </v-flex>
     <v-flex class="container">
       <!-- <parallax-container class="prlg" style="margin-left: -6%; margin-right: -6%; margin-top: 3%;"> -->
-      <v-parallax class="prlg" style="margin-left: -6%; margin-right: -6%; margin-top: 3%; margin-bottom: 4%;" src="/campoexp.jpg" />
+      <v-parallax class="prlg" style="margin-left: -6%; margin-right: -6%; margin-top: 3%; margin-bottom: 4%;" title="Campo experimental Buck" alt="Campo experimental Buck" src="/campoexp.jpg" />
       <!-- </parallax-container> -->
       <v-flex class="overlay" style="margin-top: 2%;">
         <v-img
@@ -49,7 +49,7 @@
     </v-flex>
     <v-flex>
       <!-- <parallax-container style="margin-left: -6%; margin-right: -6%; margin-top: 4%;"> -->
-      <v-parallax class="prlg" style="margin-left: -6%; margin-right: -6%; margin-top: 4%;" src="/historia.png" />
+      <v-parallax class="prlg" style="margin-left: -6%; margin-right: -6%; margin-top: 4%;" title="Historia Buck" alt="Historia Buck" src="/historia.png" />
       <!-- </parallax-container> -->
     </v-flex>
   </v-container>
