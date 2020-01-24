@@ -161,7 +161,7 @@
         <!-- </a> -->
       </v-toolbar-title>
       <v-spacer style="margin-right: -18%" />
-      <div class="text-center, hidden-md-and-down">
+      <div class="text-center, hidden-md-and-down" style="width: 110px;">
         <v-menu offset-y open-on-hover>
           <template v-slot:activator="{ on }">
             <v-btn

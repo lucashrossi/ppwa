@@ -44,7 +44,7 @@
           />
         </div>
       </v-flex>
-      <v-flex row justify-center align-top style="margin-left: 0%">
+      <v-flex row justify-center align-end style="margin-left: 0%">
         <v-spacer class="hidden-md-and-down" />
         <v-layout row justify-center style="margin-left: 0%">
           <v-flex class="mbm" xs12 sm6 md6 lg3>
@@ -56,6 +56,8 @@
                     contain
                     title="Bolsa Buck"
                     alt="Bolsa Buck"
+                    width="100px"
+                    height="150px"
                   />
                 </v-flex>
                 <v-flex xs10 sm10 lg9>
@@ -68,8 +70,8 @@
                   <!-- <h2 style="text-align: center; font-family: 'Times New Roman'; font-size: 14px;">
                       Estabilidad de Rto y Platicidad de Siembradfsssss ssssssssss sssssssssss ss ssssssss ss sss ss s s s ss s s s sss s ss sssssssssss ss sss ss ssssssssssss ss sssss s sssssss ssssssss sssssssss s sss ssss ssssss sssss ssss
                     </h2> -->
-                </v-flex>
-                <v-flex xs10 sm10 lg9 style="margin-top: 3%;">
+                  <!-- </v-flex>
+                <v-flex xs10 sm10 lg9 style="margin-top: 3%;"> -->
                   <h2 style="text-align: center; font-family: 'Times New Roman'; font-size: 14px;">
                     Estabilidad de Rto y Platicidad de Siembradfsssss ssssssssss sssssssssss ss
                   </h2>
@@ -87,6 +89,8 @@
                     contain
                     title="Bolsa Buck"
                     alt="Bolsa Buck"
+                    width="100px"
+                    height="150px"
                   />
                 </v-flex>
                 <v-flex xs10 sm10 lg9>
@@ -110,6 +114,8 @@
                     contain
                     title="Bolsa Buck"
                     alt="Bolsa Buck"
+                    width="100px"
+                    height="150px"
                   />
                 </v-flex>
                 <v-flex xs10 sm10 lg9>
@@ -130,6 +136,8 @@
                     contain
                     title="Bolsa Buck"
                     alt="Bolsa Buck"
+                    width="100px"
+                    height="150px"
                   />
                 </v-flex>
                 <v-flex xs10 sm10 lg9>
@@ -175,6 +183,8 @@
                     style="margin-left: 18%"
                     title="Figura girasol"
                     alt="Figura girasol"
+                    width="100px"
+                    height="100px"
                   />
                 </div>
               </v-flex>
@@ -187,6 +197,8 @@
                       max-width="90%"
                       title="Bolsa girasol"
                       alt="Bolsa girasol"
+                      width="100px"
+                      height="100px"
                     />
                   </nuxt-link>
                 </div>
@@ -198,6 +210,8 @@
                       max-width="90%"
                       title="Bolsa girasol"
                       alt="Bolsa girasol"
+                      width="100px"
+                      height="100px"
                     />
                   </nuxt-link>
                 </div>
@@ -236,6 +250,8 @@
                     style="margin-left: 15%"
                     title="Figura avena"
                     alt="Figura avena"
+                    width="100px"
+                    height="100px"
                   />
                 </div>
               </v-flex>
@@ -248,6 +264,8 @@
                       max-width="90%"
                       title="Bolsa avena"
                       alt="Bolsa avena"
+                      width="100px"
+                      height="100px"
                     />
                   </nuxt-link>
                 </div>
@@ -257,6 +275,10 @@
                       src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/AvenaCCC.png?alt=media&token=837a5a97-b2a0-4904-b988-febf0794d814"
                       contain
                       max-width="90%"
+                      title="Bolsa avena"
+                      alt="Bolsa avena"
+                      width="100px"
+                      height="100px"
                     />
                   </nuxt-link>
                 </div>
