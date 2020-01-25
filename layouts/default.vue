@@ -119,6 +119,13 @@
       fixed
       class="sbc"
     > -->
+    <!-- <v-app-bar
+      height="64"
+      flat
+      style="font-family: 'Times New Roman'; border-bottom: 1px solid yellow; background-color: rgba(255, 255, 255, 0);"
+      fixed
+      class="sbc"
+    > -->
     <v-app-bar
       height="64"
       flat
@@ -207,7 +214,7 @@
           :href="item.ref"
           :target="item.tar"
           text
-          style="width: 110px; font-size: 13px; font-family: 'Times New Roman'; color: rgba(0, 0, 0, 1);"
+          style="width: 110px; font-size: 13px; font-family: 'Times New Roman'; color: rgba(0, 0, 0, 1); border-left: 1px solid rgba(250, 250, 50, 0.5);"
         >
           {{ item.title }}
         </v-btn>

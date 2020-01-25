@@ -50,7 +50,7 @@
           <v-flex class="mbm" xs12 sm6 md6 lg3>
             <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
               <v-layout row justify-center align-center style="margin-left: 0%">
-                <v-flex xs2 sm2 lg2>
+                <v-flex class="bdn" xs2 sm2 lg2>
                   <v-img
                     src="/b1.png"
                     contain
@@ -64,16 +64,23 @@
                   <!-- <h2 style="text-align: center; font-family: 'Times New Roman'; font-size: 20px; color: rgba(180, 0, 0, 1);">
                       Buck
                     </h2> -->
-                  <h2 style="text-align: center; font-family: 'Times New Roman'; font-size: 25px; color: rgba(180, 0, 0, 1);">
-                    Resplandor
+                  <!-- <h2 style="margin-bottom: 3%; text-align: center; font-family: 'Times New Roman'; font-size: 25px; color: rgba(180, 0, 0, 1);">
+                    Resplandor&nbsp;
+                    <span style="color: rgba(255,180,50,1); font-size: 30px;">Nuevo!</span>
+                  </h2> -->
+                  <h2 class="fsss" style="color: rgba(255,200,50,1); text-align: center; font-family: 'Times New Roman'; font-size: 25px;">
+                    Nuevo!
+                  </h2>
+                  <h2 class="fsnv" style="margin-bottom: 3%; text-align: center; font-family: 'Times New Roman'; font-size: 30px; color: rgba(180, 0, 0, 1);">
+                    Buck&nbsp;<span class="fsnv" style="color: rgba(100,100,100,1); font-size: 30px;">Resplandor</span>
                   </h2>
                   <!-- <h2 style="text-align: center; font-family: 'Times New Roman'; font-size: 14px;">
-                      Estabilidad de Rto y Platicidad de Siembradfsssss ssssssssss sssssssssss ss ssssssss ss sss ss s s s ss s s s sss s ss sssssssssss ss sss ss ssssssssssss ss sssss s sssssss ssssssss sssssssss s sss ssss ssssss sssss ssss
+                      Estabilidad de Rto y Platicidad de Siembra ssssssss ss sss ss s s s ss s s s sss s ss sssssssssss ss sss ss ssssssssssss ss sssss s sssssss ssssssss sssssssss s sss ssss ssssss sssss ssss
                     </h2> -->
                   <!-- </v-flex>
                 <v-flex xs10 sm10 lg9 style="margin-top: 3%;"> -->
-                  <h2 style="text-align: center; font-family: 'Times New Roman'; font-size: 14px;">
-                    Estabilidad de Rto y Platicidad de Siembradfsssss ssssssssss sssssssssss ss
+                  <h2 class="fs" style="text-align: center; font-family: 'Times New Roman'; font-size: 14px;">
+                    Estabilidad de Rto y Platicidad de Siembra
                   </h2>
                 </v-flex>
               </v-layout>
@@ -82,8 +89,8 @@
           <v-spacer class="hidden-md-and-down" />
           <v-flex class="mbm" xs12 sm6 md6 lg3>
             <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
-              <v-layout row justify-center style="margin-left: 0%">
-                <v-flex xs2 sm2 lg3>
+              <v-layout row justify-center align-center style="margin-left: 0%">
+                <v-flex class="bdn" xs2 sm2 lg2>
                   <v-img
                     src="/b1.png"
                     contain
@@ -94,11 +101,26 @@
                   />
                 </v-flex>
                 <v-flex xs10 sm10 lg9>
-                  <h2 style="text-align: center; font-family: 'Times New Roman'; font-size:20px; color: rgba(180, 0, 0, 1);">
-                    Resplandor
+                  <!-- <h2 style="text-align: center; font-family: 'Times New Roman'; font-size: 20px; color: rgba(180, 0, 0, 1);">
+                      Buck
+                    </h2> -->
+                  <!-- <h2 style="margin-bottom: 3%; text-align: center; font-family: 'Times New Roman'; font-size: 25px; color: rgba(180, 0, 0, 1);">
+                    Resplandor&nbsp;
+                    <span style="color: rgba(255,180,50,1); font-size: 30px;">Nuevo!</span>
+                  </h2> -->
+                  <h2 class="fsss" style="color: rgba(255,200,50,1); text-align: center; font-family: 'Times New Roman'; font-size: 25px;">
+                    Nuevo!
                   </h2>
-                  <h2 style="text-align: center; font-family: 'Times New Roman'; font-size:14px;">
-                    Estabilidad de Rto y Platicidad de Siembradfsssss ssssssssss sssssssssss ss
+                  <h2 class="fsnv" style="margin-bottom: 3%; text-align: center; font-family: 'Times New Roman'; font-size: 30px; color: rgba(180, 0, 0, 1);">
+                    Buck&nbsp;<span class="fsnv" style="color: rgba(100,100,100,1); font-size: 30px;">Resplandor</span>
+                  </h2>
+                  <!-- <h2 style="text-align: center; font-family: 'Times New Roman'; font-size: 14px;">
+                      Estabilidad de Rto y Platicidad de Siembra ssssssss ss sss ss s s s ss s s s sss s ss sssssssssss ss sss ss ssssssssssss ss sssss s sssssss ssssssss sssssssss s sss ssss ssssss sssss ssss
+                    </h2> -->
+                  <!-- </v-flex>
+                <v-flex xs10 sm10 lg9 style="margin-top: 3%;"> -->
+                  <h2 class="fs" style="text-align: center; font-family: 'Times New Roman'; font-size: 14px;">
+                    Estabilidad de Rto y Platicidad de Siembra
                   </h2>
                 </v-flex>
               </v-layout>
@@ -107,8 +129,8 @@
           <v-spacer class="hidden-md-and-down" />
           <v-flex class="mbm" xs12 sm6 md6 lg3>
             <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
-              <v-layout row justify-center style="margin-left: 0%">
-                <v-flex xs2 sm2 lg3>
+              <v-layout row justify-center align-center style="margin-left: 0%">
+                <v-flex class="bdn" xs2 sm2 lg2>
                   <v-img
                     src="/b1.png"
                     contain
@@ -119,8 +141,26 @@
                   />
                 </v-flex>
                 <v-flex xs10 sm10 lg9>
-                  <h2 style="text-align: center; font-family: 'Times New Roman'; font-size:20px; color: rgba(180, 0, 0, 1);">
-                    Resplandor
+                  <!-- <h2 style="text-align: center; font-family: 'Times New Roman'; font-size: 20px; color: rgba(180, 0, 0, 1);">
+                      Buck
+                    </h2> -->
+                  <!-- <h2 style="margin-bottom: 3%; text-align: center; font-family: 'Times New Roman'; font-size: 25px; color: rgba(180, 0, 0, 1);">
+                    Resplandor&nbsp;
+                    <span style="color: rgba(255,180,50,1); font-size: 30px;">Nuevo!</span>
+                  </h2> -->
+                  <h2 class="fsss" style="color: rgba(255,200,50,1); text-align: center; font-family: 'Times New Roman'; font-size: 25px;">
+                    Nuevo!
+                  </h2>
+                  <h2 class="fsnv" style="margin-bottom: 3%; text-align: center; font-family: 'Times New Roman'; font-size: 30px; color: rgba(180, 0, 0, 1);">
+                    Buck&nbsp;<span class="fsnv" style="color: rgba(100,100,100,1); font-size: 30px;">Resplandor</span>
+                  </h2>
+                  <!-- <h2 style="text-align: center; font-family: 'Times New Roman'; font-size: 14px;">
+                      Estabilidad de Rto y Platicidad de Siembra ssssssss ss sss ss s s s ss s s s sss s ss sssssssssss ss sss ss ssssssssssss ss sssss s sssssss ssssssss sssssssss s sss ssss ssssss sssss ssss
+                    </h2> -->
+                  <!-- </v-flex>
+                <v-flex xs10 sm10 lg9 style="margin-top: 3%;"> -->
+                  <h2 class="fs" style="text-align: center; font-family: 'Times New Roman'; font-size: 14px;">
+                    Estabilidad de Rto y Platicidad de Siembra
                   </h2>
                 </v-flex>
               </v-layout>
@@ -129,8 +169,8 @@
           <v-spacer class="hidden-md-and-down" />
           <v-flex class="mbm" xs12 sm6 md6 lg3>
             <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
-              <v-layout row justify-center style="margin-left: 0%">
-                <v-flex xs2 sm2 lg3>
+              <v-layout row justify-center align-center style="margin-left: 0%">
+                <v-flex class="bdn" xs2 sm2 lg2>
                   <v-img
                     src="/b1.png"
                     contain
@@ -141,8 +181,26 @@
                   />
                 </v-flex>
                 <v-flex xs10 sm10 lg9>
-                  <h2 style="text-align: center; font-family: 'Times New Roman'; font-size:20px; color: rgba(180, 0, 0, 1);">
-                    Resplandor
+                  <!-- <h2 style="text-align: center; font-family: 'Times New Roman'; font-size: 20px; color: rgba(180, 0, 0, 1);">
+                      Buck
+                    </h2> -->
+                  <!-- <h2 style="margin-bottom: 3%; text-align: center; font-family: 'Times New Roman'; font-size: 25px; color: rgba(180, 0, 0, 1);">
+                    Resplandor&nbsp;
+                    <span style="color: rgba(255,180,50,1); font-size: 30px;">Nuevo!</span>
+                  </h2> -->
+                  <h2 class="fsss" style="color: rgba(255,200,50,1); text-align: center; font-family: 'Times New Roman'; font-size: 25px;">
+                    Nuevo!
+                  </h2>
+                  <h2 class="fsnv" style="margin-bottom: 3%; text-align: center; font-family: 'Times New Roman'; font-size: 30px; color: rgba(180, 0, 0, 1);">
+                    Buck&nbsp;<span class="fsnv" style="color: rgba(100,100,100,1); font-size: 30px;">Resplandor</span>
+                  </h2>
+                  <!-- <h2 style="text-align: center; font-family: 'Times New Roman'; font-size: 14px;">
+                      Estabilidad de Rto y Platicidad de Siembra ssssssss ss sss ss s s s ss s s s sss s ss sssssssssss ss sss ss ssssssssssss ss sssss s sssssss ssssssss sssssssss s sss ssss ssssss sssss ssss
+                    </h2> -->
+                  <!-- </v-flex>
+                <v-flex xs10 sm10 lg9 style="margin-top: 3%;"> -->
+                  <h2 class="fs" style="text-align: center; font-family: 'Times New Roman'; font-size: 14px;">
+                    Estabilidad de Rto y Platicidad de Siembra
                   </h2>
                 </v-flex>
               </v-layout>
@@ -310,7 +368,7 @@
     </v-flex>
     <!-- </div> -->
     <v-flex row justify-center style="margin-top: 6%; margin-left: 0%">
-      <h1 class="fss" style="font-family: 'Times New Roman'; font-size: 2.5vw;">
+      <h1 class="fss" style="font-family: 'Times New Roman'; font-size: 2.5vw; text-shadow: 1px 1px rgba(180, 100, 50, 1);">
         Campaña Trigo&nbsp;
         <span class="fsss" style="color:red; font-size: 3vw;">2019-2020</span>
         &nbsp;Buck Semillas
@@ -436,7 +494,7 @@ export default {
 }
 .overlay {
     position:absolute;
-    top:40%;
+    top:35%;
     left:0%;
     z-index:1;
 }
@@ -470,6 +528,9 @@ export default {
    /* 30%{ transform: scale(1.2,1.3); } */
    100%{ transform: scale(1,1); }
 }
+/* .fsnv {
+  font-size: 2vw !important;
+} */
 @media (max-width: 599px) {
   .fs {
     font-size: 3vw !important;
@@ -482,6 +543,9 @@ export default {
   .fsss {
     font-size: 4.5vw !important;
     /* font-size:14px; */
+  }
+  .fsnv {
+    font-size: 6vw !important;
   }
   .tat {
     font-size: 4vw !important;
@@ -520,6 +584,11 @@ export default {
   .sbvg {
     margin-left: -2% !important;
     width: 100% !important;
+  }
+}
+@media (min-width: 1263px) {
+  .bdn {
+    display: none !important;
   }
 }
 
