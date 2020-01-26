@@ -72,8 +72,8 @@
                     Nuevo!
                   </h2>
                   <v-layout justify-center align-center>
-                    <h2 class="fsnv" style="border-radius: 25px; padding-left: 4%; padding-right: 5%; border-width: 1px; border-color: black; border-style: solid; margin-bottom: 3%; text-align: center; font-family: 'Times New Roman'; font-size: 25px; color: rgba(180, 0, 0, 1);">
-                      Buck&nbsp;<span class="fsnvs" style="color: rgba(100,100,100,1); font-size: 30px;">Resplandor</span>
+                    <h2 class="fsnv" style="border-radius: 25px; border-width: 1px; border-color: black; border-style: solid; margin-bottom: 3%; text-align: center; font-family: 'Times New Roman'; font-size: 25px; color: rgba(180, 0, 0, 1);">
+                      &nbsp;&nbsp;Buck&nbsp;<span class="fsnvs" style="color: rgba(100,100,100,1); font-size: 30px;">Resplandor</span>&nbsp;&nbsp;
                     </h2>
                   </v-layout>
                   <!-- <v-layout justify-center align-center>
@@ -143,8 +143,8 @@
                     Nuevo!
                   </h2>
                   <v-layout justify-center align-center>
-                    <h2 class="fsnv" style="border-radius: 25px; padding-left: 4%; padding-right: 5%; border-width: 1px; border-color: black; border-style: solid; margin-bottom: 3%; text-align: center; font-family: 'Times New Roman'; font-size: 25px; color: rgba(180, 0, 0, 1);">
-                      Buck&nbsp;<span class="fsnvs" style="color: rgba(100,100,100,1); font-size: 30px;">Resplandor</span>
+                    <h2 class="fsnv" style="border-radius: 25px; border-width: 1px; border-color: black; border-style: solid; margin-bottom: 3%; text-align: center; font-family: 'Times New Roman'; font-size: 25px; color: rgba(180, 0, 0, 1);">
+                      &nbsp;&nbsp;Buck&nbsp;<span class="fsnvs" style="color: rgba(100,100,100,1); font-size: 30px;">Resplandor</span>&nbsp;&nbsp;
                     </h2>
                   </v-layout>
                   <!-- <h2 style="text-align: center; font-family: 'Times New Roman'; font-size: 14px;">
@@ -185,8 +185,8 @@
                     Nuevo!
                   </h2>
                   <v-layout justify-center align-center>
-                    <h2 class="fsnv" style="border-radius: 25px; padding-left: 4%; padding-right: 5%; border-width: 1px; border-color: black; border-style: solid; margin-bottom: 3%; text-align: center; font-family: 'Times New Roman'; font-size: 25px; color: rgba(180, 0, 0, 1);">
-                      Buck&nbsp;<span class="fsnvs" style="color: rgba(100,100,100,1); font-size: 30px;">Resplandor</span>
+                    <h2 class="fsnv" style="border-radius: 25px; border-width: 1px; border-color: black; border-style: solid; margin-bottom: 3%; text-align: center; font-family: 'Times New Roman'; font-size: 25px; color: rgba(180, 0, 0, 1);">
+                      &nbsp;&nbsp;Buck&nbsp;<span class="fsnvs" style="color: rgba(100,100,100,1); font-size: 30px;">Resplandor</span>&nbsp;&nbsp;
                     </h2>
                   </v-layout>
                   <!-- <h2 style="text-align: center; font-family: 'Times New Roman'; font-size: 14px;">
@@ -227,8 +227,8 @@
                     Nuevo!
                   </h2>
                   <v-layout justify-center align-center>
-                    <h2 class="fsnv" style="border-radius: 25px; padding-left: 4%; padding-right: 5%; border-width: 1px; border-color: black; border-style: solid; margin-bottom: 3%; text-align: center; font-family: 'Times New Roman'; font-size: 25px; color: rgba(180, 0, 0, 1);">
-                      Buck&nbsp;<span class="fsnvs" style="color: rgba(100,100,100,1); font-size: 30px;">Resplandor</span>
+                    <h2 class="fsnv" style="border-radius: 25px; border-width: 1px; border-color: black; border-style: solid; margin-bottom: 3%; text-align: center; font-family: 'Times New Roman'; font-size: 25px; color: rgba(180, 0, 0, 1);">
+                      &nbsp;&nbsp;Buck&nbsp;<span class="fsnvs" style="color: rgba(100,100,100,1); font-size: 30px;">Resplandor</span>&nbsp;&nbsp;
                     </h2>
                   </v-layout>
                   <!-- <h2 style="text-align: center; font-family: 'Times New Roman'; font-size: 14px;">
@@ -560,10 +560,6 @@ export default {
 .ca:hover {
   color: rgb(255, 0, 0);
 }
-.vnlf:hover {
-  text-shadow: 1px 1px rgba(180, 100, 50, 1);
-  /* box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12) */
-}
 
 @keyframes ef {
    0%{ transform: scale(1,1); }
@@ -642,6 +638,10 @@ export default {
 @media (min-width: 1263px) {
   .bdn {
     display: none !important;
+  }
+  .vnlf:hover {
+  text-shadow: 1px 1px rgba(180, 100, 50, 1);
+  /* box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12) */
   }
 }
 
