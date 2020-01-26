@@ -129,10 +129,17 @@
     <v-app-bar
       height="64"
       flat
-      style="font-family: 'Times New Roman';"
+      style="font-family: 'Times New Roman'; background-color: rgba(255, 255, 255, 1);"
       fixed
       class="sbc"
     >
+      <!-- <v-app-bar
+      height="64"
+      flat
+      style="font-family: 'Times New Roman';"
+      fixed
+      class="sbc"
+    > -->
       <v-app-bar-nav-icon class="hidden-lg-and-up" @click.stop="drawer = !drawer" />
       <v-spacer class="hidden-lg-and-up" />
       <v-toolbar-title>
@@ -292,9 +299,11 @@
 </template>
 
 <script>
+
 export default {
   data () {
     return {
+      offsetTop: 0,
       drawer: false,
       // itemsss: [
       //   // { title: 'Home', icon: '', link: '/', tool: '', ref: '' },
@@ -318,11 +327,19 @@ export default {
         { title: 'Girasol', link: '/Girasol' }
       ]
     }
+  },
+  methods: {
+    onScroll (e) {
+      this.offsetTop = e.target.scrollTop
+    }
   }
 }
 </script>
 
 <style>
+html {
+  scroll-behavior: smooth;
+}
 /* .v-content__wrap {
   background-image: url('https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/BUCK%202019_062.jpg?alt=media&token=85e84014-724b-474e-adc3-a605e50b3060');
 } */
