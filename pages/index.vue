@@ -60,7 +60,7 @@
                     height="150px"
                   />
                 </v-flex>
-                <v-flex xs10 sm10 lg8>
+                <v-flex xs10 sm10 lg11>
                   <!-- <h2 style="text-align: center; font-family: 'Times New Roman'; font-size: 20px; color: rgba(180, 0, 0, 1);">
                       Buck
                     </h2> -->
@@ -72,7 +72,7 @@
                     Nuevo!
                   </h2>
                   <v-layout justify-center align-center>
-                    <h2 class="fsnv" style="border-radius: 25px; padding-left: 6%; padding-right: 6%; border-width: 1px; border-color: black; border-style: solid; margin-bottom: 3%; text-align: center; font-family: 'Times New Roman'; font-size: 25px; color: rgba(180, 0, 0, 1);">
+                    <h2 class="fsnv" style="border-radius: 25px; padding-left: 4%; padding-right: 5%; border-width: 1px; border-color: black; border-style: solid; margin-bottom: 3%; text-align: center; font-family: 'Times New Roman'; font-size: 25px; color: rgba(180, 0, 0, 1);">
                       Buck&nbsp;<span class="fsnvs" style="color: rgba(100,100,100,1); font-size: 30px;">Resplandor</span>
                     </h2>
                   </v-layout>
@@ -131,7 +131,7 @@
                     height="150px"
                   />
                 </v-flex>
-                <v-flex xs10 sm10 lg8>
+                <v-flex xs10 sm10 lg11>
                   <!-- <h2 style="text-align: center; font-family: 'Times New Roman'; font-size: 20px; color: rgba(180, 0, 0, 1);">
                       Buck
                     </h2> -->
@@ -143,7 +143,7 @@
                     Nuevo!
                   </h2>
                   <v-layout justify-center align-center>
-                    <h2 class="fsnv" style="border-radius: 25px; padding-left: 6%; padding-right: 6%; border-width: 1px; border-color: black; border-style: solid; margin-bottom: 3%; text-align: center; font-family: 'Times New Roman'; font-size: 25px; color: rgba(180, 0, 0, 1);">
+                    <h2 class="fsnv" style="border-radius: 25px; padding-left: 4%; padding-right: 5%; border-width: 1px; border-color: black; border-style: solid; margin-bottom: 3%; text-align: center; font-family: 'Times New Roman'; font-size: 25px; color: rgba(180, 0, 0, 1);">
                       Buck&nbsp;<span class="fsnvs" style="color: rgba(100,100,100,1); font-size: 30px;">Resplandor</span>
                     </h2>
                   </v-layout>
@@ -173,7 +173,7 @@
                     height="150px"
                   />
                 </v-flex>
-                <v-flex xs10 sm10 lg8>
+                <v-flex xs10 sm10 lg11>
                   <!-- <h2 style="text-align: center; font-family: 'Times New Roman'; font-size: 20px; color: rgba(180, 0, 0, 1);">
                       Buck
                     </h2> -->
@@ -185,7 +185,7 @@
                     Nuevo!
                   </h2>
                   <v-layout justify-center align-center>
-                    <h2 class="fsnv" style="border-radius: 25px; padding-left: 6%; padding-right: 6%; border-width: 1px; border-color: black; border-style: solid; margin-bottom: 3%; text-align: center; font-family: 'Times New Roman'; font-size: 25px; color: rgba(180, 0, 0, 1);">
+                    <h2 class="fsnv" style="border-radius: 25px; padding-left: 4%; padding-right: 5%; border-width: 1px; border-color: black; border-style: solid; margin-bottom: 3%; text-align: center; font-family: 'Times New Roman'; font-size: 25px; color: rgba(180, 0, 0, 1);">
                       Buck&nbsp;<span class="fsnvs" style="color: rgba(100,100,100,1); font-size: 30px;">Resplandor</span>
                     </h2>
                   </v-layout>
@@ -215,7 +215,7 @@
                     height="150px"
                   />
                 </v-flex>
-                <v-flex xs10 sm10 lg8>
+                <v-flex xs10 sm10 lg11>
                   <!-- <h2 style="text-align: center; font-family: 'Times New Roman'; font-size: 20px; color: rgba(180, 0, 0, 1);">
                       Buck
                     </h2> -->
@@ -227,7 +227,7 @@
                     Nuevo!
                   </h2>
                   <v-layout justify-center align-center>
-                    <h2 class="fsnv" style="border-radius: 25px; padding-left: 6%; padding-right: 6%; border-width: 1px; border-color: black; border-style: solid; margin-bottom: 3%; text-align: center; font-family: 'Times New Roman'; font-size: 25px; color: rgba(180, 0, 0, 1);">
+                    <h2 class="fsnv" style="border-radius: 25px; padding-left: 4%; padding-right: 5%; border-width: 1px; border-color: black; border-style: solid; margin-bottom: 3%; text-align: center; font-family: 'Times New Roman'; font-size: 25px; color: rgba(180, 0, 0, 1);">
                       Buck&nbsp;<span class="fsnvs" style="color: rgba(100,100,100,1); font-size: 30px;">Resplandor</span>
                     </h2>
                   </v-layout>
