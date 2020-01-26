@@ -49,7 +49,47 @@
         <v-layout row justify-center style="margin-left: 0%">
           <v-flex class="mbm" xs12 sm6 md6 lg3>
             <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
-              <v-layout row justify-center align-center style="margin-left: 0%">
+              <v-layout class="vnlf" row justify-center align-center style="margin-left: 0%">
+                <v-flex class="bdn" xs2 sm2 lg2>
+                  <v-img
+                    src="/b1.png"
+                    contain
+                    title="Bolsa Buck"
+                    alt="Bolsa Buck"
+                    width="100px"
+                    height="150px"
+                  />
+                </v-flex>
+                <v-flex xs10 sm10 lg9>
+                  <!-- <h2 style="text-align: center; font-family: 'Times New Roman'; font-size: 20px; color: rgba(180, 0, 0, 1);">
+                      Buck
+                    </h2> -->
+                  <!-- <h2 style="margin-bottom: 3%; text-align: center; font-family: 'Times New Roman'; font-size: 25px; color: rgba(180, 0, 0, 1);">
+                    Resplandor&nbsp;
+                    <span style="color: rgba(255,180,50,1); font-size: 30px;">Nuevo!</span>
+                  </h2> -->
+                  <h2 class="fsss" style="color: rgba(255,200,50,1); text-align: center; font-family: 'Times New Roman'; font-size: 25px;">
+                    Nuevo!
+                  </h2>
+                  <h2 class="fsnv tvr" style="margin-bottom: 3%; text-align: center; font-family: 'Times New Roman'; font-size: 30px; color: rgba(180, 0, 0, 1);">
+                    Buck&nbsp;<span class="fsnv" style="color: rgba(100,100,100,1); font-size: 30px;">Resplandor</span>
+                  </h2>
+                  <!-- <h2 style="text-align: center; font-family: 'Times New Roman'; font-size: 14px;">
+                      Estabilidad de Rto y Platicidad de Siembra ssssssss ss sss ss s s s ss s s s sss s ss sssssssssss ss sss ss ssssssssssss ss sssss s sssssss ssssssss sssssssss s sss ssss ssssss sssss ssss
+                    </h2> -->
+                  <!-- </v-flex>
+                <v-flex xs10 sm10 lg9 style="margin-top: 3%;"> -->
+                  <h2 class="fs" style="text-align: center; font-family: 'Times New Roman'; font-size: 14px;">
+                    Estabilidad de Rto y Platicidad de Siembra
+                  </h2>
+                </v-flex>
+              </v-layout>
+            </nuxt-link>
+          </v-flex>
+          <v-spacer class="hidden-md-and-down" />
+          <v-flex class="mbm" xs12 sm6 md6 lg3>
+            <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
+              <v-layout class="vnlf" row justify-center align-center style="margin-left: 0%">
                 <v-flex class="bdn" xs2 sm2 lg2>
                   <v-img
                     src="/b1.png"
@@ -89,7 +129,7 @@
           <v-spacer class="hidden-md-and-down" />
           <v-flex class="mbm" xs12 sm6 md6 lg3>
             <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
-              <v-layout row justify-center align-center style="margin-left: 0%">
+              <v-layout class="vnlf" row justify-center align-center style="margin-left: 0%">
                 <v-flex class="bdn" xs2 sm2 lg2>
                   <v-img
                     src="/b1.png"
@@ -129,47 +169,7 @@
           <v-spacer class="hidden-md-and-down" />
           <v-flex class="mbm" xs12 sm6 md6 lg3>
             <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
-              <v-layout row justify-center align-center style="margin-left: 0%">
-                <v-flex class="bdn" xs2 sm2 lg2>
-                  <v-img
-                    src="/b1.png"
-                    contain
-                    title="Bolsa Buck"
-                    alt="Bolsa Buck"
-                    width="100px"
-                    height="150px"
-                  />
-                </v-flex>
-                <v-flex xs10 sm10 lg9>
-                  <!-- <h2 style="text-align: center; font-family: 'Times New Roman'; font-size: 20px; color: rgba(180, 0, 0, 1);">
-                      Buck
-                    </h2> -->
-                  <!-- <h2 style="margin-bottom: 3%; text-align: center; font-family: 'Times New Roman'; font-size: 25px; color: rgba(180, 0, 0, 1);">
-                    Resplandor&nbsp;
-                    <span style="color: rgba(255,180,50,1); font-size: 30px;">Nuevo!</span>
-                  </h2> -->
-                  <h2 class="fsss" style="color: rgba(255,200,50,1); text-align: center; font-family: 'Times New Roman'; font-size: 25px;">
-                    Nuevo!
-                  </h2>
-                  <h2 class="fsnv" style="margin-bottom: 3%; text-align: center; font-family: 'Times New Roman'; font-size: 30px; color: rgba(180, 0, 0, 1);">
-                    Buck&nbsp;<span class="fsnv" style="color: rgba(100,100,100,1); font-size: 30px;">Resplandor</span>
-                  </h2>
-                  <!-- <h2 style="text-align: center; font-family: 'Times New Roman'; font-size: 14px;">
-                      Estabilidad de Rto y Platicidad de Siembra ssssssss ss sss ss s s s ss s s s sss s ss sssssssssss ss sss ss ssssssssssss ss sssss s sssssss ssssssss sssssssss s sss ssss ssssss sssss ssss
-                    </h2> -->
-                  <!-- </v-flex>
-                <v-flex xs10 sm10 lg9 style="margin-top: 3%;"> -->
-                  <h2 class="fs" style="text-align: center; font-family: 'Times New Roman'; font-size: 14px;">
-                    Estabilidad de Rto y Platicidad de Siembra
-                  </h2>
-                </v-flex>
-              </v-layout>
-            </nuxt-link>
-          </v-flex>
-          <v-spacer class="hidden-md-and-down" />
-          <v-flex class="mbm" xs12 sm6 md6 lg3>
-            <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
-              <v-layout row justify-center align-center style="margin-left: 0%">
+              <v-layout class="vnlf" row justify-center align-center style="margin-left: 0%">
                 <v-flex class="bdn" xs2 sm2 lg2>
                   <v-img
                     src="/b1.png"
@@ -522,6 +522,11 @@ export default {
 .ca:hover {
   color: rgb(255, 0, 0);
 }
+.vnlf:hover {
+  text-shadow: 1px 1px rgba(180, 100, 50, 1);
+  /* box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12) */
+}
+
 @keyframes ef {
    0%{ transform: scale(1,1); }
    10%{ transform: scale(1.3,1.1); }
@@ -569,6 +574,12 @@ export default {
   }
   .vnm {
     display: none
+  }
+  .tvr {
+    text-shadow: 1px 1px 1px rgba(180, 100, 50, 1), 0 0 0em rgb(1, 1, 255), 0 0 0.9em rgb(131, 131, 131);
+    /* text-shadow: 1px 1px rgba(180, 100, 50, 1); */
+    text-decoration: underline;
+    text-decoration-color: black;
   }
 }
 @media (max-width: 1263px) {
