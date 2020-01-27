@@ -156,7 +156,7 @@
               max-width="50%"
               width="650px"
               style="margin-top: 6%; margin-left: -18%"
-              class="ibl"
+              class="ibl lml"
               title="Logo Buck"
               alt="Logo Buck"
             />
@@ -377,6 +377,9 @@ html {
 @media (max-width: 1263px) and (min-width: 960px) {
   .sbm {
     background-size: 100% 1050px !important;
+  }
+  .lml {
+    margin-left: 0% !important;
   }
 }
 @media (max-width: 1904px) and (min-width: 1263px) {

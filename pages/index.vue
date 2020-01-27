@@ -531,10 +531,10 @@ export default {
 }
 .overlay {
     position:absolute;
-    top:25%;
+    top:40%;
     left:0%;
     z-index:1;
-    /* margin-top: 10%; */
+    /* margin-top: 20px; */
 }
 .responsivef {
   width: 100%;
@@ -610,7 +610,7 @@ export default {
     margin-top: 80px !important;
   }
   .vnm {
-    display: none
+    display: noneç
   }
   .tvr {
     /* text-shadow: 1px 1px 1px rgba(180, 100, 50, 1), 0 0 0em rgb(1, 1, 255), 0 0 0.9em rgb(131, 131, 131); */
