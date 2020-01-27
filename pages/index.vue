@@ -86,9 +86,12 @@
                     </h2> -->
                   <!-- </v-flex>
                 <v-flex xs10 sm10 lg9 style="margin-top: 3%;"> -->
-                  <h2 class="fs" style="text-align: center; font-family: 'Times New Roman'; font-size: 14px;">
+                  <h3 class="fs" style="text-align: center; font-family: 'Times New Roman'; font-size: 14px;">
+                    Estabilidad de Rto y Platicidad de Siembra
+                  </h3>
+                  <h4 class="fsss" style="font-weight: 900; color: rgba(200,120,40,1); text-align: center; font-family: 'Times New Roman'; font-size: 16px;">
                     + Info
-                  </h2>
+                  </h4>
                 </v-flex>
                 <!-- <v-flex xs10 sm10 lg9>
                   <v-card
@@ -152,9 +155,12 @@
                     </h2> -->
                   <!-- </v-flex>
                 <v-flex xs10 sm10 lg9 style="margin-top: 3%;"> -->
-                  <h2 class="fs" style="text-align: center; font-family: 'Times New Roman'; font-size: 14px;">
+                  <h3 class="fs" style="text-align: center; font-family: 'Times New Roman'; font-size: 14px;">
+                    Estabilidad de Rto y Platicidad de Siembra
+                  </h3>
+                  <h4 class="fsss" style="font-weight: 900; color: rgba(200,120,40,1); text-align: center; font-family: 'Times New Roman'; font-size: 16px;">
                     + Info
-                  </h2>
+                  </h4>
                 </v-flex>
               </v-layout>
             </nuxt-link>
@@ -194,9 +200,12 @@
                     </h2> -->
                   <!-- </v-flex>
                 <v-flex xs10 sm10 lg9 style="margin-top: 3%;"> -->
-                  <h2 class="fs" style="text-align: center; font-family: 'Times New Roman'; font-size: 14px;">
+                  <h3 class="fs" style="text-align: center; font-family: 'Times New Roman'; font-size: 14px;">
+                    Estabilidad de Rto y Platicidad de Siembra
+                  </h3>
+                  <h4 class="fsss" style="font-weight: 900; color: rgba(200,120,40,1); text-align: center; font-family: 'Times New Roman'; font-size: 16px;">
                     + Info
-                  </h2>
+                  </h4>
                 </v-flex>
               </v-layout>
             </nuxt-link>
@@ -236,9 +245,12 @@
                     </h2> -->
                   <!-- </v-flex>
                 <v-flex xs10 sm10 lg9 style="margin-top: 3%;"> -->
-                  <h2 class="fs" style="text-align: center; font-family: 'Times New Roman'; font-size: 14px;">
+                  <h3 class="fs" style="text-align: center; font-family: 'Times New Roman'; font-size: 14px;">
+                    Estabilidad de Rto y Platicidad de Siembra
+                  </h3>
+                  <h4 class="fsss" style="font-weight: 900; color: rgba(200,120,40,1); text-align: center; font-family: 'Times New Roman'; font-size: 16px;">
                     + Info
-                  </h2>
+                  </h4>
                 </v-flex>
               </v-layout>
             </nuxt-link>
