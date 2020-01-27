@@ -89,7 +89,7 @@
                   <h3 class="fs" style="text-align: center; font-family: 'Times New Roman'; font-size: 14px;">
                     Estabilidad de Rto y Platicidad de Siembra
                   </h3>
-                  <h4 class="fsss" style="font-weight: 900; color: rgba(200,120,40,1); text-align: center; font-family: 'Times New Roman'; font-size: 16px;">
+                  <h4 class="fsssi" style="font-weight: 900; color: rgba(200,120,40,1); text-align: center; font-family: 'Times New Roman'; font-size: 16px;">
                     + Info
                   </h4>
                 </v-flex>
@@ -158,7 +158,7 @@
                   <h3 class="fs" style="text-align: center; font-family: 'Times New Roman'; font-size: 14px;">
                     Estabilidad de Rto y Platicidad de Siembra
                   </h3>
-                  <h4 class="fsss" style="font-weight: 900; color: rgba(200,120,40,1); text-align: center; font-family: 'Times New Roman'; font-size: 16px;">
+                  <h4 class="fsssi" style="font-weight: 900; color: rgba(200,120,40,1); text-align: center; font-family: 'Times New Roman'; font-size: 16px;">
                     + Info
                   </h4>
                 </v-flex>
@@ -203,7 +203,7 @@
                   <h3 class="fs" style="text-align: center; font-family: 'Times New Roman'; font-size: 14px;">
                     Estabilidad de Rto y Platicidad de Siembra
                   </h3>
-                  <h4 class="fsss" style="font-weight: 900; color: rgba(200,120,40,1); text-align: center; font-family: 'Times New Roman'; font-size: 16px;">
+                  <h4 class="fsssi" style="font-weight: 900; color: rgba(200,120,40,1); text-align: center; font-family: 'Times New Roman'; font-size: 16px;">
                     + Info
                   </h4>
                 </v-flex>
@@ -248,7 +248,7 @@
                   <h3 class="fs" style="text-align: center; font-family: 'Times New Roman'; font-size: 14px;">
                     Estabilidad de Rto y Platicidad de Siembra
                   </h3>
-                  <h4 class="fsss" style="font-weight: 900; color: rgba(200,120,40,1); text-align: center; font-family: 'Times New Roman'; font-size: 16px;">
+                  <h4 class="fsssi" style="font-weight: 900; color: rgba(200,120,40,1); text-align: center; font-family: 'Times New Roman'; font-size: 16px;">
                     + Info
                   </h4>
                 </v-flex>
@@ -595,6 +595,10 @@ export default {
     font-size: 4.5vw !important;
     /* font-size:14px; */
   }
+  .fsssi {
+    font-size: 3vw !important;
+    /* font-size:14px; */
+  }
   .fsnv {
     font-size: 5vw !important;
   }
@@ -622,7 +626,7 @@ export default {
     margin-top: 80px !important;
   }
   .vnm {
-    display: noneç
+    display: none
   }
   .tvr {
     /* text-shadow: 1px 1px 1px rgba(180, 100, 50, 1), 0 0 0em rgb(1, 1, 255), 0 0 0.9em rgb(131, 131, 131); */
