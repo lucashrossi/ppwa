@@ -87,7 +87,7 @@
                   <!-- </v-flex>
                 <v-flex xs10 sm10 lg9 style="margin-top: 3%;"> -->
                   <h2 class="fs" style="text-align: center; font-family: 'Times New Roman'; font-size: 14px;">
-                    Estabilidad de Rto y Platicidad de Siembra
+                    + Info
                   </h2>
                 </v-flex>
                 <!-- <v-flex xs10 sm10 lg9>
@@ -153,7 +153,7 @@
                   <!-- </v-flex>
                 <v-flex xs10 sm10 lg9 style="margin-top: 3%;"> -->
                   <h2 class="fs" style="text-align: center; font-family: 'Times New Roman'; font-size: 14px;">
-                    Estabilidad de Rto y Platicidad de Siembra
+                    + Info
                   </h2>
                 </v-flex>
               </v-layout>
@@ -195,7 +195,7 @@
                   <!-- </v-flex>
                 <v-flex xs10 sm10 lg9 style="margin-top: 3%;"> -->
                   <h2 class="fs" style="text-align: center; font-family: 'Times New Roman'; font-size: 14px;">
-                    Estabilidad de Rto y Platicidad de Siembra
+                    + Info
                   </h2>
                 </v-flex>
               </v-layout>
@@ -237,7 +237,7 @@
                   <!-- </v-flex>
                 <v-flex xs10 sm10 lg9 style="margin-top: 3%;"> -->
                   <h2 class="fs" style="text-align: center; font-family: 'Times New Roman'; font-size: 14px;">
-                    Estabilidad de Rto y Platicidad de Siembra
+                    + Info
                   </h2>
                 </v-flex>
               </v-layout>
