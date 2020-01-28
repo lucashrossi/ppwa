@@ -404,7 +404,7 @@
     <v-flex class="container vnm">
       <!-- <video style="width: 115%; height: auto; margin-left: -8%; margin-top: 8%;" loop autoplay muted> -->
       <video style="width: 112%; height: auto; margin-left: -6%; margin-top: 4%;" loop autoplay muted>
-        <source src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/demodron2.mp4?alt=media&token=55303050-d1df-46b8-98a9-171fd7dbe4c9">
+        <source src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/demodron3.mp4?alt=media&token=710a0cf6-66a2-42b2-9d5a-e225fcd635d2">
       </video>
       <v-flex class="overlay">
         <v-img
