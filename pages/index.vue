@@ -567,10 +567,10 @@ export default {
   letter-spacing: 5px;
 }
 .ca {
-  color: rgba(180, 0, 0, 1);
+  color: rgb(180, 2, 2) !important;
 }
 .ca:hover {
-  color: rgb(255, 0, 0);
+  color: rgb(255, 0, 0) !important;
 }
 
 @keyframes ef {
