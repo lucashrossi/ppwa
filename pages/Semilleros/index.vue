@@ -70,7 +70,7 @@ export default {
         { text: 'PROVINCIA', value: 'prov', align: 'left' },
         { text: 'LOCALIDAD', value: 'ingeniero', align: 'center' },
         { text: 'SEMILLERO', value: 'name', align: 'center' },
-        { text: 'CONTACO', value: 'localidad', align: 'center' },
+        { text: 'CONTACTO', value: 'localidad', align: 'center' },
         { text: 'VARIEDAD', value: 'distib', align: 'center' }
       ],
       desserts: [
