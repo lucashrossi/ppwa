@@ -556,7 +556,7 @@ export default {
 }
 .tat {
   transition: all 0.8s;
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-name: ef;
 
@@ -564,7 +564,7 @@ export default {
 .tat:hover {
   text-shadow: 1px 1px rgba(180, 0, 0, 1);
   transition: all 0.2s;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
 }
 .ca {
   color: rgb(180, 2, 2) !important;
@@ -575,7 +575,7 @@ export default {
 
 @keyframes ef {
    0%{ transform: scale(1,1); }
-   10%{ transform: scale(1.3,1.1); }
+   10%{ transform: scale(1.2,1.1); }
    /* 30%{ transform: scale(1.2,1.3); } */
    100%{ transform: scale(1,1); }
 }
