@@ -72,7 +72,7 @@
                     Nuevo!
                   </h2>
                   <v-layout justify-center align-center>
-                    <h2 class="fsnv" style="border-radius: 25px; border-width: 1px; border-color: black; border-style: solid; margin-bottom: 3%; text-align: center; font-family: 'Times New Roman'; font-size: 25px; color: rgba(180, 0, 0, 1);">
+                    <h2 class="fsnv tvr" style="border-radius: 25px; border-width: 1px; border-color: black; border-style: solid; margin-bottom: 3%; text-align: center; font-family: 'Times New Roman'; font-size: 25px; color: rgba(180, 0, 0, 1);">
                       &nbsp;&nbsp;Buck&nbsp;<span class="fsnvs" style="color: rgba(100,100,100,1); font-size: 30px;">Resplandor</span>&nbsp;&nbsp;
                     </h2>
                   </v-layout>
@@ -86,7 +86,7 @@
                     </h2> -->
                   <!-- </v-flex>
                 <v-flex xs10 sm10 lg9 style="margin-top: 3%;"> -->
-                  <h3 class="fs" style="text-align: center; font-family: 'Times New Roman'; font-size: 14px;">
+                  <h3 class="fsr" style="text-align: center; font-family: 'Roboto', sans-serif; font-size: 12px;">
                     Estabilidad de Rto y Platicidad de Siembra
                   </h3>
                   <h4 class="fsssi" style="font-weight: 900; color: rgba(200,120,40,1); text-align: center; font-family: 'Times New Roman'; font-size: 16px;">
@@ -146,7 +146,7 @@
                     Nuevo!
                   </h2>
                   <v-layout justify-center align-center>
-                    <h2 class="fsnv" style="border-radius: 25px; border-width: 1px; border-color: black; border-style: solid; margin-bottom: 3%; text-align: center; font-family: 'Times New Roman'; font-size: 25px; color: rgba(180, 0, 0, 1);">
+                    <h2 class="fsnv tvr" style="border-radius: 25px; border-width: 1px; border-color: black; border-style: solid; margin-bottom: 3%; text-align: center; font-family: 'Times New Roman'; font-size: 25px; color: rgba(180, 0, 0, 1);">
                       &nbsp;&nbsp;Buck&nbsp;<span class="fsnvs" style="color: rgba(100,100,100,1); font-size: 30px;">Resplandor</span>&nbsp;&nbsp;
                     </h2>
                   </v-layout>
@@ -155,7 +155,7 @@
                     </h2> -->
                   <!-- </v-flex>
                 <v-flex xs10 sm10 lg9 style="margin-top: 3%;"> -->
-                  <h3 class="fs" style="text-align: center; font-family: 'Times New Roman'; font-size: 14px;">
+                  <h3 class="fsr" style="text-align: center; font-family: 'Roboto', sans-serif; font-size: 12px;">
                     Estabilidad de Rto y Platicidad de Siembra
                   </h3>
                   <h4 class="fsssi" style="font-weight: 900; color: rgba(200,120,40,1); text-align: center; font-family: 'Times New Roman'; font-size: 16px;">
@@ -191,7 +191,7 @@
                     Nuevo!
                   </h2>
                   <v-layout justify-center align-center>
-                    <h2 class="fsnv" style="border-radius: 25px; border-width: 1px; border-color: black; border-style: solid; margin-bottom: 3%; text-align: center; font-family: 'Times New Roman'; font-size: 25px; color: rgba(180, 0, 0, 1);">
+                    <h2 class="fsnv tvr" style="border-radius: 25px; border-width: 1px; border-color: black; border-style: solid; margin-bottom: 3%; text-align: center; font-family: 'Times New Roman'; font-size: 25px; color: rgba(180, 0, 0, 1);">
                       &nbsp;&nbsp;Buck&nbsp;<span class="fsnvs" style="color: rgba(100,100,100,1); font-size: 30px;">Resplandor</span>&nbsp;&nbsp;
                     </h2>
                   </v-layout>
@@ -200,7 +200,7 @@
                     </h2> -->
                   <!-- </v-flex>
                 <v-flex xs10 sm10 lg9 style="margin-top: 3%;"> -->
-                  <h3 class="fs" style="text-align: center; font-family: 'Times New Roman'; font-size: 14px;">
+                  <h3 class="fsr" style="text-align: center; font-family: 'Roboto', sans-serif; font-size: 12px;">
                     Estabilidad de Rto y Platicidad de Siembra
                   </h3>
                   <h4 class="fsssi" style="font-weight: 900; color: rgba(200,120,40,1); text-align: center; font-family: 'Times New Roman'; font-size: 16px;">
@@ -236,7 +236,7 @@
                     Nuevo!
                   </h2>
                   <v-layout justify-center align-center>
-                    <h2 class="fsnv" style="border-radius: 25px; border-width: 1px; border-color: black; border-style: solid; margin-bottom: 3%; text-align: center; font-family: 'Times New Roman'; font-size: 25px; color: rgba(180, 0, 0, 1);">
+                    <h2 class="fsnv tvr" style="border-radius: 25px; border-width: 1px; border-color: black; border-style: solid; margin-bottom: 3%; text-align: center; font-family: 'Times New Roman'; font-size: 25px; color: rgba(180, 0, 0, 1);">
                       &nbsp;&nbsp;Buck&nbsp;<span class="fsnvs" style="color: rgba(100,100,100,1); font-size: 30px;">Resplandor</span>&nbsp;&nbsp;
                     </h2>
                   </v-layout>
@@ -245,7 +245,7 @@
                     </h2> -->
                   <!-- </v-flex>
                 <v-flex xs10 sm10 lg9 style="margin-top: 3%;"> -->
-                  <h3 class="fs" style="text-align: center; font-family: 'Times New Roman'; font-size: 14px;">
+                  <h3 class="fsr" style="text-align: center; font-family: 'Roboto', sans-serif; font-size: 12px;">
                     Estabilidad de Rto y Platicidad de Siembra
                   </h3>
                   <h4 class="fsssi" style="font-weight: 900; color: rgba(200,120,40,1); text-align: center; font-family: 'Times New Roman'; font-size: 16px;">
@@ -424,11 +424,11 @@
       </h1>
     </v-flex>
     <v-flex row justify-center style="margin-top: 4%; margin-left: 0%">
-      <p class="fs" style="font-family: 'Times New Roman'; font-size: 1.1vw;">
+      <h4 class="fs" style="font-family: 'Times New Roman'; font-size: 1.1vw;">
         &nbsp;&nbsp;Este año ofrecemos once variedades de Trigo Pan, entre las que destacamos el lanzamiento de dos nuevas variedades de ciclo largo y alto potencial de rendimiento: BUCK RESPLANDOR de Grupo 1 de Calidad y BUCK CUMELÉN de Grupo 2 de Calidad.
         <br>
         &nbsp;&nbsp;La Calidad del Trigo ha sido desde siempre uno de nuestros principales objetivos, muestra de ello es que de las once variedades ofrecidas cinco pertenecen al Grupo 1 de Calidad con muy buenas cualidades agronómicas. Tal es el caso del ya mencionado BUCK RESPLANDOR y los ya conocidos BUCK DESTELLO (ciclo largo), BUCK METEORO y BUCK CAMBÁ (ciclo intermedio) y BUCK SAETA (ciclo corto).
-      </p>
+      </h4>
     </v-flex>
     <v-layout row justify-space-between style="margin-left: 0%">
       <v-flex
@@ -437,11 +437,11 @@
         row
         style="margin-top: 4%; margin-left: 0%"
       >
-        <p class="fs" style="font-family: 'Times New Roman'; font-size: 1.1vw;">
+        <h4 class="fs" style="font-family: 'Times New Roman'; font-size: 1.1vw;">
           &nbsp;&nbsp;La campaña de Trigo 2018 fue la de mayor volumen de producción de nuestro país. Los resultados obtenidos en la RET y otros ensayos, además de la información de productores, nos permiten destacar el comportamiento de nuestras variedades BUCK DESTELLO, BUCK METEORO, BUCK SAETA, BUCK® SY120, BUCK® SY211 y BUCK® SY330.
           <br>
           &nbsp;&nbsp;Respecto a los Trigos Candeales vale destacar el nuevo cultivar BUCK PERLA, de ciclo corto y muy alto potencial de rendimiento, que se suma a los ya conocidos BUCK ZAFIRO y BUCK ESMERALDA, de excelente comportamiento agronómico y con una calidad industrial acorde a las necesidades de la industria fideera nacional.
-        </p>
+        </h4>
       </v-flex>
       <v-flex
         xs12
@@ -471,20 +471,20 @@
         </a>
       </v-flex>
       <v-flex xs12 lg4 row justify-center style="margin-top: 4%; margin-left: 0%">
-        <p class="fs" style="font-family: 'Times New Roman'; font-size: 1.1vw;">
+        <h4 class="fs" style="font-family: 'Times New Roman'; font-size: 1.1vw;">
           &nbsp;&nbsp;A través de nuestro Convenio con la Chacra Experimental Integrada de Barrow ofrecemos, bajo licencia, las variedades de Avena: BONAERENSE INTA MANÁ, BONAERENSE INTA AIKÉN y la nueva variedad
           BONAERENSE INTA YAPA, todas ellas de excelente rendimiento potencial y adaptación a los diferentes requerimientos forrajeros. Desde hace más de 30 años nuestra empresa incursiona en el mejoramiento y comercialización de Híbridos de Girasol.
           <br>
           &nbsp;&nbsp;En este año 2019 estamos presentando el ya conocido BUCK 355CL y el nuevo híbrido BUCK 363CL. Ambos híbridos son obtenciones de nuestro programa de mejoramiento con destacado comportamiento en los diferentes sitios de evaluación del cultivo de girasol.
-        </p>
+        </h4>
       </v-flex>
     </v-layout>
     <v-flex row justify-center style="margin-top: 4%; margin-left: 0%">
-      <h2 style="font-family: 'Times New Roman'; font-size: 2vw;" class="tat">
+      <h3 style="font-family: 'Times New Roman'; font-size: 2vw;" class="tat">
         <a href="mailto:bucksem@bucksemillas.com.ar" class="ca" style="text-decoration: none;">
           Consulte Beneficios Pre-Campaña!
         </a>
-      </h2>
+      </h3>
     </v-flex>
     <!-- <v-flex class="container">
       <v-parallax src="/paralaxD.webp" style="margin-left: -2%; margin-right: -2%; margin-top: 2%;" />
@@ -587,6 +587,10 @@ export default {
     font-size: 3vw !important;
     /* font-size:14px; */
   }
+  .fsr {
+    font-size: 2.5vw !important;
+    /* font-size:14px; */
+  }
   .fss {
     font-size: 4vw !important;
     /* font-size:14px; */
@@ -631,9 +635,9 @@ export default {
   .tvr {
     /* text-shadow: 1px 1px 1px rgba(180, 100, 50, 1), 0 0 0em rgb(1, 1, 255), 0 0 0.9em rgb(131, 131, 131); */
     /* text-shadow: 0 0 0em rgb(1, 1, 255), 0 0 0.9em rgb(131, 131, 131); */
-    /* text-shadow: 1px 1px rgba(180, 100, 50, 1); */
-    text-decoration: underline;
-    text-decoration-color: black;
+    text-shadow: 0.5px 0.5px rgb(138, 138, 138);
+    /* text-decoration: underline;
+    text-decoration-color: black; */
   }
 }
 @media (max-width: 1263px) {
