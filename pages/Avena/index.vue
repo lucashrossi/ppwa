@@ -1,12 +1,12 @@
 <template>
   <v-container>
     <v-flex row justify-center style="margin-top: 70px; margin-left: 0%">
-      <h2 style="font-family: 'Times New Roman'; font-size: 1.6vw; color: rgba(180, 0, 0, 1);">
+      <h2 class="fss" style="font-family: 'Times New Roman'; font-size: 1.6vw; color: rgba(180, 0, 0, 1);">
         AVENA
       </h2>
     </v-flex>
     <v-flex row justify-center style="margin-left: 0%">
-      <h2 style="font-family: 'Times New Roman'; font-size: 1.1vw; margin-top: 30px;">
+      <h2 class="fs" style="font-family: 'Times New Roman'; font-size: 1.1vw; margin-top: 30px;">
         &nbsp;&nbsp;Además este año ofrecemos, la nueva variedad de avena BONAERENSE INTA YAPA.
       </h2>
     </v-flex>

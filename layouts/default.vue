@@ -155,7 +155,7 @@
               contain
               max-width="50%"
               width="650px"
-              style="margin-top: 6%; margin-left: -18%"
+              style="margin-top: 6%; margin-left: -19%"
               class="ibl lml"
               title="Logo Buck"
               alt="Logo Buck"
@@ -354,8 +354,8 @@ html {
     background-color: rgb(255, 255, 255) !important;
   }
   .v-icon {
-    font-size: 34px !important;
-    margin-left: 40% !important;
+    font-size: 40px !important;
+    margin-left: 60% !important;
   }
   .ibl {
     margin-top: 0% !important;
