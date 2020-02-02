@@ -635,7 +635,7 @@ export default {
   .tvr {
     /* text-shadow: 1px 1px 1px rgba(180, 100, 50, 1), 0 0 0em rgb(1, 1, 255), 0 0 0.9em rgb(131, 131, 131); */
     /* text-shadow: 0 0 0em rgb(1, 1, 255), 0 0 0.9em rgb(131, 131, 131); */
-    text-shadow: 0.5px 0.5px rgb(138, 138, 138);
+    text-shadow: 0.5px 0.5px rgb(0, 0, 0);
     /* text-decoration: underline;
     text-decoration-color: black; */
   }
