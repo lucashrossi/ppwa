@@ -155,7 +155,7 @@
               contain
               max-width="50%"
               width="650px"
-              style="margin-top: 6%; margin-left: -19%"
+              style="margin-top: 6%; margin-left: -18%"
               class="ibl lml"
               title="Logo Buck"
               alt="Logo Buck"
