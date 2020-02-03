@@ -299,7 +299,7 @@
                 <div>
                   <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
                     <v-img
-                      src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/GirasolC.png?alt=media&token=e734b661-9d1d-4d0a-9220-c35dfd7f0c0a"
+                      src="/GirasolC.png"
                       contain
                       max-width="90%"
                       title="Bolsa girasol"
@@ -312,7 +312,7 @@
                 <div>
                   <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
                     <v-img
-                      src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/GirasolC.png?alt=media&token=e734b661-9d1d-4d0a-9220-c35dfd7f0c0a"
+                      src="/GirasolC.png"
                       contain
                       max-width="90%"
                       title="Bolsa girasol"
@@ -366,7 +366,7 @@
                 <div>
                   <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
                     <v-img
-                      src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/AvenaCCC.png?alt=media&token=837a5a97-b2a0-4904-b988-febf0794d814"
+                      src="/AvenaCCC.png"
                       contain
                       max-width="90%"
                       title="Bolsa avena"
@@ -379,7 +379,7 @@
                 <div>
                   <nuxt-link to="/Resplandor" style="text-decoration: none; color: #000000;">
                     <v-img
-                      src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/AvenaCCC.png?alt=media&token=837a5a97-b2a0-4904-b988-febf0794d814"
+                      src="/AvenaCCC.png"
                       contain
                       max-width="90%"
                       title="Bolsa avena"
