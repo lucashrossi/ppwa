@@ -194,7 +194,7 @@
               :key="index"
               :to="item.link"
             >
-              <v-list-item-title style="font-size: 13px; font-family: 'Times New Roman'; color: rgba(0, 0, 0, 1);">
+              <v-list-item-title style="font-size: 15px; font-family: 'Times New Roman'; color: rgba(0, 0, 0, 1);">
                 {{ item.title }}
               </v-list-item-title>
             </v-list-item>
