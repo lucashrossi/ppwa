@@ -260,7 +260,7 @@
         <nuxt />
       </v-container>
     </v-content>
-    <v-content v-else style="background: #fff">
+    <v-content v-else style="background: #fff; background-repeat: repeat; background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('/fondo2.jpg');">
       <v-container>
         <nuxt />
       </v-container>

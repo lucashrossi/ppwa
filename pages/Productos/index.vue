@@ -19,7 +19,7 @@
           >
             <v-img
               class="white--text align-end"
-              src="/bolsas.jpg"
+              src="/pro1.jpg"
               title="Bolsas Buck"
               alt="Bolsas Buck"
             >
@@ -62,7 +62,7 @@
         >
           <v-img
             class="white--text align-end"
-            src="/bolsas.jpg"
+            src="/pro2.jpg"
             title="Bolsas Buck"
             alt="Bolsas Buck"
           >
@@ -105,7 +105,7 @@
           <v-img
             class="white--text align-end"
             height="200px"
-            src="/bolsas.jpg"
+            src="/pro3.jpg"
             title="Bolsas Buck"
             alt="Bolsas Buck"
           >

@@ -88,7 +88,7 @@
         justify-center
         style="margin-left: 0%"
       >
-        <v-list dense>
+        <v-list dense color="rgba(255, 255, 255, 0.0)">
           <h2 class="fs" style="font-family: 'Times New Roman'; font-size: 1.1vw; color: rgba(180, 0, 0, 1); text-align: center;">
             ADMINISTRACIÓN
           </h2>
@@ -117,7 +117,7 @@
         justify-center
         style="margin-left: 0%"
       >
-        <v-list dense>
+        <v-list dense color="rgba(255, 255, 255, 0.0)">
           <h2 class="fs" style="font-family: 'Times New Roman'; font-size: 1.1vw; color: rgba(180, 0, 0, 1); text-align: center;">
             SUR BS. AS. Y LA PAMPA
           </h2>
@@ -146,7 +146,7 @@
         justify-center
         style="margin-left: 0%"
       >
-        <v-list dense>
+        <v-list dense color="rgba(255, 255, 255, 0.0)">
           <h2 class="fs" style="font-family: 'Times New Roman'; font-size: 1.1vw; color: rgba(180, 0, 0, 1); text-align: center;">
             CENTRO Y NORTE BS. AS.
           </h2>

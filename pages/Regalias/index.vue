@@ -61,7 +61,7 @@
     </v-layout>
     <v-layout row justify-center style="margin-left: 0%">
       <v-flex xs12 md6 row justify-center style="margin-left: 0%">
-        <v-list dense>
+        <v-list dense color="rgba(255, 255, 255, 0.0)">
           <v-list-item class="fsr" style="font-family: 'Times New Roman'; font-size: 1vw; min-height: 20px">
             ARPOV –
             <a class="fsr" target="_blank" href="http://www.arpov.org.ar/" style="font-family: 'Times New Roman'; font-size: 0.9vw; color: #7b0000;">http://www.arpov.org.ar/</a>
@@ -95,7 +95,7 @@
         justify-center
         style="margin-left: 0%"
       >
-        <v-list dense>
+        <v-list dense color="rgba(255, 255, 255, 0.0)">
           <v-list-item class="fsr" style="font-family: 'Times New Roman'; font-size: 1vw; min-height: 20px">
             INTA –
             <a class="fsr" target="_blank" href="https://inta.gob.ar/" style="font-family: 'Times New Roman'; font-size: 0.9vw; color: #7b0000;">https://inta.gob.ar/</a>

@@ -68,7 +68,7 @@
                     Resplandor&nbsp;
                     <span style="color: rgba(255,180,50,1); font-size: 30px;">Nuevo!</span>
                   </h2> -->
-                  <h2 class="fsss" style="color: rgba(255,200,50,1); text-align: center; font-family: 'Times New Roman'; font-size: 25px;">
+                  <h2 class="fsssn" style="color: rgba(255,200,50,1); text-align: center; font-family: 'Times New Roman'; font-size: 25px;">
                     Nuevo!
                   </h2>
                   <v-layout justify-center align-center>
@@ -142,7 +142,7 @@
                     Resplandor&nbsp;
                     <span style="color: rgba(255,180,50,1); font-size: 30px;">Nuevo!</span>
                   </h2> -->
-                  <h2 class="fsss" style="color: rgba(255,200,50,1); text-align: center; font-family: 'Times New Roman'; font-size: 25px;">
+                  <h2 class="fsssn" style="color: rgba(255,200,50,1); text-align: center; font-family: 'Times New Roman'; font-size: 25px;">
                     Nuevo!
                   </h2>
                   <v-layout justify-center align-center>
@@ -187,7 +187,7 @@
                     Resplandor&nbsp;
                     <span style="color: rgba(255,180,50,1); font-size: 30px;">Nuevo!</span>
                   </h2> -->
-                  <h2 class="fsss" style="color: rgba(255,200,50,1); text-align: center; font-family: 'Times New Roman'; font-size: 25px;">
+                  <h2 class="fsssn" style="color: rgba(255,200,50,1); text-align: center; font-family: 'Times New Roman'; font-size: 25px;">
                     Nuevo!
                   </h2>
                   <v-layout justify-center align-center>
@@ -232,7 +232,7 @@
                     Resplandor&nbsp;
                     <span style="color: rgba(255,180,50,1); font-size: 30px;">Nuevo!</span>
                   </h2> -->
-                  <h2 class="fsss" style="color: rgba(255,200,50,1); text-align: center; font-family: 'Times New Roman'; font-size: 25px;">
+                  <h2 class="fsssn" style="color: rgba(255,200,50,1); text-align: center; font-family: 'Times New Roman'; font-size: 25px;">
                     Nuevo!
                   </h2>
                   <v-layout justify-center align-center>
@@ -263,7 +263,7 @@
       style="height: 40px; border-bottom: 2px solid green; border-left: 2px solid green;"
       class="sbv"
     />
-    <v-layout style="margin-top: 8%;" justify-center>
+    <v-layout class="lohga" style="margin-top: 8%;" justify-center>
       <v-flex row style="margin-left: 0%">
         <v-flex>
           <v-flex row justify-center style="margin-left: 0%">
@@ -403,7 +403,7 @@
     </v-layout>
     <v-flex class="container vnm">
       <!-- <video style="width: 115%; height: auto; margin-left: -8%; margin-top: 8%;" loop autoplay muted> -->
-      <video style="width: 112%; height: auto; margin-left: -6%; margin-top: 4%;" loop autoplay muted>
+      <video class="vpn" style="width: 112%; height: auto; margin-left: -6%; margin-top: 4%;" loop autoplay muted>
         <source src="https://firebasestorage.googleapis.com/v0/b/pfdbb-dc48b.appspot.com/o/demodron3.mp4?alt=media&token=710a0cf6-66a2-42b2-9d5a-e225fcd635d2">
       </video>
       <v-flex class="overlay">
@@ -599,6 +599,10 @@ export default {
     font-size: 4.5vw !important;
     /* font-size:14px; */
   }
+  .fsssn {
+    font-size: 4.5vw !important;
+    /* font-size:14px; */
+  }
   .fsssi {
     font-size: 3vw !important;
     /* font-size:14px; */
@@ -641,12 +645,6 @@ export default {
   }
 }
 @media (max-width: 1263px) {
-  .cat {
-    max-width: 70% !important;
-    margin-top: 5% !important;
-    margin-left: 13% !important;
-    margin-bottom: 5% !important;
-  }
   .sbv {
     border-left: none !important;
   }
@@ -664,5 +662,38 @@ export default {
   /* box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12) */
   }
 }
-
+@media (max-width: 1904px) and (min-width: 1263px) {
+  .fsnv {
+    font-size: 20px !important;
+  }
+  .fsnvs {
+    font-size: 25px !important;
+  }
+  .fsssn {
+    font-size: 20px !important;
+  }
+  .fsr {
+    font-size: 9px !important;
+  }
+  .fsssi {
+    font-size: 14px !important;
+  }
+  .loh {
+    margin-top: 80px !important;
+  }
+  .lohga {
+    margin-top: 4% !important;
+  }
+  .vpn {
+    margin-top: 2% !important;
+  }
+}
+@media (max-width: 1904px) {
+.cat {
+    max-width: 70% !important;
+    margin-top: 5% !important;
+    margin-left: 13% !important;
+    margin-bottom: 5% !important;
+  }
+}
 </style>
