@@ -365,8 +365,11 @@ html {
     margin-left: 43% !important;
   }
   .sbm {
-    background-image: none !important;
+    /* background-image: none !important; */
     /* background-size: 0 !important; */
+    background: #fff !important;
+    background-repeat: repeat !important;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('/fondo2.jpg') !important;
   }
 }
 @media (max-width: 960px) and (min-width: 599px) {
