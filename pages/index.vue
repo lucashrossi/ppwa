@@ -73,7 +73,8 @@
                   </h2>
                   <v-layout justify-center align-center>
                     <h2 class="fsnv tvr" style="border-radius: 25px; border-width: 1px; border-color: black; border-style: solid; margin-bottom: 3%; text-align: center; font-family: 'Times New Roman'; font-size: 25px; color: rgba(180, 0, 0, 1);">
-                      &nbsp;&nbsp;Buck&nbsp;<span class="fsnvs" style="color: rgba(100,100,100,1); font-size: 30px;">Resplandor</span>&nbsp;&nbsp;
+                      &nbsp;&nbsp;Buck&nbsp;<span class="fsnvs" style="color: rgba(75,75,75,1); font-size: 33px;">Resplandor</span>&nbsp;&nbsp;
+                      <!-- &nbsp;&nbsp;<span class="fsnvs" style="color: rgba(75,75,75,1); font-size: 33px;">Resplandor</span>&nbsp;&nbsp; -->
                     </h2>
                   </v-layout>
                   <!-- <v-layout justify-center align-center>
@@ -86,8 +87,8 @@
                     </h2> -->
                   <!-- </v-flex>
                 <v-flex xs10 sm10 lg9 style="margin-top: 3%;"> -->
-                  <h3 class="fsr" style="text-align: center; font-family: 'Roboto', sans-serif; font-size: 12px;">
-                    Estabilidad de Rto y Platicidad de Siembra
+                  <h3 class="fsr" style="color: rgba(100,100,100,1); text-align: center; font-family: 'Roboto', sans-serif; font-size: 12px;">
+                    Rto y Platicidad de Siembra
                   </h3>
                   <h4 class="fsssi" style="font-weight: 900; color: rgba(200,120,40,1); text-align: center; font-family: 'Times New Roman'; font-size: 16px;">
                     + Info
@@ -147,7 +148,7 @@
                   </h2>
                   <v-layout justify-center align-center>
                     <h2 class="fsnv tvr" style="border-radius: 25px; border-width: 1px; border-color: black; border-style: solid; margin-bottom: 3%; text-align: center; font-family: 'Times New Roman'; font-size: 25px; color: rgba(180, 0, 0, 1);">
-                      &nbsp;&nbsp;Buck&nbsp;<span class="fsnvs" style="color: rgba(100,100,100,1); font-size: 30px;">Resplandor</span>&nbsp;&nbsp;
+                      &nbsp;&nbsp;Buck&nbsp;<span class="fsnvs" style="color: rgba(75,75,75,1); font-size: 33px;">Resplandor</span>&nbsp;&nbsp;
                     </h2>
                   </v-layout>
                   <!-- <h2 style="text-align: center; font-family: 'Times New Roman'; font-size: 14px;">
@@ -155,8 +156,8 @@
                     </h2> -->
                   <!-- </v-flex>
                 <v-flex xs10 sm10 lg9 style="margin-top: 3%;"> -->
-                  <h3 class="fsr" style="text-align: center; font-family: 'Roboto', sans-serif; font-size: 12px;">
-                    Estabilidad de Rto y Platicidad de Siembra
+                  <h3 class="fsr" style="color: rgba(100,100,100,1); text-align: center; font-family: 'Roboto', sans-serif; font-size: 12px;">
+                    Rto y Platicidad de Siembra
                   </h3>
                   <h4 class="fsssi" style="font-weight: 900; color: rgba(200,120,40,1); text-align: center; font-family: 'Times New Roman'; font-size: 16px;">
                     + Info
@@ -192,7 +193,8 @@
                   </h2>
                   <v-layout justify-center align-center>
                     <h2 class="fsnv tvr" style="border-radius: 25px; border-width: 1px; border-color: black; border-style: solid; margin-bottom: 3%; text-align: center; font-family: 'Times New Roman'; font-size: 25px; color: rgba(180, 0, 0, 1);">
-                      &nbsp;&nbsp;Buck&nbsp;<span class="fsnvs" style="color: rgba(100,100,100,1); font-size: 30px;">Resplandor</span>&nbsp;&nbsp;
+                      &nbsp;&nbsp;Buck&nbsp;<span class="fsnvs" style="color: rgba(75,75,75,1); font-size: 33px;">Resplandor</span>&nbsp;&nbsp;
+                      <!-- &nbsp;&nbsp;<span class="fsnvs" style="color: rgba(75,75,75,1); font-size: 33px;">Resplandor</span>&nbsp;&nbsp; -->
                     </h2>
                   </v-layout>
                   <!-- <h2 style="text-align: center; font-family: 'Times New Roman'; font-size: 14px;">
@@ -200,8 +202,8 @@
                     </h2> -->
                   <!-- </v-flex>
                 <v-flex xs10 sm10 lg9 style="margin-top: 3%;"> -->
-                  <h3 class="fsr" style="text-align: center; font-family: 'Roboto', sans-serif; font-size: 12px;">
-                    Estabilidad de Rto y Platicidad de Siembra
+                  <h3 class="fsr" style="color: rgba(100,100,100,1); text-align: center; font-family: 'Roboto', sans-serif; font-size: 12px;">
+                    Rto y Platicidad de Siembra
                   </h3>
                   <h4 class="fsssi" style="font-weight: 900; color: rgba(200,120,40,1); text-align: center; font-family: 'Times New Roman'; font-size: 16px;">
                     + Info
@@ -237,7 +239,7 @@
                   </h2>
                   <v-layout justify-center align-center>
                     <h2 class="fsnv tvr" style="border-radius: 25px; border-width: 1px; border-color: black; border-style: solid; margin-bottom: 3%; text-align: center; font-family: 'Times New Roman'; font-size: 25px; color: rgba(180, 0, 0, 1);">
-                      &nbsp;&nbsp;Buck&nbsp;<span class="fsnvs" style="color: rgba(100,100,100,1); font-size: 30px;">Resplandor</span>&nbsp;&nbsp;
+                      &nbsp;&nbsp;Buck&nbsp;<span class="fsnvs" style="color: rgba(75,75,75,1); font-size: 33px;">Resplandor</span>&nbsp;&nbsp;
                     </h2>
                   </v-layout>
                   <!-- <h2 style="text-align: center; font-family: 'Times New Roman'; font-size: 14px;">
@@ -245,8 +247,8 @@
                     </h2> -->
                   <!-- </v-flex>
                 <v-flex xs10 sm10 lg9 style="margin-top: 3%;"> -->
-                  <h3 class="fsr" style="text-align: center; font-family: 'Roboto', sans-serif; font-size: 12px;">
-                    Estabilidad de Rto y Platicidad de Siembra
+                  <h3 class="fsr" style="color: rgba(100,100,100,1); text-align: center; font-family: 'Roboto', sans-serif; font-size: 12px;">
+                    Rto y Platicidad de Siembra
                   </h3>
                   <h4 class="fsssi" style="font-weight: 900; color: rgba(200,120,40,1); text-align: center; font-family: 'Times New Roman'; font-size: 16px;">
                     + Info
@@ -653,7 +655,7 @@ export default {
     width: 100% !important;
   }
 }
-@media (min-width: 1263px) {
+@media (min-width: 1264px) {
   .bdn {
     display: none !important;
   }
@@ -661,13 +663,17 @@ export default {
   text-shadow: 1px 1px rgba(180, 100, 50, 1);
   /* box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12) */
   }
+  .vnlf {
+    padding-left: 6% !important;
+    padding-right: 6% !important;
+  }
 }
 @media (max-width: 1904px) and (min-width: 1263px) {
   .fsnv {
     font-size: 20px !important;
   }
   .fsnvs {
-    font-size: 25px !important;
+    font-size: 27px !important;
   }
   .fsssn {
     font-size: 20px !important;
@@ -687,6 +693,10 @@ export default {
   .vpn {
     margin-top: 2% !important;
   }
+  /* .vnlf {
+    padding-left: 4% !important;
+    padding-right: 4% !important;
+  } */
 }
 @media (max-width: 1904px) {
 .cat {
