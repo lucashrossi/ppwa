@@ -374,12 +374,14 @@ html {
 }
 @media (max-width: 960px) and (min-width: 599px) {
   .sbm {
-    background-size: 100% 1000px !important;
+    background-size: 100% 900px !important;
+    background-position-y: 70px !important;
   }
 }
 @media (max-width: 1263px) and (min-width: 960px) {
   .sbm {
-    background-size: 100% 1050px !important;
+    background-size: 100% 900px !important;
+    background-position-y: 70px !important;
   }
   .lml {
     margin-left: 0% !important;
@@ -387,7 +389,8 @@ html {
 }
 @media (max-width: 1904px) and (min-width: 1263px) {
   .sbm {
-    background-size: 100% 1100px !important;
+    background-size: 100% 850px !important;
+    background-position-y: 50px !important;
   }
 }
 
