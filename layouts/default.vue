@@ -255,12 +255,12 @@
       </v-toolbar-items>
       <!-- <v-spacer class="hidden-sm-and-down" /> -->
     </v-app-bar>
-    <v-content v-if="this.$route.path === '/'" class="sbm" style="background: #fff; background-size: 100% 1200px; background-repeat: no-repeat; background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('/sbsa.png');">
+    <v-content v-if="this.$route.path === '/'" class="sbm" style="background: #fff;  background-repeat: no-repeat; background-size: 100% 1200px; background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('/sbsa.png');">
       <v-container>
         <nuxt />
       </v-container>
     </v-content>
-    <v-content v-else style="background: #fff; background-repeat: repeat; background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('/fondo2.jpg');">
+    <v-content v-else style="background-attachment: fixed; background-repeat: repeat; background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('/fondo2.jpg');">
       <v-container>
         <nuxt />
       </v-container>
@@ -365,10 +365,11 @@ html {
     margin-left: 43% !important;
   }
   .sbm {
-    /* background-image: none !important; */
+    background-image: none !important;
     /* background-size: 0 !important; */
     background: #fff !important;
     background-repeat: repeat !important;
+    background-attachment: fixed !important;
     background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('/fondo2.jpg') !important;
   }
 }
